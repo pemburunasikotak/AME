@@ -1,0 +1,136 @@
+/* ARUS v107: Interaction presentation refinement, no calculation changes */
+html[data-arus-module="interaction"]{--arus107-border:#dce6ed;--arus107-line:#e7eef2;--arus107-soft:#eff9f7;--arus107-navy:#123e4e;--arus107-muted:#6a8191}
+html[data-arus-module="interaction"] main .sheet{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;overflow:visible!important}
+html[data-arus-module="interaction"] main .sheet>section.block{
+ background:#fff!important;border:1px solid var(--arus107-border)!important;border-radius:12px!important;
+ box-shadow:0 8px 24px rgba(22,51,67,.035)!important;padding:24px!important;
+}
+html[data-arus-module="interaction"] main .sheet>section.block+section.block{margin-top:18px!important}
+html[data-arus-module="interaction"] .blockhead{margin-bottom:18px!important;gap:14px!important;align-items:center!important}
+html[data-arus-module="interaction"] .blockhead h2{font-size:16px!important;line-height:1.4!important;font-weight:700!important;color:#193c50!important;letter-spacing:0!important;text-transform:none!important}
+html[data-arus-module="interaction"] .arus-method-cards{display:grid!important;gap:10px!important;align-items:stretch!important}
+html[data-arus-module="interaction"] .arus-method-card{
+ position:relative!important;min-height:86px!important;display:flex!important;flex-direction:column!important;
+ justify-content:center!important;align-items:stretch!important;padding:13px 14px!important;gap:6px!important;
+ border:1px solid var(--arus107-border)!important;border-radius:10px!important;
+ background:#f9fbfc!important;text-align:left!important;box-shadow:none!important;
+ transition:background-color 160ms ease,border-color 160ms ease,box-shadow 160ms ease!important;
+}
+html[data-arus-module="interaction"] .arus-method-card:hover{background:#f3fbfa!important;border-color:#78b9bb!important;box-shadow:0 3px 12px rgba(22,51,67,.035)!important}
+html[data-arus-module="interaction"] .arus-method-card[aria-pressed="true"]{
+ background:#ebf8f6!important;border-color:#48aeb3!important;box-shadow:inset 0 -2px 0 #167c83!important}
+html[data-arus-module="interaction"] .arus-method-card .arus107-card-name{
+ display:block;text-align:left!important;width:100%!important;align-self:stretch!important;font-size:12px!important;line-height:1.42!important;font-weight:700!important;color:#24485b!important;
+ overflow-wrap:anywhere!important;hyphens:auto!important}
+html[data-arus-module="interaction"] .arus-method-card[aria-pressed="true"] .arus107-card-name{color:#13666e!important}
+html[data-arus-module="interaction"] .arus-method-card .arus107-card-expression{
+ display:block;text-align:left!important;width:100%!important;align-self:stretch!important;font-size:11px!important;line-height:1.35!important;font-weight:500!important;color:#728996!important;
+ overflow-wrap:anywhere!important}
+html[data-arus-module="interaction"] .arus-method-card .arus107-card-count{
+ display:inline-flex;align-self:flex-start;align-items:center;min-height:20px;padding:2px 7px;border-radius:6px;
+ color:#557a85;background:#edf4f7;border:1px solid #dce7ec;font-size:10px!important;line-height:1.15!important;font-weight:700!important}
+html[data-arus-module="interaction"] .arus-method-card[aria-pressed="true"] .arus107-card-count{color:#166970;background:#def3f0;border-color:#c1e4e0}
+html[data-arus-module="interaction"] .arus-method-control+.arus-method-limit-note{border:1px solid var(--arus107-line)!important;border-radius:10px!important}
+html[data-arus-module="interaction"] .arus-flow-bottom-actions{
+ margin-top:20px!important;padding-top:14px!important;border-top:1px solid var(--arus107-line)!important;
+ display:flex!important;justify-content:flex-end!important;gap:10px!important}
+html[data-arus-module="interaction"] .arus-flow-bottom-actions button{min-height:40px!important;padding:10px 17px!important;font-size:12px!important;text-transform:none!important}
+html[data-arus-module="interaction"] .arus104-selected-strip{
+ display:flex!important;gap:14px!important;align-items:center!important;padding:14px 16px!important;
+ background:var(--arus107-soft)!important;border:1px solid #d5e9e7!important;border-radius:10px!important;margin-bottom:20px!important}
+html[data-arus-module="interaction"] .arus104-selected-strip .arus104-selected-label{font-size:10px!important;font-weight:800!important;letter-spacing:.08em!important;color:#618897!important;text-transform:uppercase!important}
+html[data-arus-module="interaction"] .arus104-selected-strip strong{font-size:12px!important;line-height:1.45!important;font-weight:700!important;overflow-wrap:anywhere!important;color:#22485c!important}
+html[data-arus-module="interaction"] .arus104-selected-strip button{margin-left:auto!important;flex-shrink:0!important;min-height:40px!important;border:1px solid #c9dfe5!important;background:#fff!important;color:#285971!important;padding:9px 14px!important}
+html[data-arus-module="interaction"] .inputgrid{gap:16px!important}
+html[data-arus-module="interaction"] .inputgrid .field label{font-size:12px!important;font-weight:650!important;color:#496676!important;margin-bottom:8px!important}
+html[data-arus-module="interaction"] .inputgrid .field input{font-size:12px!important;height:40px!important;min-height:40px!important}
+html[data-arus-module="interaction"] .inputnote{margin:14px 0 0!important;font-size:11px!important;line-height:1.6!important;color:#728696!important}
+html[data-arus-module="interaction"] .resulthead{display:flex!important;align-items:center!important;gap:12px!important;margin-bottom:16px!important}
+html[data-arus-module="interaction"] .resulthead .descriptor{margin-left:auto!important;padding:4px 8px!important;background:#f4f8fa!important;border:1px solid #e5edf2!important;border-radius:6px!important;font-size:11px!important;color:#5d7a89!important}
+html[data-arus-module="interaction"] .tableouter{
+ border:1px solid var(--arus107-border)!important;border-radius:10px!important;overflow:hidden!important;background:#fff!important}
+html[data-arus-module="interaction"] .table{width:100%!important;border-collapse:collapse!important;font-size:12px!important;font-variant-numeric:tabular-nums!important}
+html[data-arus-module="interaction"] .table thead{background:#f7fafb!important}
+html[data-arus-module="interaction"] .table th{padding:12px 14px!important;border-bottom:1px solid var(--arus107-border)!important;font-size:11px!important;font-weight:700!important;color:#506e7f!important;letter-spacing:.015em!important}
+html[data-arus-module="interaction"] .table td{padding:12px 14px!important;border-bottom:1px solid #ebf0f3!important;color:#365468!important;font-size:12px!important;line-height:1.5!important}
+html[data-arus-module="interaction"] .table tbody tr:not(.rowgroup):hover{background:#f8fcfc!important}
+html[data-arus-module="interaction"] .table tbody tr:last-child td{border-bottom:0!important}
+html[data-arus-module="interaction"] .table :is(.method,.variant,.symbol,.value){font-family:Arial,"Segoe UI",sans-serif!important}
+html[data-arus-module="interaction"] .table .method{font-size:12px!important;font-weight:700!important;color:#24475b!important}
+html[data-arus-module="interaction"] .table .variant{font-size:12px!important;color:#6b8190!important}
+html[data-arus-module="interaction"] .table .symbol{font-size:12px!important;font-weight:700!important;color:#1c6974!important}
+html[data-arus-module="interaction"] .table .value{font-size:13px!important;font-weight:700!important;color:#23475b!important}
+html[data-arus-module="interaction"] .table .resultwarning{display:inline-block;margin-top:5px;padding:3px 6px;border-radius:5px;font-size:10px!important;line-height:1.25!important}
+html[data-arus-module="interaction"] .table .resultwarning.warn{background:#fff5e7;color:#9a6126!important}
+html[data-arus-module="interaction"] .table .resultwarning.danger{background:#fff0ef;color:#af554b!important}
+html[data-arus-module="interaction"] .footer{font-size:11px!important;line-height:1.55!important;color:#708493!important;margin:15px 0 0!important}
+@media(max-width:640px){
+ html[data-arus-module="interaction"] main .sheet>section.block{padding:17px!important}
+ html[data-arus-module="interaction"] .arus-method-card{min-height:74px!important;padding:11px 12px!important}
+ html[data-arus-module="interaction"] .arus104-selected-strip{flex-wrap:wrap!important}
+ html[data-arus-module="interaction"] .arus104-selected-strip button{margin-left:0!important}
+ html[data-arus-module="interaction"] .tableouter{overflow:visible!important;border:0!important;background:transparent!important}
+ html[data-arus-module="interaction"] .table tr:not(.rowgroup){border:1px solid var(--arus107-border)!important;border-radius:10px!important;background:#fff!important;padding:12px!important}
+ html[data-arus-module="interaction"] .table tr:not(.rowgroup) td{padding:0!important;border:0!important}
+}
+
+
+/* v150 final geometry widths: override legacy 50%-width workspace in desktop mode. */
+body[data-arus-module=geometry] .app-shell{display:flex!important;flex-direction:column!important;height:auto!important;min-height:0!important;width:100%!important}
+body[data-arus-module=geometry] .sidebar{width:100%!important;flex:0 0 auto!important;height:auto!important;overflow:visible!important}
+body[data-arus-module=geometry] .workspace{width:100%!important;max-width:100%!important;flex:1 1 auto!important;min-width:0!important;height:auto!important;overflow:visible!important}
+body[data-arus-module=geometry] .viewer{width:100%!important;height:auto!important;min-height:0!important}
+body[data-arus-module=geometry] .canvas-container{width:100%!important;flex:0 0 auto!important;min-height:350px!important;height:480px!important}
+body[data-arus-module=geometry] .canvas-container.editor-mode{height:auto!important;min-height:0!important;overflow:visible!important}
+body[data-arus-module=geometry] .side-page .input-rows>.arus-dist-card{grid-column:1/-1!important;width:100%!important}
+body[data-arus-module=geometry] .side-page .input-rows>.arus-linked-row{grid-column:1/-1!important}
+body[data-arus-module=geometry] .arus-dist-grid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:12px!important}
+body[data-arus-module=geometry] .arus-dist-grid>.input-row{min-width:0!important}
+body[data-arus-module=geometry] .sidebar>.arus-input-heading~.arus-input-heading{display:none!important}
+@media(max-width:850px){body[data-arus-module=geometry] .arus-dist-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:520px){body[data-arus-module=geometry] .arus-dist-grid{grid-template-columns:1fr!important}}
+
+/* v153 source-input parity: do not trap native workbook input tables inside scroll boxes. */
+html[data-arus-module="resistance"] :is(#app15-detail,#r01v51-additional,.arus-source-inventory,.arus-unified-advanced-body) :is(.scroll,[style*="overflow:auto"],[style*="max-height"]),
+html[data-arus-module="resistance"] :is(#app15-detail,#r01v51-additional,.arus-source-inventory) div[style*="max-height"],
+html[data-arus-module="resistance"] :is(#app15-detail,#r01v51-additional,.arus-source-inventory) .tablewrap,
+html[data-arus-module="resistance"] :is(#app15-detail,#r01v51-additional,.arus-source-inventory) .table-scroller,
+html[data-arus-module="performance"] :is(.tablewrap,.scroll,.table-scroll){overflow:visible!important;max-height:none!important;height:auto!important;max-width:100%!important}
+/* Keep the source's branch selector accessible after selecting a method card. */
+html[data-arus-module="resistance"] .field:has(> #planingVariant),
+html[data-arus-module="resistance"] .field:has(> #catFamily){display:flex!important;flex-direction:column!important}
+/* Format only long editable source input tables; do not change any table cell or event. */
+html[data-arus-module="resistance"] table.arus-source-form-table{display:block!important;min-width:0!important;width:100%!important;border:0!important;table-layout:auto!important}
+html[data-arus-module="resistance"] table.arus-source-form-table thead{display:none!important}
+html[data-arus-module="resistance"] table.arus-source-form-table tbody{display:grid!important;grid-template-columns:minmax(0,1fr);gap:12px!important;width:100%!important}
+html[data-arus-module="resistance"] table.arus-source-form-table tbody tr{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:9px!important;padding:12px!important;border:1px solid #dce7ec!important;border-radius:10px!important;background:#f9fbfc!important;max-width:100%!important}
+html[data-arus-module="resistance"] table.arus-source-form-table tbody td{display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;gap:5px!important;min-width:0!important;width:100%!important;white-space:normal!important;padding:4px!important;overflow-wrap:anywhere!important;border:0!important}
+html[data-arus-module="resistance"] table.arus-source-form-table tbody td:before{content:attr(data-arus-source-label);display:block!important;font-size:10px!important;letter-spacing:.02em!important;color:#577387!important;font-weight:650!important;line-height:1.35!important}
+html[data-arus-module="resistance"] table.arus-source-form-table :is(input,select,textarea){min-width:0!important;width:100%!important;max-width:100%!important;box-sizing:border-box!important}
+@media(max-width:850px){html[data-arus-module="resistance"] table.arus-source-form-table tbody tr{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:460px){html[data-arus-module="resistance"] table.arus-source-form-table tbody tr{grid-template-columns:minmax(0,1fr)!important}}
+
+
+
+/* v154: Polynomial KT/KQ/J numerical table expands naturally with the page. */
+html[data-arus-module="performance"] .table-section .tableBox{
+  overflow:visible!important;
+  overflow-x:visible!important;
+  overflow-y:visible!important;
+  max-height:none!important;
+  height:auto!important;
+  min-height:0!important;
+  width:100%!important;
+}
+html[data-arus-module="performance"] .table-section .tableBox table{
+  min-width:0!important;
+  width:100%!important;
+  table-layout:auto!important;
+}
+html[data-arus-module="performance"] .table-section .tableBox :is(th,td){
+  overflow-wrap:anywhere!important;
+}
+/* Sticky column headings previously depended on the scroll box; keep normal document flow. */
+html[data-arus-module="performance"] .table-section .tableBox thead th{
+  position:static!important;
+}

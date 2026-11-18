@@ -1,0 +1,266 @@
+.arus-login-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 20%, #17384a 0%, #0d1e2b 70%, #09141d 100%);
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.arus-login-card {
+  width: 100%;
+  max-width: 440px;
+  background: #112637;
+  border: 1px solid #23485f;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  padding: 36px 32px;
+  box-sizing: border-box;
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.arus-login-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.arus-login-logo {
+  width: 52px;
+  height: 52px;
+  background: linear-gradient(145deg, #2bb8b2, #177eaa);
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(43, 184, 178, 0.35);
+  margin-bottom: 14px;
+}
+
+.arus-login-logo svg {
+  width: 32px;
+  height: 32px;
+}
+
+.arus-login-title {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.arus-login-subtitle {
+  margin: 4px 0 0;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #79a1b8;
+}
+
+.arus-login-badge {
+  display: inline-block;
+  margin-top: 10px;
+  background: rgba(33, 150, 160, 0.2);
+  color: #49c7b9;
+  border: 1px solid rgba(73, 199, 185, 0.3);
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.arus-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.arus-login-error {
+  background: rgba(229, 62, 62, 0.15);
+  border: 1px solid rgba(229, 62, 62, 0.4);
+  color: #fc8181;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.arus-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.arus-form-group label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9cb8ca;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.arus-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.arus-input-icon {
+  position: absolute;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+  color: #5d8197;
+  pointer-events: none;
+}
+
+.arus-input-wrapper input {
+  width: 100%;
+  padding: 12px 14px 12px 42px;
+  background: #0b1a26;
+  border: 1px solid #24465b;
+  border-radius: 8px;
+  color: #e4edf2;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.arus-input-wrapper input:focus {
+  border-color: #2bb8b2;
+  box-shadow: 0 0 0 3px rgba(43, 184, 178, 0.2);
+}
+
+.arus-login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #8da4b3;
+}
+
+.arus-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.arus-checkbox-label input[type="checkbox"] {
+  accent-color: #2bb8b2;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.arus-demo-hint code {
+  background: #17384a;
+  color: #49c7b9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.arus-login-btn {
+  background: linear-gradient(135deg, #1d9792 0%, #156d94 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 13px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(23, 126, 170, 0.3);
+  margin-top: 4px;
+}
+
+.arus-login-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #22aba5 0%, #1980ae 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(23, 126, 170, 0.4);
+}
+
+.arus-login-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.arus-login-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.arus-btn-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.arus-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.arus-login-footer {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid #1a364a;
+  font-size: 11px;
+  color: #638294;
+  text-align: center;
+}
+
+.arus-modules-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.arus-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+
+.arus-tags span {
+  background: #0d1e2b;
+  border: 1px solid #1b384c;
+  color: #8da4b3;
+  padding: 3px 7px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.arus-copyright {
+  color: #557080;
+}

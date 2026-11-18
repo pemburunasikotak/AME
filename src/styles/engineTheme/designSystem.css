@@ -1,0 +1,254 @@
+/* ARUS v102 — Global Design System | all embedded calculators | presentation-only */
+:root{
+ --arus-ui-font:Arial,"Segoe UI",sans-serif;
+ --arus-ui-ink:#173344;--arus-ui-muted:#708593;--arus-ui-bg:#f5f7f9;
+ --arus-ui-panel:#fff;--arus-ui-navy:#123c4a;--arus-ui-teal:#0a958b;
+ --arus-ui-line:#e2eaf0;--arus-ui-radius:12px;--arus-ui-control-radius:8px;
+ --arus-ui-motion:160ms;--arus-ui-ring:#74bbc0;
+ --arus-ui-shadow:0 9px 28px rgba(20,47,67,.035);
+ --bg:var(--arus-ui-bg)!important;--paper:var(--arus-ui-bg)!important;
+ --ink:var(--arus-ui-ink)!important;--teal:var(--arus-ui-teal)!important;
+ --accent:var(--arus-ui-teal)!important;--line:var(--arus-ui-line)!important;
+}
+html,body{font-family:var(--arus-ui-font)!important;font-size:14px!important;line-height:1.55;background:var(--arus-ui-bg)!important;color:var(--arus-ui-ink)!important}
+body[data-arus-module], html[data-arus-module] body{font-family:var(--arus-ui-font)!important}
+html[data-arus-module] h1{font-family:var(--arus-ui-font)!important;font-size:26px!important;font-weight:780!important;line-height:1.25!important;letter-spacing:-.02em!important}
+html[data-arus-module] h2{font-family:var(--arus-ui-font)!important;font-size:16px!important;font-weight:700!important;line-height:1.35!important;letter-spacing:0!important}
+html[data-arus-module] h3{font-family:var(--arus-ui-font)!important;font-size:14px!important;font-weight:700!important;line-height:1.4!important;letter-spacing:0!important}
+html[data-arus-module] label, html[data-arus-module] .field-title{font-family:var(--arus-ui-font)!important}
+html[data-arus-module] :is(.field>label,.label,.field-label,.small-label,.selectorlabel){font-size:12px!important;line-height:1.5!important}
+html[data-arus-module] :is(.panel,.sheet,.paper,.block,.metric,.stat,.input-card,.section-panel,.arus-selection-preview,.arus-prop-hero){
+ border-radius:var(--arus-ui-radius)!important;border-color:var(--arus-ui-line)!important;box-shadow:var(--arus-ui-shadow)!important
+}
+html[data-arus-module] :is(.arus-hull-card,.arus-method-card,.method-btn,.modebtn,.arus-unified-advanced,.arus-workflow-steps,.arus-hull-toolbar,.arus-v97-chosen-bar,.arus-flow-chosen-bar,.arus-prop-canvas-wrap){
+ border-radius:10px!important;border-color:var(--arus-ui-line)!important
+}
+html[data-arus-module] :is(input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]):not([type="file"]),select,textarea){
+ border-radius:var(--arus-ui-control-radius)!important;
+ min-height:40px!important;
+ border-color:#cedde5!important;
+ font-size:13px!important;
+ font-family:var(--arus-ui-font)!important;
+}
+html[data-arus-module] :is(button,.btn,input,select,textarea,summary){
+ font-family:var(--arus-ui-font)!important;
+ transition:background-color var(--arus-ui-motion) ease,border-color var(--arus-ui-motion) ease,color var(--arus-ui-motion) ease,box-shadow var(--arus-ui-motion) ease!important
+}
+html[data-arus-module] :is(button,.btn){border-radius:var(--arus-ui-control-radius)!important}
+html[data-arus-module] :is(button,input,select,textarea,summary):focus-visible{outline:2px solid var(--arus-ui-ring)!important;outline-offset:2px!important}
+html[data-arus-module] :is(button:disabled,input:disabled,select:disabled){cursor:not-allowed}
+html[data-arus-module] :is(.run-btn,.call,.btn-primary,#calculate,#runBtn,.primary):not(.tab):not(.pillbtn){
+ background:var(--arus-ui-navy)!important;border-color:var(--arus-ui-navy)!important;
+ color:#fff!important;border-radius:var(--arus-ui-control-radius)!important;font-size:12px!important;font-weight:700!important
+}
+html[data-arus-module] :is(.run-btn,.call,.btn-primary,#calculate,#runBtn,.primary):not(.tab):not(.pillbtn):hover:not(:disabled){background:#195768!important;border-color:#195768!important}
+html[data-arus-module] :is(.tab.active,.side-tabs button.active,.view-tabs button.active,.modebtn.active,.method-btn.active,.arus-method-card[aria-pressed="true"],.arus-hull-card[aria-pressed="true"]){
+ background:#edf9f7!important;color:#0a6671!important;border-color:#80c6c3!important
+}
+html[data-arus-module] :is(.arus-method-card,.arus-hull-card,.method-btn,.modebtn,.tab,.pillbtn){transition:background-color var(--arus-ui-motion) ease,border-color var(--arus-ui-motion) ease,color var(--arus-ui-motion) ease!important}
+html[data-arus-module] :is(.arus-method-card,.arus-hull-card,.method-btn,.modebtn):hover:not(:disabled){border-color:#90bfc4!important}
+html[data-arus-module] :is(table,.data){font-family:var(--arus-ui-font)!important;font-size:12px!important}
+html[data-arus-module] th{font-size:11px!important;font-weight:700!important;color:#4c6778!important}
+html[data-arus-module] :is(.arus-unified-advanced>summary,.arus-v97-advanced>summary){padding:14px 17px!important;border-radius:10px!important;background:#f7fafb!important;color:#315567!important}
+html[data-arus-module] :is(.arus-unified-advanced>summary,.arus-v97-advanced>summary):hover{background:#f0f8f8!important}
+html[data-arus-module] .arus-choose-btn{background:#e7f8f6!important;color:#116e75!important;border:1px solid #a8d5d1!important;border-radius:8px!important;min-height:28px!important;padding:5px 13px!important;font-size:11px!important}
+html[data-arus-module] .arus-choose-btn:hover{background:#d7f2ef!important;border-color:#79c8c0!important}
+html[data-arus-module] :is(.arus-prop-canvas-wrap,.canvas-container){border-radius:10px!important}
+/* Maintain compact camera/zoom commands in chart and CAD rather than turning these into form controls. */
+html[data-arus-module="selection"] :is(.chart-nav button,.pager button,.pillbtn){min-height:29px!important}
+html[data-arus-module="geometry"] .viewer-controls :is(select,input){min-height:36px!important;height:36px!important}
+html[data-arus-module="geometry"] :is(.view-tabs button,.side-tabs button,.exportbar button){min-height:34px!important}
+html[data-arus-module="resistance"] :is(#calculate,.actions button){min-height:40px!important}
+html[data-arus-module="model-test"] :is(#calculate,.arus-flow-bottom-actions button){min-height:40px!important}
+/* Consistent badges and result status colors; preserve native PASS/FAIL text and numeric output. */
+html[data-arus-module] :is(.status-ok,.valid,.ok){color:#147e66!important}
+html[data-arus-module] :is(.status-bad,.invalid,.error){color:#a94f48!important}
+html[data-arus-module] :is(.warning,.status-warning){color:#986b27!important}
+/* Fade in panels and newly selected methods, without interfering with chart WebGL/canvas transforms. */
+html[data-arus-module] :is(.arus-hull-toolbar,.arus-v97-chosen-bar,.arus-prop-panel,.arus-selection-preview):not([hidden]){animation:arusUiFade 220ms ease both}
+@keyframes arusUiFade{from{opacity:.4}to{opacity:1}}
+@media(max-width:750px){
+ html[data-arus-module] h1{font-size:23px!important}
+ html[data-arus-module] :is(.arus-prop-panel,.arus-selection-preview){max-width:100%}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* v103 — prevent duplicate workflow pickers inside embedded calculators */
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .selectorgrid > div:has(#typeSelect),
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .arus-method-control:has(> #typeSelect),
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .arus-method-limit-note:has(.arus-method-limit-list):not(.arus103-visible-guidance){display:none!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] #typeSelect,
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] #typeSelect + .arus-method-cards{display:none!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] main .intro{display:none!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .selectorgrid{display:block!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .selectorgrid > div:has(#groupSelect){width:100%!important;max-width:none!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] main .sheet>section.block:first-child{padding:20px!important;background:#fff!important;border-radius:12px!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] main .sheet>section.block:first-child .blockhead h2{font-size:16px!important;font-weight:700!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] #groupSelect ~ .arus-method-cards,
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .arus-method-control:has(> #groupSelect) .arus-method-cards{
+ display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:12px!important;
+ border:0!important;background:transparent!important;padding:0!important;margin:12px 0!important
+}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .arus-method-control:has(> #groupSelect) .arus-method-card{
+ width:100%!important;min-width:0!important;min-height:78px!important;display:flex!important;
+ align-items:center!important;padding:14px!important;border-radius:10px!important;
+ border:1px solid #dce8ee!important;background:#f9fbfc!important;
+ font-size:12px!important;font-weight:700!important;line-height:1.45!important;
+ box-shadow:none!important;transition:background .16s,border-color .16s!important
+}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .arus-method-control:has(> #groupSelect) .arus-method-card[aria-pressed="true"]{background:#eaf8f6!important;border-color:#239da4!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] #groupSummary{display:none!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .arus-method-limit-note{padding:10px 14px!important;border-radius:8px!important}
+html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] #arus-flow-next-interaction{font-size:12px!important;border-radius:8px!important}
+html[data-arus-module="selection"] body[data-arus-unified-workflow="1"] #methodBar{display:none!important}
+html[data-arus-module="selection"] body[data-arus-unified-workflow="1"] .arus-workflow-steps{display:none!important}
+@media(max-width:890px){html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .arus-method-control:has(> #groupSelect) .arus-method-cards{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:560px){html[data-arus-module="interaction"] body[data-arus-unified-workflow="1"] .arus-method-control:has(> #groupSelect) .arus-method-cards{grid-template-columns:1fr!important}}
+
+
+/* ARUS v104 — semantic workspace layout; visual-only, preserves native engine controls. */
+html[data-arus-module] .arus104-selected-strip{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:13px 17px;background:#eff9f7;border:1px solid #d3e9e6;border-radius:10px;margin:0 0 17px!important}
+html[data-arus-module] .arus104-selected-strip .arus104-selected-label{font-size:10px;font-weight:800;letter-spacing:.075em;text-transform:uppercase;color:#5b8790}
+html[data-arus-module] .arus104-selected-strip strong{display:block;font-size:13px;font-weight:750;color:#173e51;margin:4px 0 0}
+html[data-arus-module] .arus104-selected-strip button{background:#fff;border:1px solid #cbdde4;border-radius:8px;color:#25566b;font-size:11px;font-weight:700;min-height:36px;padding:8px 14px}
+html[data-arus-module] .arus104-panel-title{font-size:14px!important;font-weight:750!important;color:#1e4053!important;margin:0 0 18px!important}
+html[data-arus-module] .arus104-helper{font-size:11px;color:#6f8697;margin:8px 0!important;line-height:1.6}
+html[data-arus-module] .arus104-input-card{background:#fff;border:1px solid #e1eaf0;border-radius:12px;padding:20px 21px;margin:0 0 16px}
+html[data-arus-module] .arus104-input-card>.arus104-panel-title{padding-bottom:14px;border-bottom:1px solid #e8eef1;margin-bottom:19px!important}
+html[data-arus-module] .arus104-input-card .arus104-input-group{padding:0 0 18px;margin-bottom:17px;border-bottom:1px solid #edf2f5}
+html[data-arus-module] .arus104-input-card .arus104-input-group:last-child{border:0;margin:0;padding:0}
+html[data-arus-module] .arus104-run-row{display:flex;justify-content:flex-end;align-items:center;gap:10px;flex-wrap:wrap;border-top:1px solid #edf1f3;margin-top:14px;padding:16px 0 0!important}
+html[data-arus-module] .arus104-run-row button{min-height:40px!important;border-radius:8px!important}
+html[data-arus-module] .arus104-source-note{font-size:11px;color:#6b8393}
+html[data-arus-module] .arus104-detail-wrap{border:1px solid #dce8ed;border-radius:10px;margin:12px 0;background:white}
+html[data-arus-module] .arus104-detail-wrap>summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;padding:13px 16px;color:#355c6c;background:#f7fafb;font-size:12px;font-weight:700;border-radius:9px}
+html[data-arus-module] .arus104-detail-wrap>summary::after{content:'+';font-size:17px;font-weight:500;color:#3a7685}
+html[data-arus-module] .arus104-detail-wrap[open]>summary::after{content:'−'}
+html[data-arus-module] .arus104-detail-wrap[open]>summary{border-bottom:1px solid #e2ebef}
+html[data-arus-module] .arus104-detail-wrap-body{padding:12px 17px}
+html[data-arus-module="interaction"] body.arus104-stage-input main .sheet>section.block:first-of-type,
+html[data-arus-module="interaction"] body.arus104-stage-result main .sheet>section.block:first-of-type{display:none!important}
+html[data-arus-module="interaction"] .sheet>.block{border:1px solid #e1eaf0!important;border-radius:12px!important;box-shadow:none!important}
+html[data-arus-module="interaction"] body.arus104-stage-input .sheet>section.block:nth-of-type(2),
+html[data-arus-module="interaction"] body.arus104-stage-result .sheet>section.block:nth-of-type(2){padding:21px!important}
+html[data-arus-module="interaction"] body.arus104-stage-input .sheet>section.block:nth-of-type(2)>.arus104-selected-strip,
+html[data-arus-module="interaction"] body.arus104-stage-result .sheet>section.block:nth-of-type(2)>.arus104-selected-strip{display:flex}
+html[data-arus-module="interaction"] .sheet>section.block:nth-of-type(2)>.arus104-selected-strip{display:none}
+html[data-arus-module="interaction"] .sheet>section.block:nth-of-type(2)>.blockhead{margin-bottom:10px!important}
+html[data-arus-module="interaction"] .sheet>section.block:nth-of-type(2)>.blockhead .arus-flow-secondary{display:none!important}
+html[data-arus-module="interaction"] .inputgrid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:15px!important}
+html[data-arus-module="interaction"] .arus-flow-bottom-actions{margin-top:17px!important;padding-top:15px!important;border-top:1px solid #edf1f3}
+html[data-arus-module="interaction"] #groupSummary{display:none!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test main.layout>.col:first-child{display:flex!important;flex-direction:column!important;gap:0!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test main.layout>.col:last-child{display:flex!important;flex-direction:column!important;gap:0!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test main.layout{display:flex!important;flex-direction:column!important;gap:0!important;width:100%!important;max-width:none!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus104-model-input-shell{display:block!important;background:#fff;border:1px solid #e0eaf0;border-radius:12px;padding:20px 21px;margin:0 0 20px}
+html[data-arus-module="model-test"] body.arus-v97-model-test[data-arus-v97-stage="method"] .arus104-model-input-shell{display:none!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test:not([data-arus-v97-stage="result"]) main.layout>.col:last-child{display:none!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus104-model-input-shell>.panel{border:0!important;border-bottom:1px solid #e8eef2!important;border-radius:0!important;box-shadow:none!important;background:transparent!important;margin:0 0 17px!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus104-model-input-shell>.panel .phead{padding:0 0 13px!important;border:0!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus104-model-input-shell>.panel .pbody{padding:0 0 18px!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus104-model-input-shell>#arus-unified-advanced{margin:15px 0!important;order:initial!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus104-model-input-shell>.arus-flow-bottom-actions{margin:10px 0 0!important;padding:15px 0 0!important;border-top:1px solid #edf1f3!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus104-model-input-shell>.arus-flow-bottom-actions button{min-height:40px!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-v97-method-picked{margin-bottom:17px!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-v97-method-picked .pbody{display:none!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-v97-method-picked>.arus-v97-chosen-bar{margin:0 18px 17px!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-v97-method-picked>.phead{padding:14px 18px!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus104-model-input-shell>.arus104-panel-title{padding-bottom:13px;border-bottom:1px solid #edf1f3}
+html[data-arus-module="resistance"] .arus104-resistance-fold{margin:12px 0!important;border:1px solid #dce8ef;border-radius:10px}
+html[data-arus-module="resistance"] .arus104-resistance-fold>summary{cursor:pointer;font-weight:700;color:#355b69;background:#f7fafb;padding:13px 17px;font-size:12px;border-radius:9px}
+html[data-arus-module="resistance"] .arus104-resistance-fold[open]>summary{border-bottom:1px solid #dce8ef}
+html[data-arus-module="resistance"] .arus104-resistance-fold #arus-simple-app{margin:0!important;border:0!important;border-radius:0!important}
+html[data-arus-module="resistance"] #arus-appendage-reference{margin:5px 0 9px!important;padding:10px 13px!important;border-radius:7px!important}
+html[data-arus-module="resistance"] #arus-appendage-reference p,html[data-arus-module="resistance"] #arus-appendage-reference small{display:none!important}
+html[data-arus-module="resistance"] #methodInfo{font-size:11px!important}
+html[data-arus-module="resistance"] .arus-example-note{font-size:11px!important;margin:8px 0!important}
+html[data-arus-module="resistance"] .arus100-no-quick-appendages .arus104-resistance-fold{display:none!important}
+html[data-arus-module="selection"] .mode-root .fields{gap:14px!important}
+html[data-arus-module="selection"] .mode-root .shell>aside.sidebar{padding-bottom:16px!important}
+html[data-arus-module="selection"] .mode-root .actionbox{margin-top:12px!important;padding:14px 0 0!important}
+html[data-arus-module="selection"] #kt-mode .footer,html[data-arus-module="selection"] #kq-mode .footer{line-height:1.5!important}
+@media(max-width:1080px){html[data-arus-module="interaction"] .inputgrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:650px){html[data-arus-module] .arus104-input-card,html[data-arus-module="model-test"] body.arus-v97-model-test .arus104-model-input-shell{padding:14px!important}html[data-arus-module="interaction"] .inputgrid{grid-template-columns:minmax(0,1fr)!important}}
+
+
+
+/* ARUS v106 | Shared visual components; calculations and document structure untouched. */
+html[data-arus-module]{
+ --arus106-bg:#f4f7f9;--arus106-surface:#fff;--arus106-ink:#193749;
+ --arus106-sub:#6a8191;--arus106-accent:#167c83;--arus106-accent-soft:#ebf8f6;
+ --arus106-primary:#123e4e;--arus106-border:#dce6ed;--arus106-muted-border:#e7eef2;
+ --arus106-card-radius:12px;--arus106-control-radius:8px;
+ --arus106-shadow:0 8px 24px rgba(22,51,67,.035);
+ --arus106-transition:160ms cubic-bezier(.2,.7,.2,1);
+}
+html[data-arus-module] :is(body,input,select,textarea,button,table,th,td,summary){font-family:Arial,"Segoe UI",sans-serif!important}
+html[data-arus-module] body{color:var(--arus106-ink)!important;background:var(--arus106-bg)!important;font-size:14px!important}
+/* Apply identical panel outlines without changing intrinsic grid, canvas or view dimensions. */
+html[data-arus-module] :is(.panel,.paper,.sheet,.block,.section,.metric,.stat,.stat-card,.info-card,.arus104-input-card,.arus-selection-preview,.arus-prop-panel){border-color:var(--arus106-border)!important;border-radius:var(--arus106-card-radius)!important;box-shadow:var(--arus106-shadow)!important}
+html[data-arus-module] :is(.phead,.paper-head,.blockhead,.headrow,.cardhead,.sidebar-head){border-color:var(--arus106-muted-border)!important}
+/* Headings and panel captions share one typographic scale regardless of method count. */
+html[data-arus-module] :is(.phead h2,.paper-head h2,.blockhead h2,.headrow h2,.section-head h2,.side-h,.arus-input-heading,.arus104-panel-title,.arus-v97-outline-title){font-size:16px!important;font-weight:700!important;letter-spacing:0!important;line-height:1.4!important;color:#193c50!important}
+html[data-arus-module] :is(h3,.section-label,.sec-tag,.small-label,.panel-label){font-family:Arial,"Segoe UI",sans-serif!important}
+html[data-arus-module] :is(.field>label,.field-top,.field-title,.selectorlabel,.input-row>span,.form-field>label,.field-label,.label){font-size:12px!important;line-height:1.5!important;color:#496676!important;font-weight:650!important}
+html[data-arus-module] :is(.section-sub,.small,.field-unit,.help,.hint,.helper,.arus104-helper){color:var(--arus106-sub)!important;line-height:1.6!important}
+/* Inputs / selects: 40px, 8px corners; exclude checkboxes/sliders/color selectors from box treatment. */
+html[data-arus-module] input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]):not([type=file]):not([type=hidden]),
+html[data-arus-module] select,
+html[data-arus-module] textarea{
+ border:1px solid #cbdde6!important;border-radius:8px!important;
+ font-size:12px!important;color:#244a5f!important;background-color:#fff;
+ transition:border-color var(--arus106-transition),box-shadow var(--arus106-transition)!important;
+}
+html[data-arus-module] input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]):not([type=file]):not([type=hidden]),
+html[data-arus-module] select{min-height:40px!important}
+html[data-arus-module] input:is([readonly],:disabled),html[data-arus-module] select:disabled{background-color:#f1f6f8!important;color:#687f8d!important}
+html[data-arus-module] :is(input,select,textarea,button,a,summary):focus-visible{outline:2px solid #51aeb4!important;outline-offset:2px!important}
+html[data-arus-module] :is(input:not([type=checkbox]):not([type=radio]),select,textarea):focus{border-color:#65aeb7!important;box-shadow:0 0 0 3px rgba(22,124,131,.10)!important}
+html[data-arus-module] input[type=checkbox],html[data-arus-module] input[type=radio]{accent-color:#167c83!important}
+/* Native actions and module-specific buttons share a baseline, while compact table/chart tools remain compact. */
+html[data-arus-module] :is(button,.btn,.call,.run-btn,.outline,.reset,.smallbtn,.modebtn){
+ border-radius:8px!important;font-size:12px!important;font-weight:700!important;
+ transition:background-color var(--arus106-transition),border-color var(--arus106-transition),color var(--arus106-transition),box-shadow var(--arus106-transition)!important;
+}
+html[data-arus-module] :is(.run-btn,.call,.btn-primary,#calculate,#kt-run,#kq-run,#arus-flow-next-interaction,.arus-flow-bottom-actions button[type=submit]){
+ background:var(--arus106-primary)!important;border-color:var(--arus106-primary)!important;color:white!important;
+ min-height:40px!important;
+}
+html[data-arus-module] :is(.run-btn,.call,.btn-primary,#calculate,#kt-run,#kq-run,#arus-flow-next-interaction,.arus-flow-bottom-actions button[type=submit]):hover:not(:disabled){background:#195669!important;border-color:#195669!important}
+html[data-arus-module] :is(.reset,.outline,.btn.secondary,.arus-flow-secondary,.arus104-selected-strip button,.arus-hull-toolbar button){border-radius:8px!important;font-weight:700!important}
+html[data-arus-module] :is(.arus-v97-advanced,.arus104-detail-wrap,.arus104-model-input-shell,.arus-method-limit-note,.domain-box){border-color:var(--arus106-border)!important;border-radius:10px!important}
+html[data-arus-module] :is(.arus104-detail-wrap>summary,.arus-v97-advanced>summary){background:#f7fafb!important;color:#345c6e!important;font-size:12px!important;font-weight:700!important}
+/* Match method cards and selected states with parent workspace while preserving original counts/flow. */
+html[data-arus-module] :is(.arus-method-card,.arus-hull-card,.method-btn,.modebtn){
+ border:1px solid var(--arus106-border)!important;border-radius:10px!important;background:#f9fbfc!important;
+ color:#35576a!important;box-shadow:none!important;
+ transition:border-color var(--arus106-transition),background-color var(--arus106-transition)!important;
+}
+html[data-arus-module] :is(.arus-method-card,.arus-hull-card,.method-btn,.modebtn):hover{background:#f5fbfb!important;border-color:#75b8bd!important}
+html[data-arus-module] :is(.arus-method-card[aria-pressed=true],.arus-hull-card[aria-pressed=true],.method-btn.active,.modebtn.active){
+ background:var(--arus106-accent-soft)!important;border-color:#4aafb2!important;color:#125e68!important;
+}
+html[data-arus-module] :is(.arus-method-card,.arus-hull-card,.method-btn,.modebtn) strong{font-size:12px!important;line-height:1.4!important}
+html[data-arus-module] :is(.arus104-selected-strip,.arus-v97-chosen-bar,.arus-hull-toolbar){border-color:#d5e9e7!important;background:#eff9f7!important;border-radius:10px!important}
+/* Harmonize table typography, rules and status colors without changing rows, columns, data, or sort. */
+html[data-arus-module] :is(table,.data,.tableBox table,.tablewrap table){font-size:12px!important;font-variant-numeric:tabular-nums}
+html[data-arus-module] :is(th,.data thead th){font-size:11px!important;font-weight:700!important;letter-spacing:.02em!important;color:#536d7e!important;background-color:#f7fafb!important;border-bottom:1px solid var(--arus106-border)!important}
+html[data-arus-module] :is(td,.data tbody td){border-bottom:1px solid #ebf0f3!important;color:#365468!important}
+html[data-arus-module] :is(.tableBox,.tablewrap,.tableouter,.table-scroll){border-color:var(--arus106-border)!important;border-radius:10px!important}
+html[data-arus-module] :is(.status-ok,.valid,.ok){color:#177c69!important}
+html[data-arus-module] :is(.status-bad,.invalid,.error){color:#b45650!important}
+/* Chart / native CAD / 3D frames: matching border and surfaces, with WebGL canvas untouched. */
+html[data-arus-module] :is(.plot,.combined-plot-wrap,.plot-panel,.viewer-canvas-wrap,.arus-prop-canvas-wrap,.display-surface){border-color:#dfeaf0!important;border-radius:10px!important}
+html[data-arus-module] :is(.chart-nav button,.view-tabs button,.side-tabs button,.view-controls button,.arus-choose-btn){border-radius:8px!important}
+html[data-arus-module] :is(.arus-choose-btn){background:#edf8f7!important;color:#176973!important;border-color:#80bbbd!important}
+html[data-arus-module] :is(.arus-choose-btn):hover{background:#dbf1ef!important}
+/* The geometry workspace uses genuine tabs and WebGL viewport; unify only control skins. */
+html[data-arus-module=geometry] :is(.card,.file-card,.station-card,.side-page,.viewer){border-radius:12px!important;border-color:var(--arus106-border)!important}
+html[data-arus-module=geometry] :is(.tabs button,.view-tabs button,.side-tabs button,.exportbar button,#headerOpen,#headerSave){border-radius:8px!important}
+html[data-arus-module=geometry] :is(.tabs button.active,.view-tabs button.active,.side-tabs button.active){background:var(--arus106-accent-soft)!important;color:#146771!important;border-color:#86c9c9!important}
+html[data-arus-module=geometry] #headerSave{background:var(--arus106-primary)!important;color:white!important;border-color:var(--arus106-primary)!important}
+/* Maintain accessible mobile spacing without coercing grid count or visibility. */
+@media(max-width:650px){html[data-arus-module] :is(.panel,.paper,.block,.arus104-input-card){max-width:100%}}
+@media(prefers-reduced-motion:reduce){html[data-arus-module] *,html[data-arus-module] *::before,html[data-arus-module] *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

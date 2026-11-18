@@ -1,0 +1,1320 @@
+{
+    "schema": "arus.ig32.sourcedM.v1",
+    "items": [
+        {
+            "id": "ER000618",
+            "model": "12V175D-MH",
+            "kw": 1740.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    204.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    360.0
+                ],
+                [
+                    900.0,
+                    468.0
+                ],
+                [
+                    1000.0,
+                    600.0
+                ],
+                [
+                    1100.0,
+                    960.0
+                ],
+                [
+                    1200.0,
+                    1164.0
+                ],
+                [
+                    1300.0,
+                    1380.0
+                ],
+                [
+                    1400.0,
+                    1584.0
+                ],
+                [
+                    1476.9,
+                    1740.0
+                ],
+                [
+                    1500.0,
+                    1740.0
+                ],
+                [
+                    1600.0,
+                    1740.0
+                ],
+                [
+                    1700.0,
+                    1740.0
+                ],
+                [
+                    1800.0,
+                    1740.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 68,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000619",
+            "model": "12V175D-MM",
+            "kw": 1860.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    204.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    360.0
+                ],
+                [
+                    900.0,
+                    468.0
+                ],
+                [
+                    1000.0,
+                    600.0
+                ],
+                [
+                    1100.0,
+                    960.0
+                ],
+                [
+                    1200.0,
+                    1164.0
+                ],
+                [
+                    1300.0,
+                    1380.0
+                ],
+                [
+                    1400.0,
+                    1584.0
+                ],
+                [
+                    1500.0,
+                    1800.0
+                ],
+                [
+                    1528.7,
+                    1860.0
+                ],
+                [
+                    1700.0,
+                    1860.0
+                ],
+                [
+                    1800.0,
+                    1860.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 65,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000620",
+            "model": "12V175D-MM",
+            "kw": 1920.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    204.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    360.0
+                ],
+                [
+                    900.0,
+                    468.0
+                ],
+                [
+                    1000.0,
+                    600.0
+                ],
+                [
+                    1100.0,
+                    960.0
+                ],
+                [
+                    1200.0,
+                    1164.0
+                ],
+                [
+                    1300.0,
+                    1380.0
+                ],
+                [
+                    1400.0,
+                    1584.0
+                ],
+                [
+                    1500.0,
+                    1800.0
+                ],
+                [
+                    1557.0,
+                    1920.0
+                ],
+                [
+                    1700.0,
+                    1920.0
+                ],
+                [
+                    1800.0,
+                    1920.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 65,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000621",
+            "model": "12V175D-MM",
+            "kw": 2040.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    204.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    360.0
+                ],
+                [
+                    900.0,
+                    468.0
+                ],
+                [
+                    1000.0,
+                    600.0
+                ],
+                [
+                    1100.0,
+                    960.0
+                ],
+                [
+                    1200.0,
+                    1164.0
+                ],
+                [
+                    1300.0,
+                    1380.0
+                ],
+                [
+                    1400.0,
+                    1584.0
+                ],
+                [
+                    1500.0,
+                    1800.0
+                ],
+                [
+                    1615.0,
+                    2040.0
+                ],
+                [
+                    1700.0,
+                    2040.0
+                ],
+                [
+                    1800.0,
+                    2040.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 64,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000622",
+            "model": "12V175D-MM",
+            "kw": 2220.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    204.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    360.0
+                ],
+                [
+                    900.0,
+                    468.0
+                ],
+                [
+                    1000.0,
+                    600.0
+                ],
+                [
+                    1100.0,
+                    960.0
+                ],
+                [
+                    1200.0,
+                    1164.0
+                ],
+                [
+                    1300.0,
+                    1380.0
+                ],
+                [
+                    1400.0,
+                    1584.0
+                ],
+                [
+                    1500.0,
+                    1800.0
+                ],
+                [
+                    1600.0,
+                    2016.0
+                ],
+                [
+                    1700.0,
+                    2220.0
+                ],
+                [
+                    1800.0,
+                    2220.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 64,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000623",
+            "model": "12V175D-MM",
+            "kw": 2220.0,
+            "ratedRpm": 1900.0,
+            "m": [
+                [
+                    600.0,
+                    204.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    360.0
+                ],
+                [
+                    900.0,
+                    468.0
+                ],
+                [
+                    1000.0,
+                    600.0
+                ],
+                [
+                    1100.0,
+                    960.0
+                ],
+                [
+                    1200.0,
+                    1164.0
+                ],
+                [
+                    1300.0,
+                    1380.0
+                ],
+                [
+                    1400.0,
+                    1584.0
+                ],
+                [
+                    1500.0,
+                    1800.0
+                ],
+                [
+                    1600.0,
+                    2016.0
+                ],
+                [
+                    1700.0,
+                    2220.0
+                ],
+                [
+                    1800.0,
+                    2220.0
+                ],
+                [
+                    1900.0,
+                    2220.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 63,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000624",
+            "model": "12V175D-MM",
+            "kw": 2400.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    204.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    360.0
+                ],
+                [
+                    900.0,
+                    468.0
+                ],
+                [
+                    1000.0,
+                    600.0
+                ],
+                [
+                    1100.0,
+                    960.0
+                ],
+                [
+                    1200.0,
+                    1164.0
+                ],
+                [
+                    1300.0,
+                    1380.0
+                ],
+                [
+                    1400.0,
+                    1584.0
+                ],
+                [
+                    1500.0,
+                    1834.8
+                ],
+                [
+                    1600.0,
+                    2103.6
+                ],
+                [
+                    1700.0,
+                    2373.6
+                ],
+                [
+                    1710.0,
+                    2400.0
+                ],
+                [
+                    1800.0,
+                    2400.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 59,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000625",
+            "model": "12V175D-ML",
+            "kw": 2400.0,
+            "ratedRpm": 2000.0,
+            "m": [
+                [
+                    600.0,
+                    216.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    360.0
+                ],
+                [
+                    900.0,
+                    444.0
+                ],
+                [
+                    1000.0,
+                    552.0
+                ],
+                [
+                    1100.0,
+                    684.0
+                ],
+                [
+                    1200.0,
+                    888.0
+                ],
+                [
+                    1300.0,
+                    1380.0
+                ],
+                [
+                    1400.0,
+                    1584.0
+                ],
+                [
+                    1500.0,
+                    1800.0
+                ],
+                [
+                    1600.0,
+                    2016.0
+                ],
+                [
+                    1700.0,
+                    2220.0
+                ],
+                [
+                    1800.0,
+                    2220.0
+                ],
+                [
+                    1900.0,
+                    2400.0
+                ],
+                [
+                    2000.0,
+                    2400.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 61,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000626",
+            "model": "12V175D-ML",
+            "kw": 2580.0,
+            "ratedRpm": 2000.0,
+            "m": [
+                [
+                    600.0,
+                    216.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    360.0
+                ],
+                [
+                    900.0,
+                    444.0
+                ],
+                [
+                    1000.0,
+                    552.0
+                ],
+                [
+                    1100.0,
+                    684.0
+                ],
+                [
+                    1200.0,
+                    888.0
+                ],
+                [
+                    1300.0,
+                    1380.0
+                ],
+                [
+                    1400.0,
+                    1584.0
+                ],
+                [
+                    1500.0,
+                    1800.0
+                ],
+                [
+                    1600.0,
+                    2016.0
+                ],
+                [
+                    1700.0,
+                    2220.0
+                ],
+                [
+                    1800.0,
+                    2400.0
+                ],
+                [
+                    1900.0,
+                    2580.0
+                ],
+                [
+                    2000.0,
+                    2580.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 57,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000627",
+            "model": "16V175D-MM",
+            "kw": 2560.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    272.0
+                ],
+                [
+                    700.0,
+                    352.0
+                ],
+                [
+                    800.0,
+                    416.0
+                ],
+                [
+                    900.0,
+                    528.0
+                ],
+                [
+                    1000.0,
+                    720.0
+                ],
+                [
+                    1100.0,
+                    1024.0
+                ],
+                [
+                    1200.0,
+                    1552.0
+                ],
+                [
+                    1300.0,
+                    1840.0
+                ],
+                [
+                    1400.0,
+                    2112.0
+                ],
+                [
+                    1500.0,
+                    2400.0
+                ],
+                [
+                    1557.0,
+                    2560.0
+                ],
+                [
+                    1700.0,
+                    2560.0
+                ],
+                [
+                    1800.0,
+                    2560.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 65,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000628",
+            "model": "16V175D-MM",
+            "kw": 2720.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    272.0
+                ],
+                [
+                    700.0,
+                    352.0
+                ],
+                [
+                    800.0,
+                    416.0
+                ],
+                [
+                    900.0,
+                    528.0
+                ],
+                [
+                    1000.0,
+                    720.0
+                ],
+                [
+                    1100.0,
+                    1024.0
+                ],
+                [
+                    1200.0,
+                    1552.0
+                ],
+                [
+                    1300.0,
+                    1840.0
+                ],
+                [
+                    1400.0,
+                    2112.0
+                ],
+                [
+                    1500.0,
+                    2400.0
+                ],
+                [
+                    1615.0,
+                    2720.0
+                ],
+                [
+                    1700.0,
+                    2720.0
+                ],
+                [
+                    1800.0,
+                    2720.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 64,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000629",
+            "model": "16V175D-MM",
+            "kw": 2960.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    272.0
+                ],
+                [
+                    700.0,
+                    352.0
+                ],
+                [
+                    800.0,
+                    416.0
+                ],
+                [
+                    900.0,
+                    528.0
+                ],
+                [
+                    1000.0,
+                    720.0
+                ],
+                [
+                    1100.0,
+                    1024.0
+                ],
+                [
+                    1200.0,
+                    1552.0
+                ],
+                [
+                    1300.0,
+                    1840.0
+                ],
+                [
+                    1400.0,
+                    2112.0
+                ],
+                [
+                    1500.0,
+                    2400.0
+                ],
+                [
+                    1600.0,
+                    2688.0
+                ],
+                [
+                    1700.0,
+                    2960.0
+                ],
+                [
+                    1800.0,
+                    2960.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 64,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000630",
+            "model": "16V175D-MM",
+            "kw": 2960.0,
+            "ratedRpm": 1900.0,
+            "m": [
+                [
+                    600.0,
+                    272.0
+                ],
+                [
+                    700.0,
+                    352.0
+                ],
+                [
+                    800.0,
+                    416.0
+                ],
+                [
+                    900.0,
+                    528.0
+                ],
+                [
+                    1000.0,
+                    720.0
+                ],
+                [
+                    1100.0,
+                    1024.0
+                ],
+                [
+                    1200.0,
+                    1552.0
+                ],
+                [
+                    1300.0,
+                    1840.0
+                ],
+                [
+                    1400.0,
+                    2112.0
+                ],
+                [
+                    1500.0,
+                    2400.0
+                ],
+                [
+                    1600.0,
+                    2688.0
+                ],
+                [
+                    1700.0,
+                    2960.0
+                ],
+                [
+                    1800.0,
+                    2960.0
+                ],
+                [
+                    1900.0,
+                    2960.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 63,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000631",
+            "model": "16V175D-ML",
+            "kw": 3200.0,
+            "ratedRpm": 2000.0,
+            "m": [
+                [
+                    600.0,
+                    288.0
+                ],
+                [
+                    700.0,
+                    384.0
+                ],
+                [
+                    800.0,
+                    448.0
+                ],
+                [
+                    900.0,
+                    528.0
+                ],
+                [
+                    1000.0,
+                    640.0
+                ],
+                [
+                    1100.0,
+                    776.0
+                ],
+                [
+                    1200.0,
+                    928.0
+                ],
+                [
+                    1300.0,
+                    1216.0
+                ],
+                [
+                    1400.0,
+                    2112.0
+                ],
+                [
+                    1500.0,
+                    2400.0
+                ],
+                [
+                    1600.0,
+                    2688.0
+                ],
+                [
+                    1700.0,
+                    2960.0
+                ],
+                [
+                    1800.0,
+                    2960.0
+                ],
+                [
+                    1900.0,
+                    3200.0
+                ],
+                [
+                    2000.0,
+                    3200.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 61,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000632",
+            "model": "20V175D-MM",
+            "kw": 3400.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    340.0
+                ],
+                [
+                    700.0,
+                    440.0
+                ],
+                [
+                    800.0,
+                    520.0
+                ],
+                [
+                    900.0,
+                    660.0
+                ],
+                [
+                    1000.0,
+                    900.0
+                ],
+                [
+                    1100.0,
+                    1280.0
+                ],
+                [
+                    1200.0,
+                    1940.0
+                ],
+                [
+                    1300.0,
+                    2300.0
+                ],
+                [
+                    1400.0,
+                    2640.0
+                ],
+                [
+                    1500.0,
+                    3000.0
+                ],
+                [
+                    1615.0,
+                    3400.0
+                ],
+                [
+                    1700.0,
+                    3400.0
+                ],
+                [
+                    1800.0,
+                    3400.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 64,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000633",
+            "model": "20V175D-MM",
+            "kw": 3700.0,
+            "ratedRpm": 1800.0,
+            "m": [
+                [
+                    600.0,
+                    340.0
+                ],
+                [
+                    700.0,
+                    440.0
+                ],
+                [
+                    800.0,
+                    520.0
+                ],
+                [
+                    900.0,
+                    660.0
+                ],
+                [
+                    1000.0,
+                    900.0
+                ],
+                [
+                    1100.0,
+                    1280.0
+                ],
+                [
+                    1200.0,
+                    1940.0
+                ],
+                [
+                    1300.0,
+                    2300.0
+                ],
+                [
+                    1400.0,
+                    2640.0
+                ],
+                [
+                    1500.0,
+                    3000.0
+                ],
+                [
+                    1600.0,
+                    3360.0
+                ],
+                [
+                    1700.0,
+                    3700.0
+                ],
+                [
+                    1800.0,
+                    3700.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 64,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000634",
+            "model": "20V175D-MM",
+            "kw": 3700.0,
+            "ratedRpm": 1900.0,
+            "m": [
+                [
+                    600.0,
+                    340.0
+                ],
+                [
+                    700.0,
+                    440.0
+                ],
+                [
+                    800.0,
+                    520.0
+                ],
+                [
+                    900.0,
+                    660.0
+                ],
+                [
+                    1000.0,
+                    900.0
+                ],
+                [
+                    1100.0,
+                    1280.0
+                ],
+                [
+                    1200.0,
+                    1940.0
+                ],
+                [
+                    1300.0,
+                    2300.0
+                ],
+                [
+                    1400.0,
+                    2640.0
+                ],
+                [
+                    1500.0,
+                    3000.0
+                ],
+                [
+                    1600.0,
+                    3360.0
+                ],
+                [
+                    1700.0,
+                    3700.0
+                ],
+                [
+                    1800.0,
+                    3700.0
+                ],
+                [
+                    1900.0,
+                    3700.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 63,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000635",
+            "model": "20V175D-ML",
+            "kw": 4000.0,
+            "ratedRpm": 2000.0,
+            "m": [
+                [
+                    600.0,
+                    360.0
+                ],
+                [
+                    700.0,
+                    480.0
+                ],
+                [
+                    800.0,
+                    560.0
+                ],
+                [
+                    900.0,
+                    660.0
+                ],
+                [
+                    1000.0,
+                    800.0
+                ],
+                [
+                    1100.0,
+                    970.0
+                ],
+                [
+                    1200.0,
+                    1160.0
+                ],
+                [
+                    1300.0,
+                    1520.0
+                ],
+                [
+                    1400.0,
+                    2640.0
+                ],
+                [
+                    1500.0,
+                    3000.0
+                ],
+                [
+                    1600.0,
+                    3360.0
+                ],
+                [
+                    1700.0,
+                    3700.0
+                ],
+                [
+                    1800.0,
+                    3700.0
+                ],
+                [
+                    1900.0,
+                    4000.0
+                ],
+                [
+                    2000.0,
+                    4000.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 61,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        },
+        {
+            "id": "ER000636",
+            "model": "20V175D-ML",
+            "kw": 4400.0,
+            "ratedRpm": 2000.0,
+            "m": [
+                [
+                    600.0,
+                    360.0
+                ],
+                [
+                    700.0,
+                    480.0
+                ],
+                [
+                    800.0,
+                    560.0
+                ],
+                [
+                    900.0,
+                    660.0
+                ],
+                [
+                    1000.0,
+                    800.0
+                ],
+                [
+                    1100.0,
+                    970.0
+                ],
+                [
+                    1200.0,
+                    1160.0
+                ],
+                [
+                    1300.0,
+                    1520.0
+                ],
+                [
+                    1400.0,
+                    2640.0
+                ],
+                [
+                    1500.0,
+                    3000.0
+                ],
+                [
+                    1600.0,
+                    3360.0
+                ],
+                [
+                    1700.0,
+                    3700.0
+                ],
+                [
+                    1800.0,
+                    4000.0
+                ],
+                [
+                    1900.0,
+                    4400.0
+                ],
+                [
+                    2000.0,
+                    4400.0
+                ]
+            ],
+            "sourceFile": "PG_P-II_175D.pdf",
+            "sourcePage": 57,
+            "basis": "DIRECT_OEM_NUMERIC_LIMIT_TABLE",
+            "scope": "M_MAX_CONTINUOUS_BOUNDARY",
+            "tier": "ARCHIVED_OEM_NUMERIC_TABLE_UNREVERIFIED",
+            "note": "OEM numeric M limit table in v24 source archive; original PDF not among 19 accessible PDFs. NOT maker-approved vessel match."
+        }
+    ],
+    "warning": "Source table archived in v24; OEM original PDF not independently rechecked."
+}

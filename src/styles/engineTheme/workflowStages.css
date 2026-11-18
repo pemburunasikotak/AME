@@ -1,0 +1,265 @@
+/* Shared input layout. Method choices precede full-width input panels. */
+html[data-arus-module=resistance] .four{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))!important}
+html[data-arus-module=resistance] .four input{width:100%;box-sizing:border-box}
+html[data-arus-module=resistance] .arus-auto-row>input{width:100%;flex:1 1 120px;min-width:120px}
+html[data-arus-module=resistance] .arus-auto-choice{flex:0 0 110px;min-width:100px;max-width:110px;box-sizing:border-box}
+body[data-arus-module=model-test] .layout{grid-template-columns:minmax(0,1fr)!important}
+body[data-arus-module=model-test] :is(.fieldgrid,.settingsgrid),
+body[data-arus-module=interaction] .inputgrid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:16px!important}
+body[data-arus-module=model-test] .formrow,
+body[data-arus-module=performance] .field,
+body[data-arus-module=interaction] .field{min-width:0}
+body[data-arus-module=model-test] .formrow>.label,
+body[data-arus-module=performance] .field>label,
+body[data-arus-module=interaction] .inputgrid .field>label,
+body[data-arus-module=geometry] .input-row>span{display:flex;align-items:flex-end;min-height:36px;line-height:1.5!important;margin-bottom:6px;font-weight:500!important}
+body[data-arus-module=selection] .field-title{display:block;min-height:36px;line-height:1.5!important;font-weight:500!important}
+body[data-arus-module=resistance] .four>.field>label{min-height:36px;display:flex;align-items:flex-end;font-weight:500}
+body[data-arus-module=model-test] .formrow :is(input,select),
+body[data-arus-module=performance] .field :is(input,select),
+body[data-arus-module=interaction] .inputwrap input{width:100%;min-width:0}
+body[data-arus-module=interaction] .inputwrap input{padding-right:55px!important}
+.arus-method-limit-list{display:grid;gap:4px;margin:4px 0 0;padding-left:18px}
+.arus-method-limit-list li{padding-left:2px;overflow-wrap:anywhere}
+.arus-method-cards{gap:10px}
+.arus-method-card,body[data-arus-module=selection] .method-btn{min-height:56px!important;padding:12px 14px!important;border-radius:8px!important;text-align:left;line-height:1.5!important}
+.arus-method-card strong,body[data-arus-module=selection] .method-btn :is(strong,b){font-size:13px!important;font-weight:600}
+.arus-method-card[aria-pressed=true],body[data-arus-module=selection] .method-btn.active{background:#e8f3f6!important;border-color:#67a9b0!important;color:#123f58!important;box-shadow:inset 0 -2px 0 #168c9a!important}
+body[data-arus-module=performance] .arus-reynolds-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;width:100%;grid-column:1/-1}
+body[data-arus-module=performance] .arus-re-field{display:grid;grid-template-rows:minmax(18px,auto) 40px 16px;gap:6px;padding:0;border:0;background:transparent;min-width:0;font-weight:500}
+body[data-arus-module=performance] .arus-re-field>span{display:flex;align-items:flex-end;min-width:0;line-height:1.5}
+body[data-arus-module=performance] .arus-re-field :is(input,output){width:100%;min-width:0;height:40px;min-height:40px;box-sizing:border-box}
+body[data-arus-module=performance] .arus-re-field small{font-size:11px;font-weight:400}
+body[data-arus-module=performance] .arus-reynolds-note{grid-column:1/-1;font-size:11px;padding:12px 14px}
+body[data-arus-module=geometry] .viewer-controls select{height:40px!important;min-height:40px!important;min-width:135px;max-width:180px;font-size:13px!important}
+html[data-arus-module=geometry],body[data-arus-module=geometry]{height:auto!important;min-height:0!important;overflow:visible!important}
+@media(max-width:850px){
+  body[data-arus-module=model-test] :is(.fieldgrid,.settingsgrid),body[data-arus-module=interaction] .inputgrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  body[data-arus-module=performance] .arus-reynolds-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:480px){
+  body[data-arus-module=model-test] :is(.fieldgrid,.settingsgrid),body[data-arus-module=performance] .sidebar-main,
+  body[data-arus-module=interaction] .inputgrid,body[data-arus-module=selection] .fields,
+  body[data-arus-module=geometry] .side-page .input-rows{grid-template-columns:minmax(0,1fr)!important}
+  body[data-arus-module=performance] .arus-reynolds-grid{grid-template-columns:minmax(0,1fr)}
+  body[data-arus-module=performance] .sidebar-main>.domain-box,body[data-arus-module=performance] .sidebar-main>.plot-hint{grid-column:1/-1}
+  body[data-arus-module=performance] .sidebar-main>#calculate{width:100%}
+  .arus-method-cards{grid-template-columns:minmax(0,1fr)!important}
+  body[data-arus-module=selection] .method-controls{grid-template-columns:minmax(0,1fr)!important}
+}
+
+/* v95: Hull methods are individual workflow cards, one engine branch per selection. */
+body[data-arus-module=resistance] #view-calculator>.panel:first-child{border-radius:14px;padding:23px 23px 19px;border:1px solid #dfe9ec;background:#fff}
+body[data-arus-module=resistance] #view-calculator>.panel:first-child>h1{font-size:19px;margin-bottom:5px;color:#173a4c}
+body[data-arus-module=resistance] #view-calculator>.panel:first-child>p.muted{font-size:12px;margin-bottom:16px;color:#728693}
+body[data-arus-module=resistance] #view-calculator>.panel:first-child>.field:has(#method){max-width:none!important;width:100%}
+body[data-arus-module=resistance] .arus-hull-method-picker{max-width:none!important;width:100%;border:0}
+body[data-arus-module=resistance] .arus-hull-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 16px;border:1px solid #dce8ec;background:#f6fafb;border-radius:10px;margin:5px 0 15px}
+body[data-arus-module=resistance] .arus-hull-caption{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#6d8793;font-weight:750}
+body[data-arus-module=resistance] .arus-hull-current-name{display:block;margin:3px 0 0;font-size:16px;line-height:1.3;color:#163d4e;font-weight:750}
+body[data-arus-module=resistance] .arus-hull-toggle{padding:9px 15px;min-width:124px;border:1px solid #c6d9e0;border-radius:8px;background:#fff;color:#19485a;font-size:12px;font-weight:750;cursor:pointer}
+body[data-arus-module=resistance] .arus-hull-toggle:hover{background:#edf7f8;border-color:#7eb9be}
+body[data-arus-module=resistance] .arus-hull-catalog{display:grid;grid-template-columns:1fr;gap:19px;margin:0 0 13px}
+body[data-arus-module=resistance] .arus-hull-catalog.arus-hull-hidden{display:none!important}
+body[data-arus-module=resistance] .arus-hull-group{min-width:0}
+body[data-arus-module=resistance] .arus-hull-group-heading{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px;margin:0 0 10px;border-bottom:1px solid #e6edf0;padding-bottom:8px}
+body[data-arus-module=resistance] .arus-hull-group-heading strong{font-size:12px;font-weight:800;letter-spacing:.015em;color:#234858}
+body[data-arus-module=resistance] .arus-hull-group-heading span{font-size:11px;color:#8396a0}
+body[data-arus-module=resistance] .arus-hull-group-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+body[data-arus-module=resistance] .arus-hull-card{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:8px;min-width:0;width:100%;min-height:88px;padding:15px 16px;text-align:left;border:1px solid #d9e6eb;border-radius:10px;background:#fff;color:#254c60;cursor:pointer;transition:border-color .15s,box-shadow .15s,background .15s}
+body[data-arus-module=resistance] .arus-hull-card:hover{border-color:#87bcc5;background:#f7fbfb;box-shadow:0 4px 12px #204c610c}
+body[data-arus-module=resistance] .arus-hull-card[aria-pressed=true]{border-color:#1a9d9f;background:#effaf8;box-shadow:inset 0 0 0 1px #1a9d9f}
+body[data-arus-module=resistance] .arus-hull-card .hull-card-title{font-size:13px;font-weight:760;color:#234658;line-height:1.3}
+body[data-arus-module=resistance] .arus-hull-card .hull-card-description{font-size:10.5px;line-height:1.4;color:#8498a3}
+body[data-arus-module=resistance] .arus-hull-card[aria-pressed=true] .hull-card-title{color:#086c76}
+body[data-arus-module=resistance] .arus-hull-selected-glyph{font-size:13px;color:#148f89;position:absolute;right:13px;top:9px}
+body[data-arus-module=resistance] .arus-method-limit-note{margin:8px 0 0;padding:11px 15px;border-radius:9px}
+/* Branch choice occurs on its own method card. The original source select remains in the DOM for calculations. */
+body[data-arus-module=resistance] .field:has(> #planingVariant),body[data-arus-module=resistance] .field:has(> #catFamily){display:none!important}
+@media(max-width:1050px){body[data-arus-module=resistance] .arus-hull-group-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:630px){body[data-arus-module=resistance] #view-calculator>.panel:first-child{padding:16px}body[data-arus-module=resistance] .arus-hull-group-grid{grid-template-columns:1fr}body[data-arus-module=resistance] .arus-hull-card{min-height:72px}body[data-arus-module=resistance] .arus-hull-toolbar{padding:11px 12px;gap:8px}body[data-arus-module=resistance] .arus-hull-toggle{min-width:105px;padding:8px;font-size:11px}}
+
+/* v96 linear workflow for resistance, propeller selection and propulsion interaction only. */
+body.arus-flow-enabled .arus-workflow-steps{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:13px 16px;margin:0 0 19px;background:#f5fafb;border:1px solid #dbe9ed;border-radius:10px;scroll-margin-top:24px}
+body.arus-flow-enabled .arus-workflow-steps span{display:flex;align-items:center;gap:9px;color:#8399a5;font-size:11px;font-weight:760}
+body.arus-flow-enabled .arus-workflow-steps span:not(:last-child):after{content:'›';color:#b2c5cc;font-size:18px;margin:0 8px}
+body.arus-flow-enabled .arus-workflow-steps span.is-active{color:#096e78}
+body.arus-flow-enabled .arus-workflow-steps span.is-complete{color:#367c78}
+body.arus-flow-enabled .arus-flow-action,body.arus-flow-enabled .arus-flow-bottom-actions button{background:#144957;color:#fff;border:1px solid #144957;border-radius:8px;padding:11px 18px;font:750 12px Arial,sans-serif;cursor:pointer}
+body.arus-flow-enabled .arus-flow-action:hover,body.arus-flow-enabled .arus-flow-bottom-actions button:hover{background:#1d6171}
+body.arus-flow-enabled .arus-flow-secondary{background:#fff;color:#256376;border-color:#c6dbe2}
+body.arus-flow-enabled .arus-flow-secondary:hover{background:#eaf6f8;color:#144957}
+body.arus-flow-enabled .arus-flow-bottom-actions{margin-top:18px;display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+body.arus-flow-enabled .arus-flow-hint{color:#778d99;font-size:12px;margin:8px 0 14px}
+body.arus-flow-enabled [hidden]{display:none!important}
+body.arus-flow-resistance:not(.arus-flow-chosen) #vesselFields,
+body.arus-flow-resistance:not(.arus-flow-chosen) #view-calculator>.panel:first-child>.actions{display:none!important}
+body.arus-flow-resistance #resultPanel:not(.arus-flow-visible-result){display:none!important}
+body.arus-flow-resistance .arus-workflow-steps{margin-bottom:22px}
+body.arus-flow-resistance .arus-hull-method-picker{scroll-margin-top:24px}
+body.arus-flow-resistance #vesselFields{scroll-margin-top:18px}
+body.arus-flow-resistance #view-calculator>.panel:first-child>.actions{flex-wrap:wrap;gap:12px}
+body.arus-flow-resistance .arus-flow-secondary{padding:9px 12px}
+/* Result below input, not alongside sidebar, for BOTH original calculation routes. */
+body.arus-flow-selection #methodBar{display:flex;flex-wrap:wrap;gap:12px;padding:18px 24px}
+body.arus-flow-selection #methodBar .arus-workflow-steps{order:-1;flex:1 0 100%;margin:0}
+body.arus-flow-selection #methodBar .arus-flow-selection-intro{flex:1 0 100%;padding:17px;background:#f5fafb;border:1px solid #dce9ec;border-radius:10px}
+body.arus-flow-selection .arus-flow-selection-intro strong{font-size:16px;color:#214b5e}
+body.arus-flow-selection .arus-flow-selection-intro p{color:#7a8e9c;font-size:12px;margin:8px 0 0}
+body.arus-flow-selection[data-arus-flow-stage='method'] .mode-root{display:none!important}
+body.arus-flow-selection .mode-root .shell{display:flex;flex-direction:column;gap:17px;max-width:1450px;margin:auto;padding:16px 23px}
+body.arus-flow-selection .mode-root .shell>aside.sidebar{width:100%;max-width:none;min-width:0;position:static;height:auto;min-height:0;padding:22px 23px;display:block;overflow:visible;background:#fff;border:1px solid #dfe9ed;border-radius:12px}
+body.arus-flow-selection .mode-root .shell>aside.sidebar .branding{display:none}
+body.arus-flow-selection .mode-root .shell>aside.sidebar .sidebar-head{margin-top:14px}
+body.arus-flow-selection .mode-root .shell>aside.sidebar .fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 16px}
+body.arus-flow-selection .mode-root .shell>main.main{min-width:0;width:100%;max-width:none;padding:20px 23px;background:#fff;border:1px solid #dfe9ed;border-radius:12px;scroll-margin-top:18px}
+body.arus-flow-selection[data-arus-flow-stage='input'] .mode-root .shell>main.main{display:none!important}
+body.arus-flow-selection .mode-root .shell>aside.sidebar>.arus-flow-secondary{font-size:12px;margin-bottom:7px}
+body.arus-flow-selection .arus-flow-run-error{color:#a43f35}
+body.arus-flow-interaction .sheet{display:flex;flex-direction:column;gap:18px}
+body.arus-flow-interaction .sheet>.block{scroll-margin-top:20px}
+body.arus-flow-interaction .blockhead .arus-flow-secondary{margin-left:auto}
+body.arus-flow-grouped .section{scroll-margin-top:18px}
+body.arus-flow-grouped .parameterhead .arus-flow-secondary{margin-left:auto}
+@media(max-width:1100px){body.arus-flow-selection .mode-root .shell>aside.sidebar .fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){body.arus-flow-selection #methodBar{padding:14px}body.arus-flow-selection .mode-root .shell{padding:12px}body.arus-flow-selection .mode-root .shell>aside.sidebar,body.arus-flow-selection .mode-root .shell>main.main{padding:16px}body.arus-flow-selection .mode-root .shell>aside.sidebar .fields{grid-template-columns:1fr 1fr}body.arus-flow-enabled .arus-workflow-steps span{font-size:10px}body.arus-flow-enabled .arus-workflow-steps span:not(:last-child):after{margin:0 3px}}
+
+
+/* v97 consistent visual language and only one Advanced Settings disclosure per calculation. */
+body.arus-v97-unified .arus-unified-advanced{display:block;min-width:0;width:100%;margin:17px 0;border:1px solid #d8e5ea;border-radius:10px;background:#fff;overflow:visible;scroll-margin-top:25px}
+body.arus-v97-unified .arus-unified-advanced[hidden]{display:none!important}
+/* v159: Resistance Advanced Settings belong to the selected method only.
+   Keep method-list stage free of calculation inputs. This is presentation-only;
+   it does not alter the original advanced controls or computation bindings. */
+body.arus-v97-unified.arus-flow-resistance:not(.arus-flow-chosen) #arus-unified-advanced{display:none!important}
+
+body.arus-v97-unified .arus-unified-advanced>summary{display:flex;justify-content:space-between;align-items:center;gap:14px;list-style:none;cursor:pointer;font-size:12px;font-weight:760;color:#285366;padding:16px 19px;background:#f6fafb;border-radius:10px;user-select:none}
+body.arus-v97-unified .arus-unified-advanced>summary::-webkit-details-marker{display:none}
+body.arus-v97-unified .arus-unified-advanced>summary:after{content:'+';font-size:19px;font-weight:500}
+body.arus-v97-unified .arus-unified-advanced[open]>summary:after{content:'−'}
+body.arus-v97-unified .arus-unified-advanced[open]>summary{border-radius:10px 10px 0 0;border-bottom:1px solid #e1eaf0}
+body.arus-v97-unified .arus-unified-advanced-body{padding:13px 19px 19px;display:grid;grid-template-columns:1fr;gap:13px;min-width:0}
+body.arus-v97-unified .arus-unified-section{min-width:0;padding-bottom:12px;border-bottom:1px solid #edf2f5}
+body.arus-v97-unified .arus-unified-section:last-child{border-bottom:0;padding-bottom:0}
+body.arus-v97-unified .arus-unified-group-title{font-size:11px;letter-spacing:.01em;color:#497081;font-weight:770;margin:5px 0 13px}
+body.arus-v97-unified .arus-workflow-steps{background:#f6fafb;border:1px solid #e0ebef;border-radius:10px;padding:13px 16px}
+body.arus-v97-unified .arus-method-card,body.arus-v97-unified .arus-hull-card{border-radius:10px;min-height:73px}
+body.arus-v97-unified .arus-flow-action,body.arus-v97-unified .arus-v97-outline{border-radius:8px;cursor:pointer;font-weight:750;padding:10px 15px;font-size:12px}
+body.arus-v97-unified .arus-v97-outline{border:1px solid #bdd5dd;background:white;color:#1e5367}
+body.arus-v97-unified .arus-v97-outline:hover{background:#eff8f9}
+body.arus-v97-unified .arus-v97-chosen-bar{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:13px 17px;border:1px solid #d9e9eb;border-radius:9px;background:#f6fafb;margin:12px 0 0}
+body.arus-v97-unified .arus-v97-chosen-bar strong{font-size:13px;color:#245061}
+body.arus-v97-unified .arus-v97-hint{color:#718b98;font-size:12px;margin:13px 0 0}
+/* Resistance: source detail groups are permanently open *inside* a single outer Advanced disclosure. */
+body.arus-v97-unified.arus-flow-resistance .arus-unified-advanced{margin-top:18px}
+body.arus-v97-unified .arus-unified-inner{border:0!important;background:transparent!important;margin:0!important;padding:0!important;display:block!important}
+body.arus-v97-unified .arus-unified-hide-summary{display:none!important}
+body.arus-v97-unified .arus-unified-inner[open]>.four,body.arus-v97-unified .arus-unified-inner[open]>.arus-harvald-body{display:grid!important}
+body.arus-v97-unified .arus-unified-advanced-body .four{width:100%;min-width:0}
+body.arus-v97-unified .arus-unified-advanced-body .arus-harvald-body{width:100%}
+/* Model Test: one column of stages; all results appear below input after the Run button. */
+html[data-arus-module="model-test"] body.arus-v97-model-test main.layout{display:flex;flex-direction:column;gap:17px;max-width:1400px;width:calc(100% - 50px)}
+html[data-arus-module="model-test"] body.arus-v97-model-test main.layout>.col{display:flex;width:100%;min-width:0}
+html[data-arus-module="model-test"] body.arus-v97-model-test main.layout>.col>.panel{scroll-margin-top:22px}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-workflow-steps{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:0;border-radius:0;background:#f5fafb}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-workflow-steps span{font-size:11px;font-weight:750;color:#8398a4}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-workflow-steps span.is-active{color:#08777e}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-workflow-steps span.is-complete{color:#3b8684}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-v97-method-picked .arus-method-card{display:none!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-v97-method-picked .arus-method-limit-note{display:none!important}
+html[data-arus-module="model-test"] body.arus-v97-model-test #arus-unified-advanced{order:10}
+html[data-arus-module="model-test"] body.arus-v97-model-test #arus-unified-advanced .panel{border:0;box-shadow:none}
+html[data-arus-module="model-test"] body.arus-v97-model-test #arus-unified-advanced .panel>.phead{display:none}
+html[data-arus-module="model-test"] body.arus-v97-model-test #arus-unified-advanced .panel>.pbody{padding:0}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-flow-bottom-actions{display:flex;justify-content:flex-end;padding:15px 19px}
+html[data-arus-module="model-test"] body.arus-v97-model-test .arus-flow-bottom-actions button{background:#164b5a;color:#fff;border:1px solid #164b5a}
+/* Selection: keep native form field structure, moving technical fields into the unified disclosure. */
+html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-advanced{grid-column:1/-1}
+html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-advanced .field{width:100%}
+html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-advanced-body{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 16px}
+html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-group-title{margin:0 0 8px}
+html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-section{padding-bottom:0;border:0}
+@media(max-width:900px){html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-advanced-body{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-advanced-body{grid-template-columns:1fr}html[data-arus-module="model-test"] body.arus-v97-model-test main.layout{width:calc(100% - 22px)}body.arus-v97-unified .arus-unified-advanced-body{padding:12px}}
+
+/* Compact advanced categories instead of one section per input field. */
+html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-advanced-body{display:flex;flex-direction:column;gap:15px}
+html[data-arus-module="selection"] body.arus-v97-selection .arus-v97-advanced-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-section{border-bottom:1px solid #e7eef0;padding-bottom:15px}
+html[data-arus-module="selection"] body.arus-v97-selection .arus-unified-section:last-child{border-bottom:0}
+@media(max-width:1150px){html[data-arus-module="selection"] body.arus-v97-selection .arus-v97-advanced-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){html[data-arus-module="selection"] body.arus-v97-selection .arus-v97-advanced-grid{grid-template-columns:1fr 1fr}}
+
+
+/* ARUS v99 — v98-approved compact method → input → run → results layout.
+   Only presentation; no source formulas, input ids, or solver functions edited. */
+html[data-arus-module="resistance"], html[data-arus-module="model-test"], html[data-arus-module="selection"], html[data-arus-module="interaction"]{--arus99-bg:#f4f7f9;--arus99-line:#dfe9ef;--arus99-ink:#1a394b;--arus99-teal:#1596a0}
+html[data-arus-module="resistance"] body,html[data-arus-module="model-test"] body,html[data-arus-module="selection"] body,html[data-arus-module="interaction"] body{font-family:Arial,'Segoe UI',sans-serif!important;color:var(--arus99-ink);background:var(--arus99-bg)!important}
+html[data-arus-module="resistance"] .panel,html[data-arus-module="model-test"] .panel,html[data-arus-module="interaction"] .block,html[data-arus-module="selection"] .mode-root .shell>aside.sidebar,html[data-arus-module="selection"] .mode-root .shell>main.main{border:1px solid var(--arus99-line)!important;border-radius:12px!important;background:#fff!important;box-shadow:0 10px 27px rgba(20,49,70,.025)!important}
+html[data-arus-module="resistance"] main{padding:0 1px 20px!important;background:transparent!important}
+html[data-arus-module="resistance"] #view-calculator>.panel:first-child{padding:22px 24px!important}
+html[data-arus-module="resistance"] .arus-hull-catalog{gap:15px!important}
+html[data-arus-module="resistance"] .arus-hull-group-grid{gap:11px!important}
+html[data-arus-module="resistance"] .arus-hull-card{min-height:74px!important;padding:15px 16px!important;box-shadow:none!important}
+html[data-arus-module="resistance"] .arus-hull-toolbar{background:#f0faf8!important;border-color:#cfe7e7!important;margin-top:12px!important;padding:14px 17px!important}
+html[data-arus-module="resistance"] .arus-hull-current-name{font-size:14px!important}
+html[data-arus-module="resistance"] .arus-method-limit-note{margin:14px 0 10px!important;border-radius:8px!important}
+html[data-arus-module="resistance"] #vesselFields{margin:22px 0 0!important;border-top:1px solid #e5edf0;padding-top:15px}
+html[data-arus-module="resistance"] #vesselFields:before{content:'CALCULATION PARAMETERS';display:block;font-weight:780;color:#25485a;font-size:13px;margin:0 0 17px}
+html[data-arus-module="resistance"] #view-calculator>.panel:first-child>.actions{border-top:1px solid #e6edf0;margin-top:21px;padding-top:17px!important;justify-content:flex-end!important}
+html[data-arus-module="resistance"] #calculate{min-width:180px}
+html[data-arus-module="resistance"] .four{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:16px!important}
+html[data-arus-module="resistance"] .four>.field>label{min-height:0!important;align-items:unset!important}
+html[data-arus-module="model-test"] main.layout{max-width:none!important;width:100%!important;margin:0!important;padding:0!important}
+html[data-arus-module="model-test"] .panel{margin-bottom:16px!important}
+html[data-arus-module="model-test"] .phead{padding:19px 22px!important}
+html[data-arus-module="model-test"] .pbody{padding:20px 22px!important}
+html[data-arus-module="model-test"] .arus-v97-chosen-bar{background:#f0faf8!important;border-color:#cce7e5!important;margin:0!important}
+html[data-arus-module="model-test"] .arus-flow-bottom-actions{padding:15px 2px!important;margin:0 0 14px!important}
+html[data-arus-module="selection"] #methodBar{padding:18px!important;border:1px solid var(--arus99-line);border-radius:11px;background:#fff;margin:0 16px 14px!important}
+html[data-arus-module="selection"] #methodBar .arus-flow-selection-intro{background:transparent!important;border:0!important;padding:5px 1px 9px!important}
+html[data-arus-module="selection"] #methodBar .arus-flow-selection-intro strong{font-size:13px!important}
+html[data-arus-module="selection"] #methodBar .method-btn{flex:1;min-height:78px!important;border:1px solid #dce8ee!important;border-radius:9px!important;padding:15px!important;background:#fff!important;color:#294c60!important;box-shadow:none!important}
+html[data-arus-module="selection"] #methodBar .method-btn:hover{border-color:#96bfc5!important;background:#f6fbfb!important}
+html[data-arus-module="selection"] #methodBar .method-btn.active{border-color:#26a0a2!important;background:#effaf8!important}
+html[data-arus-module="selection"] .mode-root .shell{padding:0 16px 16px!important;gap:16px!important}
+html[data-arus-module="selection"] .mode-root .shell>aside.sidebar{padding:22px 23px!important}
+html[data-arus-module="selection"] .mode-root .shell>aside.sidebar .fields{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:15px!important}
+html[data-arus-module="selection"] .mode-root .shell>main.main{padding:20px!important}
+html[data-arus-module="selection"] .actionbox{display:flex!important;justify-content:flex-end!important;flex-wrap:wrap;gap:10px;margin-top:18px!important}
+html[data-arus-module="interaction"] .sheet{max-width:none!important;width:100%!important;margin:0!important}
+html[data-arus-module="interaction"] .sheet>.block{margin:0 0 16px!important}
+html[data-arus-module="interaction"] .inputgrid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:14px!important}
+html[data-arus-module="interaction"] #arus-flow-next-interaction,html[data-arus-module="interaction"] #arus-flow-run-interaction{min-width:160px}
+/* Identical stage navigator, same layout as approved prototype. */
+body.arus-flow-enabled .arus-workflow-steps,body.arus-v97-model-test .arus-workflow-steps{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px!important;background:#fff!important;border:1px solid #e1ebef!important;border-radius:10px!important;padding:13px 15px!important;margin:0 0 19px!important}
+body.arus-flow-enabled .arus-workflow-steps span,body.arus-v97-model-test .arus-workflow-steps span{display:flex;align-items:center;min-width:0;gap:9px;font-size:11px!important}
+body.arus-flow-enabled .arus-workflow-steps span:before,body.arus-v97-model-test .arus-workflow-steps span:before{content:'01';width:22px;height:22px;flex:0 0 22px;display:grid;place-items:center;background:#f4f8fa;border:1px solid #dae7ec;border-radius:6px;color:#83a0ad;font-size:10px}
+body.arus-flow-enabled .arus-workflow-steps span:nth-child(2):before,body.arus-v97-model-test .arus-workflow-steps span:nth-child(2):before{content:'02'}
+body.arus-flow-enabled .arus-workflow-steps span:nth-child(3):before,body.arus-v97-model-test .arus-workflow-steps span:nth-child(3):before{content:'03'}
+body.arus-flow-enabled .arus-workflow-steps span.is-active:before,body.arus-flow-enabled .arus-workflow-steps span.is-complete:before,body.arus-v97-model-test .arus-workflow-steps span.is-active:before{background:#e9f8f7;color:#087e83;border-color:#b8e2dc}
+body.arus-flow-enabled .arus-workflow-steps span:not(:last-child):after{content:''!important;height:1px;background:#dfe8ed;flex:1;margin-left:7px}
+body.arus-v97-unified .arus-unified-advanced{border:1px solid #dce8ed!important;background:#fff!important;border-radius:10px!important;box-shadow:none!important}
+body.arus-v97-unified .arus-unified-advanced>summary{background:#f6fafb!important;padding:14px 17px!important;color:#2c566a!important;font-size:12px!important}
+body.arus-v97-unified .arus-unified-advanced-body{padding:18px!important}
+/* Form inputs, headings and output hierarchy. */
+html[data-arus-module="resistance"] :is(input,select),html[data-arus-module="model-test"] :is(input,select),html[data-arus-module="interaction"] :is(input,select),html[data-arus-module="selection"] :is(input,select){border-radius:8px!important;border-color:#d3e3ea!important}
+html[data-arus-module="resistance"] :is(input,select):focus,html[data-arus-module="model-test"] :is(input,select):focus,html[data-arus-module="interaction"] :is(input,select):focus,html[data-arus-module="selection"] :is(input,select):focus{border-color:#15969b!important;outline:2px solid #cde9e9!important;outline-offset:0}
+html[data-arus-module="resistance"] #resultPanel,html[data-arus-module="model-test"] main.layout>.col:last-child>.panel,html[data-arus-module="interaction"] .sheet>.block:last-child{scroll-margin-top:18px}
+@media(max-width:1030px){html[data-arus-module="resistance"] .four,html[data-arus-module="interaction"] .inputgrid,html[data-arus-module="selection"] .mode-root .shell>aside.sidebar .fields{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:620px){html[data-arus-module="resistance"] #view-calculator>.panel:first-child{padding:14px!important}html[data-arus-module="selection"] #methodBar{margin:0 5px 10px!important}html[data-arus-module="selection"] .mode-root .shell{padding:0 5px 10px!important}html[data-arus-module="selection"] .mode-root .shell>aside.sidebar{padding:14px!important}body.arus-flow-enabled .arus-workflow-steps,body.arus-v97-model-test .arus-workflow-steps{gap:3px!important;padding:9px 7px!important}body.arus-flow-enabled .arus-workflow-steps span,body.arus-v97-model-test .arus-workflow-steps span{font-size:9px!important;gap:4px!important}body.arus-flow-enabled .arus-workflow-steps span:before,body.arus-v97-model-test .arus-workflow-steps span:before{height:20px;width:20px;flex:0 0 20px}html[data-arus-module="interaction"] .inputgrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+/* After choosing KT or KQ, collapse the two cards into a single selected-method strip. */
+html[data-arus-module="selection"] body[data-arus-flow-stage="input"] #methodBar .method-controls,
+html[data-arus-module="selection"] body[data-arus-flow-stage="result"] #methodBar .method-controls{display:none!important}
+html[data-arus-module="selection"] body[data-arus-flow-stage="input"] #methodBar .method-hint,
+html[data-arus-module="selection"] body[data-arus-flow-stage="result"] #methodBar .method-hint{display:none!important}
+html[data-arus-module="selection"] #methodBar .method-brand{display:none!important}
+html[data-arus-module="selection"] #methodBar .arus99-selected-choice{display:none;align-items:center;justify-content:space-between;gap:15px;flex:1 1 100%;border:1px solid #cde5e2;background:#f1faf9;border-radius:9px;padding:15px 17px}
+html[data-arus-module="selection"] body:not([data-arus-flow-stage="method"]) #methodBar .arus99-selected-choice{display:flex}
+html[data-arus-module="selection"] #methodBar .arus99-selected-choice strong{font-size:13px;font-weight:760;color:#265062}
+html[data-arus-module="selection"] #methodBar .arus99-selected-choice span{display:block;font-size:11px;color:#7895a1;margin-top:5px}
+html[data-arus-module="selection"] #methodBar .arus99-selected-choice button{background:#fff;border:1px solid #c9dde4;border-radius:8px;padding:10px 13px;font-size:11px;font-weight:700;color:#2f6072;cursor:pointer}
+html[data-arus-module="selection"] .mode-root .fields > .section-label:not(:has(+ .field)){display:none!important}
+
+
+body.arus-flow-enabled .arus-workflow-steps,body.arus-v97-model-test .arus-workflow-steps{display:none!important}

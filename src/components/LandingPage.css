@@ -1,0 +1,475 @@
+.arus-lp {
+  min-height: 100vh;
+  background: #f5f7f9;
+  color: #172b3c;
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.arus-lp * {
+  box-sizing: border-box;
+}
+
+.arus-lp-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Navbar */
+.arus-lp-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(16, 38, 56, 0.96);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+.arus-lp-nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  gap: 20px;
+}
+
+.arus-lp-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.arus-lp-logo {
+  width: 38px;
+  height: 38px;
+  background: linear-gradient(145deg, #2bb8b2, #177eaa);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.arus-lp-logo svg {
+  width: 24px;
+  height: 24px;
+}
+
+.arus-lp-brand-name {
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1;
+}
+
+.arus-lp-brand-tag {
+  font-size: 9px;
+  color: #91a6b7;
+  letter-spacing: 0.12em;
+  margin-top: 4px;
+}
+
+.arus-lp-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.arus-lp-nav-links a {
+  color: #c5d5e0;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 500;
+  transition: color 0.18s ease;
+}
+
+.arus-lp-nav-links a:hover {
+  color: #ffffff;
+}
+
+.arus-lp-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arus-lp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 9px;
+  font-size: 13.5px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.arus-lp-btn-primary {
+  background: linear-gradient(135deg, #0ca994, #197a98);
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgba(12, 169, 148, 0.25);
+}
+
+.arus-lp-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(12, 169, 148, 0.36);
+}
+
+.arus-lp-btn-outline-light {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.arus-lp-btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+/* Hero */
+.arus-lp-hero {
+  background: radial-gradient(circle at 80% 20%, rgba(12, 169, 148, 0.18), transparent 45%),
+              linear-gradient(160deg, #102638 0%, #15354c 60%, #17445a 100%);
+  color: #ffffff;
+  padding: 72px 0 84px;
+}
+
+.arus-lp-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 44px;
+  align-items: center;
+}
+
+.arus-lp-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: rgba(43, 184, 178, 0.14);
+  border: 1px solid rgba(43, 184, 178, 0.35);
+  border-radius: 999px;
+  color: #7ee8db;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.arus-lp-hero h1 {
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+  margin: 0 0 18px;
+  color: #ffffff;
+}
+
+.arus-lp-hero p {
+  font-size: 16px;
+  color: #c2d4e0;
+  margin: 0 0 28px;
+  max-width: 600px;
+}
+
+.arus-lp-hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.arus-lp-hero-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  padding: 24px;
+  backdrop-filter: blur(8px);
+}
+
+.arus-lp-hero-card-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8ab4c9;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.arus-lp-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.arus-lp-stat {
+  background: rgba(16, 38, 56, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.arus-lp-stat strong {
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  color: #5eead4;
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+
+.arus-lp-stat span {
+  display: block;
+  font-size: 12.5px;
+  color: #c6d7e2;
+}
+
+/* Section base */
+.arus-lp-section {
+  padding: 68px 0;
+}
+
+.arus-lp-section-alt {
+  background: #ffffff;
+  border-top: 1px solid #e5ebef;
+  border-bottom: 1px solid #e5ebef;
+}
+
+.arus-lp-section-head {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 44px;
+}
+
+.arus-lp-section-head small {
+  display: block;
+  color: #178ca1;
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.arus-lp-section-head h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  margin: 0 0 10px;
+  color: #102638;
+}
+
+.arus-lp-section-head p {
+  margin: 0;
+  color: #617787;
+  font-size: 14.5px;
+}
+
+/* Services Grid */
+.arus-lp-services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.arus-lp-service-card {
+  background: #ffffff;
+  border: 1px solid #e2eaf0;
+  border-radius: 14px;
+  padding: 26px;
+  box-shadow: 0 6px 24px rgba(16, 38, 56, 0.04);
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.arus-lp-service-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 11px;
+  background: #eef8f8;
+  color: #0f8b92;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.arus-lp-service-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.arus-lp-service-card h3 {
+  margin: 0 0 8px;
+  font-size: 16.5px;
+  font-weight: 750;
+  color: #102638;
+}
+
+.arus-lp-service-card p {
+  margin: 0;
+  font-size: 13.5px;
+  color: #5b7180;
+}
+
+/* Modules Grid */
+.arus-lp-modules-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.arus-lp-module-card {
+  background: #f8fbfc;
+  border: 1px solid #e2eaf0;
+  border-radius: 13px;
+  padding: 22px;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.arus-lp-module-card:hover {
+  transform: translateY(-2px);
+  border-color: #93cfd1;
+  box-shadow: 0 10px 26px rgba(16, 38, 56, 0.06);
+}
+
+.arus-lp-module-tag {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: #0e7d87;
+  background: #e6f6f6;
+  padding: 4px 9px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.arus-lp-module-card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 750;
+  color: #102638;
+}
+
+.arus-lp-module-card p {
+  margin: 0;
+  font-size: 13px;
+  color: #5d7382;
+}
+
+/* Workflow Steps */
+.arus-lp-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.arus-lp-step {
+  background: #ffffff;
+  border: 1px solid #e2eaf0;
+  border-radius: 13px;
+  padding: 22px 20px;
+}
+
+.arus-lp-step-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #102638;
+  color: #5eead4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.arus-lp-step h4 {
+  margin: 0 0 6px;
+  font-size: 14.5px;
+  font-weight: 750;
+  color: #102638;
+}
+
+.arus-lp-step p {
+  margin: 0;
+  font-size: 12.5px;
+  color: #607685;
+}
+
+/* Bottom CTA */
+.arus-lp-cta-box {
+  background: linear-gradient(135deg, #102638, #184359);
+  border-radius: 18px;
+  padding: 44px 36px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.arus-lp-cta-box h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.arus-lp-cta-box p {
+  margin: 0;
+  color: #bfd2de;
+  font-size: 14.5px;
+  max-width: 580px;
+}
+
+/* Footer */
+.arus-lp-footer {
+  background: #102638;
+  color: #9bb0be;
+  padding: 28px 0;
+  font-size: 12.5px;
+}
+
+.arus-lp-footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 960px) {
+  .arus-lp-hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .arus-lp-modules-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .arus-lp-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .arus-lp-nav-links {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .arus-lp-services-grid,
+  .arus-lp-modules-grid,
+  .arus-lp-steps {
+    grid-template-columns: 1fr;
+  }
+  .arus-lp-hero {
+    padding: 48px 0 56px;
+  }
+}

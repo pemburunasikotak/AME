@@ -1,0 +1,6510 @@
+{
+    "schema": "arus.oem.mp.preliminary.digitized.v27",
+    "source": "MASTER_ASLI_v24.json / 2026-11-13",
+    "items": [
+        {
+            "id": "ER001263",
+            "brand": "Wärtsilä",
+            "model": "4L20",
+            "kw": 800.0,
+            "ratedRpm": 1000,
+            "profile": "W20_FPP_1000",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 20F Product Guide a23.pdf",
+            "page": 21,
+            "figure": "Fig 2-6 FPP rated 200 kW/cyl 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Manufacturer example assumes 200 kW/cyl FPP; minimum speed 350 rpm; project-specific restrictions.",
+            "m": [
+                [
+                    350.0,
+                    32.0
+                ],
+                [
+                    450.0,
+                    64.0
+                ],
+                [
+                    550.0,
+                    128.0
+                ],
+                [
+                    650.0,
+                    216.0
+                ],
+                [
+                    750.0,
+                    328.0
+                ],
+                [
+                    850.0,
+                    460.0
+                ],
+                [
+                    950.0,
+                    676.0
+                ],
+                [
+                    1000.0,
+                    800.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    28.0
+                ],
+                [
+                    450.0,
+                    52.0
+                ],
+                [
+                    550.0,
+                    96.0
+                ],
+                [
+                    650.0,
+                    176.0
+                ],
+                [
+                    750.0,
+                    284.0
+                ],
+                [
+                    850.0,
+                    416.0
+                ],
+                [
+                    950.0,
+                    600.0
+                ],
+                [
+                    1000.0,
+                    680.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001264",
+            "brand": "Wärtsilä",
+            "model": "6L20",
+            "kw": 1200.0,
+            "ratedRpm": 1000,
+            "profile": "W20_FPP_1000",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 20F Product Guide a23.pdf",
+            "page": 21,
+            "figure": "Fig 2-6 FPP rated 200 kW/cyl 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Manufacturer example assumes 200 kW/cyl FPP; minimum speed 350 rpm; project-specific restrictions.",
+            "m": [
+                [
+                    350.0,
+                    48.0
+                ],
+                [
+                    450.0,
+                    96.0
+                ],
+                [
+                    550.0,
+                    192.0
+                ],
+                [
+                    650.0,
+                    324.0
+                ],
+                [
+                    750.0,
+                    492.0
+                ],
+                [
+                    850.0,
+                    690.0
+                ],
+                [
+                    950.0,
+                    1014.0
+                ],
+                [
+                    1000.0,
+                    1200.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    42.0
+                ],
+                [
+                    450.0,
+                    78.0
+                ],
+                [
+                    550.0,
+                    144.0
+                ],
+                [
+                    650.0,
+                    264.0
+                ],
+                [
+                    750.0,
+                    426.0
+                ],
+                [
+                    850.0,
+                    624.0
+                ],
+                [
+                    950.0,
+                    900.0
+                ],
+                [
+                    1000.0,
+                    1020.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001266",
+            "brand": "Wärtsilä",
+            "model": "8L20",
+            "kw": 1600.0,
+            "ratedRpm": 1000,
+            "profile": "W20_FPP_1000",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 20F Product Guide a23.pdf",
+            "page": 21,
+            "figure": "Fig 2-6 FPP rated 200 kW/cyl 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Manufacturer example assumes 200 kW/cyl FPP; minimum speed 350 rpm; project-specific restrictions.",
+            "m": [
+                [
+                    350.0,
+                    64.0
+                ],
+                [
+                    450.0,
+                    128.0
+                ],
+                [
+                    550.0,
+                    256.0
+                ],
+                [
+                    650.0,
+                    432.0
+                ],
+                [
+                    750.0,
+                    656.0
+                ],
+                [
+                    850.0,
+                    920.0
+                ],
+                [
+                    950.0,
+                    1352.0
+                ],
+                [
+                    1000.0,
+                    1600.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    56.0
+                ],
+                [
+                    450.0,
+                    104.0
+                ],
+                [
+                    550.0,
+                    192.0
+                ],
+                [
+                    650.0,
+                    352.0
+                ],
+                [
+                    750.0,
+                    568.0
+                ],
+                [
+                    850.0,
+                    832.0
+                ],
+                [
+                    950.0,
+                    1200.0
+                ],
+                [
+                    1000.0,
+                    1360.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001268",
+            "brand": "Wärtsilä",
+            "model": "9L20",
+            "kw": 1800.0,
+            "ratedRpm": 1000,
+            "profile": "W20_FPP_1000",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 20F Product Guide a23.pdf",
+            "page": 21,
+            "figure": "Fig 2-6 FPP rated 200 kW/cyl 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Manufacturer example assumes 200 kW/cyl FPP; minimum speed 350 rpm; project-specific restrictions.",
+            "m": [
+                [
+                    350.0,
+                    72.0
+                ],
+                [
+                    450.0,
+                    144.0
+                ],
+                [
+                    550.0,
+                    288.0
+                ],
+                [
+                    650.0,
+                    486.0
+                ],
+                [
+                    750.0,
+                    738.0
+                ],
+                [
+                    850.0,
+                    1035.0
+                ],
+                [
+                    950.0,
+                    1521.0
+                ],
+                [
+                    1000.0,
+                    1800.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    63.0
+                ],
+                [
+                    450.0,
+                    117.0
+                ],
+                [
+                    550.0,
+                    216.0
+                ],
+                [
+                    650.0,
+                    396.0
+                ],
+                [
+                    750.0,
+                    639.0
+                ],
+                [
+                    850.0,
+                    936.0
+                ],
+                [
+                    950.0,
+                    1350.0
+                ],
+                [
+                    1000.0,
+                    1530.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001265",
+            "brand": "Wärtsilä",
+            "model": "6L20",
+            "kw": 1320.0,
+            "ratedRpm": 1200,
+            "profile": "W20_FPP_1200",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 400,
+            "maxRpm": 1200,
+            "source": "Wärtsilä 20F Product Guide a23.pdf",
+            "page": 22,
+            "figure": "Fig 2-7 FPP rated 220 kW/cyl 1200 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Manufacturer example assumes 220 kW/cyl FPP; minimum speed 400 rpm; project-specific restrictions.",
+            "m": [
+                [
+                    400.0,
+                    48.0
+                ],
+                [
+                    500.0,
+                    96.0
+                ],
+                [
+                    600.0,
+                    162.0
+                ],
+                [
+                    700.0,
+                    258.0
+                ],
+                [
+                    800.0,
+                    384.0
+                ],
+                [
+                    900.0,
+                    546.0
+                ],
+                [
+                    1000.0,
+                    768.0
+                ],
+                [
+                    1100.0,
+                    1032.0
+                ],
+                [
+                    1200.0,
+                    1320.0
+                ]
+            ],
+            "p": [
+                [
+                    400.0,
+                    42.0
+                ],
+                [
+                    500.0,
+                    78.0
+                ],
+                [
+                    600.0,
+                    126.0
+                ],
+                [
+                    700.0,
+                    210.0
+                ],
+                [
+                    800.0,
+                    324.0
+                ],
+                [
+                    900.0,
+                    480.0
+                ],
+                [
+                    1000.0,
+                    654.0
+                ],
+                [
+                    1100.0,
+                    894.0
+                ],
+                [
+                    1200.0,
+                    1122.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001267",
+            "brand": "Wärtsilä",
+            "model": "8L20",
+            "kw": 1760.0,
+            "ratedRpm": 1200,
+            "profile": "W20_FPP_1200",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 400,
+            "maxRpm": 1200,
+            "source": "Wärtsilä 20F Product Guide a23.pdf",
+            "page": 22,
+            "figure": "Fig 2-7 FPP rated 220 kW/cyl 1200 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Manufacturer example assumes 220 kW/cyl FPP; minimum speed 400 rpm; project-specific restrictions.",
+            "m": [
+                [
+                    400.0,
+                    64.0
+                ],
+                [
+                    500.0,
+                    128.0
+                ],
+                [
+                    600.0,
+                    216.0
+                ],
+                [
+                    700.0,
+                    344.0
+                ],
+                [
+                    800.0,
+                    512.0
+                ],
+                [
+                    900.0,
+                    728.0
+                ],
+                [
+                    1000.0,
+                    1024.0
+                ],
+                [
+                    1100.0,
+                    1376.0
+                ],
+                [
+                    1200.0,
+                    1760.0
+                ]
+            ],
+            "p": [
+                [
+                    400.0,
+                    56.0
+                ],
+                [
+                    500.0,
+                    104.0
+                ],
+                [
+                    600.0,
+                    168.0
+                ],
+                [
+                    700.0,
+                    280.0
+                ],
+                [
+                    800.0,
+                    432.0
+                ],
+                [
+                    900.0,
+                    640.0
+                ],
+                [
+                    1000.0,
+                    872.0
+                ],
+                [
+                    1100.0,
+                    1192.0
+                ],
+                [
+                    1200.0,
+                    1496.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001269",
+            "brand": "Wärtsilä",
+            "model": "9L20",
+            "kw": 1980.0,
+            "ratedRpm": 1200,
+            "profile": "W20_FPP_1200",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 400,
+            "maxRpm": 1200,
+            "source": "Wärtsilä 20F Product Guide a23.pdf",
+            "page": 22,
+            "figure": "Fig 2-7 FPP rated 220 kW/cyl 1200 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Manufacturer example assumes 220 kW/cyl FPP; minimum speed 400 rpm; project-specific restrictions.",
+            "m": [
+                [
+                    400.0,
+                    72.0
+                ],
+                [
+                    500.0,
+                    144.0
+                ],
+                [
+                    600.0,
+                    243.0
+                ],
+                [
+                    700.0,
+                    387.0
+                ],
+                [
+                    800.0,
+                    576.0
+                ],
+                [
+                    900.0,
+                    819.0
+                ],
+                [
+                    1000.0,
+                    1152.0
+                ],
+                [
+                    1100.0,
+                    1548.0
+                ],
+                [
+                    1200.0,
+                    1980.0
+                ]
+            ],
+            "p": [
+                [
+                    400.0,
+                    63.0
+                ],
+                [
+                    500.0,
+                    117.0
+                ],
+                [
+                    600.0,
+                    189.0
+                ],
+                [
+                    700.0,
+                    315.0
+                ],
+                [
+                    800.0,
+                    486.0
+                ],
+                [
+                    900.0,
+                    720.0
+                ],
+                [
+                    1000.0,
+                    981.0
+                ],
+                [
+                    1100.0,
+                    1341.0
+                ],
+                [
+                    1200.0,
+                    1683.0
+                ]
+            ]
+        },
+        {
+            "id": "ARW100001",
+            "brand": "Wärtsilä",
+            "model": "6L25",
+            "kw": 2070.0,
+            "ratedRpm": 900,
+            "profile": "W25_FPP_CPP_900",
+            "config": "FPP_CPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 900,
+            "source": "Wärtsilä 25 Product Guide a7.pdf",
+            "page": 11,
+            "figure": "2.1.1, fixed/controllable-pitch, 900 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "350 rpm requires variable-speed oil pump; project-specific minimum speed may be higher.",
+            "m": [
+                [
+                    350.0,
+                    103.5
+                ],
+                [
+                    450.0,
+                    207.0
+                ],
+                [
+                    550.0,
+                    372.6
+                ],
+                [
+                    650.0,
+                    641.7
+                ],
+                [
+                    750.0,
+                    993.6
+                ],
+                [
+                    850.0,
+                    1552.5
+                ],
+                [
+                    900.0,
+                    2070.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    82.8
+                ],
+                [
+                    450.0,
+                    165.6
+                ],
+                [
+                    550.0,
+                    310.5
+                ],
+                [
+                    650.0,
+                    496.8
+                ],
+                [
+                    750.0,
+                    828.0
+                ],
+                [
+                    850.0,
+                    1345.5
+                ],
+                [
+                    900.0,
+                    1759.5
+                ]
+            ]
+        },
+        {
+            "id": "ARW100003",
+            "brand": "Wärtsilä",
+            "model": "7L25",
+            "kw": 2415.0,
+            "ratedRpm": 900,
+            "profile": "W25_FPP_CPP_900",
+            "config": "FPP_CPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 900,
+            "source": "Wärtsilä 25 Product Guide a7.pdf",
+            "page": 11,
+            "figure": "2.1.1, fixed/controllable-pitch, 900 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "350 rpm requires variable-speed oil pump; project-specific minimum speed may be higher.",
+            "m": [
+                [
+                    350.0,
+                    120.75
+                ],
+                [
+                    450.0,
+                    241.5
+                ],
+                [
+                    550.0,
+                    434.7
+                ],
+                [
+                    650.0,
+                    748.65
+                ],
+                [
+                    750.0,
+                    1159.2
+                ],
+                [
+                    850.0,
+                    1811.25
+                ],
+                [
+                    900.0,
+                    2415.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    96.6
+                ],
+                [
+                    450.0,
+                    193.2
+                ],
+                [
+                    550.0,
+                    362.25
+                ],
+                [
+                    650.0,
+                    579.6
+                ],
+                [
+                    750.0,
+                    966.0
+                ],
+                [
+                    850.0,
+                    1569.75
+                ],
+                [
+                    900.0,
+                    2052.75
+                ]
+            ]
+        },
+        {
+            "id": "ARW100005",
+            "brand": "Wärtsilä",
+            "model": "8L25",
+            "kw": 2760.0,
+            "ratedRpm": 900,
+            "profile": "W25_FPP_CPP_900",
+            "config": "FPP_CPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 900,
+            "source": "Wärtsilä 25 Product Guide a7.pdf",
+            "page": 11,
+            "figure": "2.1.1, fixed/controllable-pitch, 900 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "350 rpm requires variable-speed oil pump; project-specific minimum speed may be higher.",
+            "m": [
+                [
+                    350.0,
+                    138.0
+                ],
+                [
+                    450.0,
+                    276.0
+                ],
+                [
+                    550.0,
+                    496.8
+                ],
+                [
+                    650.0,
+                    855.6
+                ],
+                [
+                    750.0,
+                    1324.8
+                ],
+                [
+                    850.0,
+                    2070.0
+                ],
+                [
+                    900.0,
+                    2760.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    110.4
+                ],
+                [
+                    450.0,
+                    220.8
+                ],
+                [
+                    550.0,
+                    414.0
+                ],
+                [
+                    650.0,
+                    662.4
+                ],
+                [
+                    750.0,
+                    1104.0
+                ],
+                [
+                    850.0,
+                    1794.0
+                ],
+                [
+                    900.0,
+                    2346.0
+                ]
+            ]
+        },
+        {
+            "id": "ARW100007",
+            "brand": "Wärtsilä",
+            "model": "9L25",
+            "kw": 3105.0,
+            "ratedRpm": 900,
+            "profile": "W25_FPP_CPP_900",
+            "config": "FPP_CPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 900,
+            "source": "Wärtsilä 25 Product Guide a7.pdf",
+            "page": 11,
+            "figure": "2.1.1, fixed/controllable-pitch, 900 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "350 rpm requires variable-speed oil pump; project-specific minimum speed may be higher.",
+            "m": [
+                [
+                    350.0,
+                    155.25
+                ],
+                [
+                    450.0,
+                    310.5
+                ],
+                [
+                    550.0,
+                    558.9
+                ],
+                [
+                    650.0,
+                    962.55
+                ],
+                [
+                    750.0,
+                    1490.4
+                ],
+                [
+                    850.0,
+                    2328.75
+                ],
+                [
+                    900.0,
+                    3105.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    124.2
+                ],
+                [
+                    450.0,
+                    248.4
+                ],
+                [
+                    550.0,
+                    465.75
+                ],
+                [
+                    650.0,
+                    745.2
+                ],
+                [
+                    750.0,
+                    1242.0
+                ],
+                [
+                    850.0,
+                    2018.25
+                ],
+                [
+                    900.0,
+                    2639.25
+                ]
+            ]
+        },
+        {
+            "id": "ARW100002",
+            "brand": "Wärtsilä",
+            "model": "6L25",
+            "kw": 2250.0,
+            "ratedRpm": 1000,
+            "profile": "W25_FPP_CPP_1000",
+            "config": "FPP_CPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 25 Product Guide a7.pdf",
+            "page": 12,
+            "figure": "2.1.2, fixed/controllable-pitch, 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "350 rpm requires variable-speed oil pump; rated power maximum 100% main-engine load.",
+            "m": [
+                [
+                    350.0,
+                    112.5
+                ],
+                [
+                    450.0,
+                    225.0
+                ],
+                [
+                    550.0,
+                    382.5
+                ],
+                [
+                    650.0,
+                    675.0
+                ],
+                [
+                    750.0,
+                    1012.5
+                ],
+                [
+                    850.0,
+                    1440.0
+                ],
+                [
+                    950.0,
+                    1980.0
+                ],
+                [
+                    1000.0,
+                    2250.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    90.0
+                ],
+                [
+                    450.0,
+                    180.0
+                ],
+                [
+                    550.0,
+                    315.0
+                ],
+                [
+                    650.0,
+                    517.5
+                ],
+                [
+                    750.0,
+                    810.0
+                ],
+                [
+                    850.0,
+                    1170.0
+                ],
+                [
+                    950.0,
+                    1665.0
+                ],
+                [
+                    1000.0,
+                    1912.5
+                ]
+            ]
+        },
+        {
+            "id": "ARW100004",
+            "brand": "Wärtsilä",
+            "model": "7L25",
+            "kw": 2625.0,
+            "ratedRpm": 1000,
+            "profile": "W25_FPP_CPP_1000",
+            "config": "FPP_CPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 25 Product Guide a7.pdf",
+            "page": 12,
+            "figure": "2.1.2, fixed/controllable-pitch, 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "350 rpm requires variable-speed oil pump; rated power maximum 100% main-engine load.",
+            "m": [
+                [
+                    350.0,
+                    131.25
+                ],
+                [
+                    450.0,
+                    262.5
+                ],
+                [
+                    550.0,
+                    446.25
+                ],
+                [
+                    650.0,
+                    787.5
+                ],
+                [
+                    750.0,
+                    1181.25
+                ],
+                [
+                    850.0,
+                    1680.0
+                ],
+                [
+                    950.0,
+                    2310.0
+                ],
+                [
+                    1000.0,
+                    2625.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    105.0
+                ],
+                [
+                    450.0,
+                    210.0
+                ],
+                [
+                    550.0,
+                    367.5
+                ],
+                [
+                    650.0,
+                    603.75
+                ],
+                [
+                    750.0,
+                    945.0
+                ],
+                [
+                    850.0,
+                    1365.0
+                ],
+                [
+                    950.0,
+                    1942.5
+                ],
+                [
+                    1000.0,
+                    2231.25
+                ]
+            ]
+        },
+        {
+            "id": "ARW100006",
+            "brand": "Wärtsilä",
+            "model": "8L25",
+            "kw": 3000.0,
+            "ratedRpm": 1000,
+            "profile": "W25_FPP_CPP_1000",
+            "config": "FPP_CPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 25 Product Guide a7.pdf",
+            "page": 12,
+            "figure": "2.1.2, fixed/controllable-pitch, 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "350 rpm requires variable-speed oil pump; rated power maximum 100% main-engine load.",
+            "m": [
+                [
+                    350.0,
+                    150.0
+                ],
+                [
+                    450.0,
+                    300.0
+                ],
+                [
+                    550.0,
+                    510.0
+                ],
+                [
+                    650.0,
+                    900.0
+                ],
+                [
+                    750.0,
+                    1350.0
+                ],
+                [
+                    850.0,
+                    1920.0
+                ],
+                [
+                    950.0,
+                    2640.0
+                ],
+                [
+                    1000.0,
+                    3000.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    120.0
+                ],
+                [
+                    450.0,
+                    240.0
+                ],
+                [
+                    550.0,
+                    420.0
+                ],
+                [
+                    650.0,
+                    690.0
+                ],
+                [
+                    750.0,
+                    1080.0
+                ],
+                [
+                    850.0,
+                    1560.0
+                ],
+                [
+                    950.0,
+                    2220.0
+                ],
+                [
+                    1000.0,
+                    2550.0
+                ]
+            ]
+        },
+        {
+            "id": "ARW100008",
+            "brand": "Wärtsilä",
+            "model": "9L25",
+            "kw": 3375.0,
+            "ratedRpm": 1000,
+            "profile": "W25_FPP_CPP_1000",
+            "config": "FPP_CPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 25 Product Guide a7.pdf",
+            "page": 12,
+            "figure": "2.1.2, fixed/controllable-pitch, 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "350 rpm requires variable-speed oil pump; rated power maximum 100% main-engine load.",
+            "m": [
+                [
+                    350.0,
+                    168.75
+                ],
+                [
+                    450.0,
+                    337.5
+                ],
+                [
+                    550.0,
+                    573.75
+                ],
+                [
+                    650.0,
+                    1012.5
+                ],
+                [
+                    750.0,
+                    1518.75
+                ],
+                [
+                    850.0,
+                    2160.0
+                ],
+                [
+                    950.0,
+                    2970.0
+                ],
+                [
+                    1000.0,
+                    3375.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    135.0
+                ],
+                [
+                    450.0,
+                    270.0
+                ],
+                [
+                    550.0,
+                    472.5
+                ],
+                [
+                    650.0,
+                    776.25
+                ],
+                [
+                    750.0,
+                    1215.0
+                ],
+                [
+                    850.0,
+                    1755.0
+                ],
+                [
+                    950.0,
+                    2497.5
+                ],
+                [
+                    1000.0,
+                    2868.75
+                ]
+            ]
+        },
+        {
+            "id": "ARW100010",
+            "brand": "Wärtsilä",
+            "model": "6L25DF",
+            "kw": 2070.0,
+            "ratedRpm": 1000,
+            "profile": "W25DF_FPP_CPP_1000",
+            "config": "FPP_CPP",
+            "usableFPP": false,
+            "siteCandidate": false,
+            "fuelModeGate": true,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 25DF Product Guide a13.pdf",
+            "page": 16,
+            "figure": "2.2.1, fixed/controllable-pitch, 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Mode-specific rated-power and fuel-quality derating still require OEM project verification.",
+            "m": [
+                [
+                    350.0,
+                    103.5
+                ],
+                [
+                    450.0,
+                    207.0
+                ],
+                [
+                    550.0,
+                    351.9
+                ],
+                [
+                    650.0,
+                    621.0
+                ],
+                [
+                    750.0,
+                    931.5
+                ],
+                [
+                    850.0,
+                    1324.8
+                ],
+                [
+                    900.0,
+                    1511.1
+                ],
+                [
+                    950.0,
+                    1821.6
+                ],
+                [
+                    1000.0,
+                    2070.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    82.8
+                ],
+                [
+                    450.0,
+                    165.6
+                ],
+                [
+                    550.0,
+                    289.8
+                ],
+                [
+                    650.0,
+                    476.1
+                ],
+                [
+                    750.0,
+                    745.2
+                ],
+                [
+                    850.0,
+                    1076.4
+                ],
+                [
+                    900.0,
+                    1262.7
+                ],
+                [
+                    950.0,
+                    1531.8
+                ],
+                [
+                    1000.0,
+                    1759.5
+                ]
+            ]
+        },
+        {
+            "id": "ARW100012",
+            "brand": "Wärtsilä",
+            "model": "7L25DF",
+            "kw": 2415.0,
+            "ratedRpm": 1000,
+            "profile": "W25DF_FPP_CPP_1000",
+            "config": "FPP_CPP",
+            "usableFPP": false,
+            "siteCandidate": false,
+            "fuelModeGate": true,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 25DF Product Guide a13.pdf",
+            "page": 16,
+            "figure": "2.2.1, fixed/controllable-pitch, 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Mode-specific rated-power and fuel-quality derating still require OEM project verification.",
+            "m": [
+                [
+                    350.0,
+                    120.75
+                ],
+                [
+                    450.0,
+                    241.5
+                ],
+                [
+                    550.0,
+                    410.55
+                ],
+                [
+                    650.0,
+                    724.5
+                ],
+                [
+                    750.0,
+                    1086.75
+                ],
+                [
+                    850.0,
+                    1545.6
+                ],
+                [
+                    900.0,
+                    1762.95
+                ],
+                [
+                    950.0,
+                    2125.2
+                ],
+                [
+                    1000.0,
+                    2415.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    96.6
+                ],
+                [
+                    450.0,
+                    193.2
+                ],
+                [
+                    550.0,
+                    338.1
+                ],
+                [
+                    650.0,
+                    555.45
+                ],
+                [
+                    750.0,
+                    869.4
+                ],
+                [
+                    850.0,
+                    1255.8
+                ],
+                [
+                    900.0,
+                    1473.15
+                ],
+                [
+                    950.0,
+                    1787.1
+                ],
+                [
+                    1000.0,
+                    2052.75
+                ]
+            ]
+        },
+        {
+            "id": "ARW100014",
+            "brand": "Wärtsilä",
+            "model": "8L25DF",
+            "kw": 2760.0,
+            "ratedRpm": 1000,
+            "profile": "W25DF_FPP_CPP_1000",
+            "config": "FPP_CPP",
+            "usableFPP": false,
+            "siteCandidate": false,
+            "fuelModeGate": true,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 25DF Product Guide a13.pdf",
+            "page": 16,
+            "figure": "2.2.1, fixed/controllable-pitch, 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Mode-specific rated-power and fuel-quality derating still require OEM project verification.",
+            "m": [
+                [
+                    350.0,
+                    138.0
+                ],
+                [
+                    450.0,
+                    276.0
+                ],
+                [
+                    550.0,
+                    469.2
+                ],
+                [
+                    650.0,
+                    828.0
+                ],
+                [
+                    750.0,
+                    1242.0
+                ],
+                [
+                    850.0,
+                    1766.4
+                ],
+                [
+                    900.0,
+                    2014.8
+                ],
+                [
+                    950.0,
+                    2428.8
+                ],
+                [
+                    1000.0,
+                    2760.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    110.4
+                ],
+                [
+                    450.0,
+                    220.8
+                ],
+                [
+                    550.0,
+                    386.4
+                ],
+                [
+                    650.0,
+                    634.8
+                ],
+                [
+                    750.0,
+                    993.6
+                ],
+                [
+                    850.0,
+                    1435.2
+                ],
+                [
+                    900.0,
+                    1683.6
+                ],
+                [
+                    950.0,
+                    2042.4
+                ],
+                [
+                    1000.0,
+                    2346.0
+                ]
+            ]
+        },
+        {
+            "id": "ARW100016",
+            "brand": "Wärtsilä",
+            "model": "9L25DF",
+            "kw": 3105.0,
+            "ratedRpm": 1000,
+            "profile": "W25DF_FPP_CPP_1000",
+            "config": "FPP_CPP",
+            "usableFPP": false,
+            "siteCandidate": false,
+            "fuelModeGate": true,
+            "minRpm": 350,
+            "maxRpm": 1000,
+            "source": "Wärtsilä 25DF Product Guide a13.pdf",
+            "page": 16,
+            "figure": "2.2.1, fixed/controllable-pitch, 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Mode-specific rated-power and fuel-quality derating still require OEM project verification.",
+            "m": [
+                [
+                    350.0,
+                    155.25
+                ],
+                [
+                    450.0,
+                    310.5
+                ],
+                [
+                    550.0,
+                    527.85
+                ],
+                [
+                    650.0,
+                    931.5
+                ],
+                [
+                    750.0,
+                    1397.25
+                ],
+                [
+                    850.0,
+                    1987.2
+                ],
+                [
+                    900.0,
+                    2266.65
+                ],
+                [
+                    950.0,
+                    2732.4
+                ],
+                [
+                    1000.0,
+                    3105.0
+                ]
+            ],
+            "p": [
+                [
+                    350.0,
+                    124.2
+                ],
+                [
+                    450.0,
+                    248.4
+                ],
+                [
+                    550.0,
+                    434.7
+                ],
+                [
+                    650.0,
+                    714.15
+                ],
+                [
+                    750.0,
+                    1117.8
+                ],
+                [
+                    850.0,
+                    1614.6
+                ],
+                [
+                    900.0,
+                    1894.05
+                ],
+                [
+                    950.0,
+                    2297.7
+                ],
+                [
+                    1000.0,
+                    2639.25
+                ]
+            ]
+        },
+        {
+            "id": "ER001216",
+            "brand": "Wärtsilä",
+            "model": "6L26",
+            "kw": 1950.0,
+            "ratedRpm": 900,
+            "profile": "W26_FPP_900",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 900,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-3 FPP 900 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; temporary shaded area excluded.",
+            "m": [
+                [
+                    450.0,
+                    270.0
+                ],
+                [
+                    500.0,
+                    360.0
+                ],
+                [
+                    600.0,
+                    612.0
+                ],
+                [
+                    700.0,
+                    912.0
+                ],
+                [
+                    800.0,
+                    1290.0
+                ],
+                [
+                    850.0,
+                    1560.0
+                ],
+                [
+                    900.0,
+                    1950.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    192.0
+                ],
+                [
+                    500.0,
+                    264.0
+                ],
+                [
+                    600.0,
+                    420.0
+                ],
+                [
+                    700.0,
+                    672.0
+                ],
+                [
+                    800.0,
+                    1044.0
+                ],
+                [
+                    850.0,
+                    1326.0
+                ],
+                [
+                    900.0,
+                    1656.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001217",
+            "brand": "Wärtsilä",
+            "model": "8L26",
+            "kw": 2600.0,
+            "ratedRpm": 900,
+            "profile": "W26_FPP_900",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 900,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-3 FPP 900 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; temporary shaded area excluded.",
+            "m": [
+                [
+                    450.0,
+                    360.0
+                ],
+                [
+                    500.0,
+                    480.0
+                ],
+                [
+                    600.0,
+                    816.0
+                ],
+                [
+                    700.0,
+                    1216.0
+                ],
+                [
+                    800.0,
+                    1720.0
+                ],
+                [
+                    850.0,
+                    2080.0
+                ],
+                [
+                    900.0,
+                    2600.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    256.0
+                ],
+                [
+                    500.0,
+                    352.0
+                ],
+                [
+                    600.0,
+                    560.0
+                ],
+                [
+                    700.0,
+                    896.0
+                ],
+                [
+                    800.0,
+                    1392.0
+                ],
+                [
+                    850.0,
+                    1768.0
+                ],
+                [
+                    900.0,
+                    2208.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001218",
+            "brand": "Wärtsilä",
+            "model": "9L26",
+            "kw": 2925.0,
+            "ratedRpm": 900,
+            "profile": "W26_FPP_900",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 900,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-3 FPP 900 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; temporary shaded area excluded.",
+            "m": [
+                [
+                    450.0,
+                    405.0
+                ],
+                [
+                    500.0,
+                    540.0
+                ],
+                [
+                    600.0,
+                    918.0
+                ],
+                [
+                    700.0,
+                    1368.0
+                ],
+                [
+                    800.0,
+                    1935.0
+                ],
+                [
+                    850.0,
+                    2340.0
+                ],
+                [
+                    900.0,
+                    2925.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    288.0
+                ],
+                [
+                    500.0,
+                    396.0
+                ],
+                [
+                    600.0,
+                    630.0
+                ],
+                [
+                    700.0,
+                    1008.0
+                ],
+                [
+                    800.0,
+                    1566.0
+                ],
+                [
+                    850.0,
+                    1989.0
+                ],
+                [
+                    900.0,
+                    2484.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001219",
+            "brand": "Wärtsilä",
+            "model": "12V26",
+            "kw": 3900.0,
+            "ratedRpm": 900,
+            "profile": "W26_FPP_900",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 900,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-3 FPP 900 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; temporary shaded area excluded.",
+            "m": [
+                [
+                    450.0,
+                    540.0
+                ],
+                [
+                    500.0,
+                    720.0
+                ],
+                [
+                    600.0,
+                    1224.0
+                ],
+                [
+                    700.0,
+                    1824.0
+                ],
+                [
+                    800.0,
+                    2580.0
+                ],
+                [
+                    850.0,
+                    3120.0
+                ],
+                [
+                    900.0,
+                    3900.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    384.0
+                ],
+                [
+                    500.0,
+                    528.0
+                ],
+                [
+                    600.0,
+                    840.0
+                ],
+                [
+                    700.0,
+                    1344.0
+                ],
+                [
+                    800.0,
+                    2088.0
+                ],
+                [
+                    850.0,
+                    2652.0
+                ],
+                [
+                    900.0,
+                    3312.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001220",
+            "brand": "Wärtsilä",
+            "model": "16V26",
+            "kw": 5200.0,
+            "ratedRpm": 900,
+            "profile": "W26_FPP_900",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 900,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-3 FPP 900 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; temporary shaded area excluded.",
+            "m": [
+                [
+                    450.0,
+                    720.0
+                ],
+                [
+                    500.0,
+                    960.0
+                ],
+                [
+                    600.0,
+                    1632.0
+                ],
+                [
+                    700.0,
+                    2432.0
+                ],
+                [
+                    800.0,
+                    3440.0
+                ],
+                [
+                    850.0,
+                    4160.0
+                ],
+                [
+                    900.0,
+                    5200.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    512.0
+                ],
+                [
+                    500.0,
+                    704.0
+                ],
+                [
+                    600.0,
+                    1120.0
+                ],
+                [
+                    700.0,
+                    1792.0
+                ],
+                [
+                    800.0,
+                    2784.0
+                ],
+                [
+                    850.0,
+                    3536.0
+                ],
+                [
+                    900.0,
+                    4416.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000704",
+            "brand": "Wärtsilä",
+            "model": "6L26",
+            "kw": 2040.0,
+            "ratedRpm": 1000,
+            "profile": "W26_FPP_1000",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 1000,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-4 FPP 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; nominal propeller must not exceed OEM load limit.",
+            "m": [
+                [
+                    450.0,
+                    216.0
+                ],
+                [
+                    500.0,
+                    288.0
+                ],
+                [
+                    600.0,
+                    492.0
+                ],
+                [
+                    700.0,
+                    738.0
+                ],
+                [
+                    800.0,
+                    1086.0
+                ],
+                [
+                    900.0,
+                    1500.0
+                ],
+                [
+                    950.0,
+                    1740.0
+                ],
+                [
+                    1000.0,
+                    2040.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    162.0
+                ],
+                [
+                    500.0,
+                    210.0
+                ],
+                [
+                    600.0,
+                    318.0
+                ],
+                [
+                    700.0,
+                    546.0
+                ],
+                [
+                    800.0,
+                    858.0
+                ],
+                [
+                    900.0,
+                    1242.0
+                ],
+                [
+                    950.0,
+                    1488.0
+                ],
+                [
+                    1000.0,
+                    1734.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000705",
+            "brand": "Wärtsilä",
+            "model": "8L26",
+            "kw": 2720.0,
+            "ratedRpm": 1000,
+            "profile": "W26_FPP_1000",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 1000,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-4 FPP 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; nominal propeller must not exceed OEM load limit.",
+            "m": [
+                [
+                    450.0,
+                    288.0
+                ],
+                [
+                    500.0,
+                    384.0
+                ],
+                [
+                    600.0,
+                    656.0
+                ],
+                [
+                    700.0,
+                    984.0
+                ],
+                [
+                    800.0,
+                    1448.0
+                ],
+                [
+                    900.0,
+                    2000.0
+                ],
+                [
+                    950.0,
+                    2320.0
+                ],
+                [
+                    1000.0,
+                    2720.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    216.0
+                ],
+                [
+                    500.0,
+                    280.0
+                ],
+                [
+                    600.0,
+                    424.0
+                ],
+                [
+                    700.0,
+                    728.0
+                ],
+                [
+                    800.0,
+                    1144.0
+                ],
+                [
+                    900.0,
+                    1656.0
+                ],
+                [
+                    950.0,
+                    1984.0
+                ],
+                [
+                    1000.0,
+                    2312.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000706",
+            "brand": "Wärtsilä",
+            "model": "9L26",
+            "kw": 3060.0,
+            "ratedRpm": 1000,
+            "profile": "W26_FPP_1000",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 1000,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-4 FPP 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; nominal propeller must not exceed OEM load limit.",
+            "m": [
+                [
+                    450.0,
+                    324.0
+                ],
+                [
+                    500.0,
+                    432.0
+                ],
+                [
+                    600.0,
+                    738.0
+                ],
+                [
+                    700.0,
+                    1107.0
+                ],
+                [
+                    800.0,
+                    1629.0
+                ],
+                [
+                    900.0,
+                    2250.0
+                ],
+                [
+                    950.0,
+                    2610.0
+                ],
+                [
+                    1000.0,
+                    3060.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    243.0
+                ],
+                [
+                    500.0,
+                    315.0
+                ],
+                [
+                    600.0,
+                    477.0
+                ],
+                [
+                    700.0,
+                    819.0
+                ],
+                [
+                    800.0,
+                    1287.0
+                ],
+                [
+                    900.0,
+                    1863.0
+                ],
+                [
+                    950.0,
+                    2232.0
+                ],
+                [
+                    1000.0,
+                    2601.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000707",
+            "brand": "Wärtsilä",
+            "model": "12V26",
+            "kw": 4080.0,
+            "ratedRpm": 1000,
+            "profile": "W26_FPP_1000",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 1000,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-4 FPP 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; nominal propeller must not exceed OEM load limit.",
+            "m": [
+                [
+                    450.0,
+                    432.0
+                ],
+                [
+                    500.0,
+                    576.0
+                ],
+                [
+                    600.0,
+                    984.0
+                ],
+                [
+                    700.0,
+                    1476.0
+                ],
+                [
+                    800.0,
+                    2172.0
+                ],
+                [
+                    900.0,
+                    3000.0
+                ],
+                [
+                    950.0,
+                    3480.0
+                ],
+                [
+                    1000.0,
+                    4080.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    324.0
+                ],
+                [
+                    500.0,
+                    420.0
+                ],
+                [
+                    600.0,
+                    636.0
+                ],
+                [
+                    700.0,
+                    1092.0
+                ],
+                [
+                    800.0,
+                    1716.0
+                ],
+                [
+                    900.0,
+                    2484.0
+                ],
+                [
+                    950.0,
+                    2976.0
+                ],
+                [
+                    1000.0,
+                    3468.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000708",
+            "brand": "Wärtsilä",
+            "model": "16V26",
+            "kw": 5440.0,
+            "ratedRpm": 1000,
+            "profile": "W26_FPP_1000",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 450,
+            "maxRpm": 1000,
+            "source": "product-guide-o-e-w26.pdf",
+            "page": 15,
+            "figure": "Fig 2-4 FPP 1000 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Graph minimum ~450 rpm; nominal propeller must not exceed OEM load limit.",
+            "m": [
+                [
+                    450.0,
+                    576.0
+                ],
+                [
+                    500.0,
+                    768.0
+                ],
+                [
+                    600.0,
+                    1312.0
+                ],
+                [
+                    700.0,
+                    1968.0
+                ],
+                [
+                    800.0,
+                    2896.0
+                ],
+                [
+                    900.0,
+                    4000.0
+                ],
+                [
+                    950.0,
+                    4640.0
+                ],
+                [
+                    1000.0,
+                    5440.0
+                ]
+            ],
+            "p": [
+                [
+                    450.0,
+                    432.0
+                ],
+                [
+                    500.0,
+                    560.0
+                ],
+                [
+                    600.0,
+                    848.0
+                ],
+                [
+                    700.0,
+                    1456.0
+                ],
+                [
+                    800.0,
+                    2288.0
+                ],
+                [
+                    900.0,
+                    3312.0
+                ],
+                [
+                    950.0,
+                    3968.0
+                ],
+                [
+                    1000.0,
+                    4624.0
+                ]
+            ]
+        },
+        {
+            "id": "ER_W32PG21_MAIN_6L32_MCO_3480_750",
+            "brand": "Wärtsilä",
+            "model": "6L32",
+            "kw": 3480.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    720.0
+                ],
+                [
+                    550.0,
+                    1170.0
+                ],
+                [
+                    575.0,
+                    1578.0
+                ],
+                [
+                    625.0,
+                    2118.0
+                ],
+                [
+                    675.0,
+                    2610.0
+                ],
+                [
+                    720.0,
+                    3114.0
+                ],
+                [
+                    750.0,
+                    3480.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    888.0
+                ],
+                [
+                    550.0,
+                    1368.0
+                ],
+                [
+                    575.0,
+                    1578.0
+                ],
+                [
+                    625.0,
+                    2010.0
+                ],
+                [
+                    675.0,
+                    2538.0
+                ],
+                [
+                    720.0,
+                    3066.0
+                ],
+                [
+                    750.0,
+                    3480.0
+                ]
+            ]
+        },
+        {
+            "id": "ER_W32PG21_MAIN_7L32_MCO_4060_750",
+            "brand": "Wärtsilä",
+            "model": "7L32",
+            "kw": 4060.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    840.0
+                ],
+                [
+                    550.0,
+                    1365.0
+                ],
+                [
+                    575.0,
+                    1841.0
+                ],
+                [
+                    625.0,
+                    2471.0
+                ],
+                [
+                    675.0,
+                    3045.0
+                ],
+                [
+                    720.0,
+                    3633.0
+                ],
+                [
+                    750.0,
+                    4060.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    1036.0
+                ],
+                [
+                    550.0,
+                    1596.0
+                ],
+                [
+                    575.0,
+                    1841.0
+                ],
+                [
+                    625.0,
+                    2345.0
+                ],
+                [
+                    675.0,
+                    2961.0
+                ],
+                [
+                    720.0,
+                    3577.0
+                ],
+                [
+                    750.0,
+                    4060.0
+                ]
+            ]
+        },
+        {
+            "id": "ER_W32PG21_MAIN_8L32_MCO_4640_750",
+            "brand": "Wärtsilä",
+            "model": "8L32",
+            "kw": 4640.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    960.0
+                ],
+                [
+                    550.0,
+                    1560.0
+                ],
+                [
+                    575.0,
+                    2104.0
+                ],
+                [
+                    625.0,
+                    2824.0
+                ],
+                [
+                    675.0,
+                    3480.0
+                ],
+                [
+                    720.0,
+                    4152.0
+                ],
+                [
+                    750.0,
+                    4640.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    1184.0
+                ],
+                [
+                    550.0,
+                    1824.0
+                ],
+                [
+                    575.0,
+                    2104.0
+                ],
+                [
+                    625.0,
+                    2680.0
+                ],
+                [
+                    675.0,
+                    3384.0
+                ],
+                [
+                    720.0,
+                    4088.0
+                ],
+                [
+                    750.0,
+                    4640.0
+                ]
+            ]
+        },
+        {
+            "id": "ER_W32PG21_MAIN_9L32_MCO_5220_750",
+            "brand": "Wärtsilä",
+            "model": "9L32",
+            "kw": 5220.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    1080.0
+                ],
+                [
+                    550.0,
+                    1755.0
+                ],
+                [
+                    575.0,
+                    2367.0
+                ],
+                [
+                    625.0,
+                    3177.0
+                ],
+                [
+                    675.0,
+                    3915.0
+                ],
+                [
+                    720.0,
+                    4671.0
+                ],
+                [
+                    750.0,
+                    5220.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    1332.0
+                ],
+                [
+                    550.0,
+                    2052.0
+                ],
+                [
+                    575.0,
+                    2367.0
+                ],
+                [
+                    625.0,
+                    3015.0
+                ],
+                [
+                    675.0,
+                    3807.0
+                ],
+                [
+                    720.0,
+                    4599.0
+                ],
+                [
+                    750.0,
+                    5220.0
+                ]
+            ]
+        },
+        {
+            "id": "ER_W32PG21_MAIN_12V32_MCO_6960_750",
+            "brand": "Wärtsilä",
+            "model": "12V32",
+            "kw": 6960.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    1440.0
+                ],
+                [
+                    550.0,
+                    2340.0
+                ],
+                [
+                    575.0,
+                    3156.0
+                ],
+                [
+                    625.0,
+                    4236.0
+                ],
+                [
+                    675.0,
+                    5220.0
+                ],
+                [
+                    720.0,
+                    6228.0
+                ],
+                [
+                    750.0,
+                    6960.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    1776.0
+                ],
+                [
+                    550.0,
+                    2736.0
+                ],
+                [
+                    575.0,
+                    3156.0
+                ],
+                [
+                    625.0,
+                    4020.0
+                ],
+                [
+                    675.0,
+                    5076.0
+                ],
+                [
+                    720.0,
+                    6132.0
+                ],
+                [
+                    750.0,
+                    6960.0
+                ]
+            ]
+        },
+        {
+            "id": "ER_W32PG21_MAIN_16V32_MCO_9280_750",
+            "brand": "Wärtsilä",
+            "model": "16V32",
+            "kw": 9280.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    1920.0
+                ],
+                [
+                    550.0,
+                    3120.0
+                ],
+                [
+                    575.0,
+                    4208.0
+                ],
+                [
+                    625.0,
+                    5648.0
+                ],
+                [
+                    675.0,
+                    6960.0
+                ],
+                [
+                    720.0,
+                    8304.0
+                ],
+                [
+                    750.0,
+                    9280.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    2368.0
+                ],
+                [
+                    550.0,
+                    3648.0
+                ],
+                [
+                    575.0,
+                    4208.0
+                ],
+                [
+                    625.0,
+                    5360.0
+                ],
+                [
+                    675.0,
+                    6768.0
+                ],
+                [
+                    720.0,
+                    8176.0
+                ],
+                [
+                    750.0,
+                    9280.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001242",
+            "brand": "Wärtsilä",
+            "model": "6L32",
+            "kw": 3480.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    720.0
+                ],
+                [
+                    550.0,
+                    1170.0
+                ],
+                [
+                    575.0,
+                    1578.0
+                ],
+                [
+                    625.0,
+                    2118.0
+                ],
+                [
+                    675.0,
+                    2610.0
+                ],
+                [
+                    720.0,
+                    3114.0
+                ],
+                [
+                    750.0,
+                    3480.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    888.0
+                ],
+                [
+                    550.0,
+                    1368.0
+                ],
+                [
+                    575.0,
+                    1578.0
+                ],
+                [
+                    625.0,
+                    2010.0
+                ],
+                [
+                    675.0,
+                    2538.0
+                ],
+                [
+                    720.0,
+                    3066.0
+                ],
+                [
+                    750.0,
+                    3480.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001244",
+            "brand": "Wärtsilä",
+            "model": "7L32",
+            "kw": 4060.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    840.0
+                ],
+                [
+                    550.0,
+                    1365.0
+                ],
+                [
+                    575.0,
+                    1841.0
+                ],
+                [
+                    625.0,
+                    2471.0
+                ],
+                [
+                    675.0,
+                    3045.0
+                ],
+                [
+                    720.0,
+                    3633.0
+                ],
+                [
+                    750.0,
+                    4060.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    1036.0
+                ],
+                [
+                    550.0,
+                    1596.0
+                ],
+                [
+                    575.0,
+                    1841.0
+                ],
+                [
+                    625.0,
+                    2345.0
+                ],
+                [
+                    675.0,
+                    2961.0
+                ],
+                [
+                    720.0,
+                    3577.0
+                ],
+                [
+                    750.0,
+                    4060.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001246",
+            "brand": "Wärtsilä",
+            "model": "8L32",
+            "kw": 4640.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    960.0
+                ],
+                [
+                    550.0,
+                    1560.0
+                ],
+                [
+                    575.0,
+                    2104.0
+                ],
+                [
+                    625.0,
+                    2824.0
+                ],
+                [
+                    675.0,
+                    3480.0
+                ],
+                [
+                    720.0,
+                    4152.0
+                ],
+                [
+                    750.0,
+                    4640.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    1184.0
+                ],
+                [
+                    550.0,
+                    1824.0
+                ],
+                [
+                    575.0,
+                    2104.0
+                ],
+                [
+                    625.0,
+                    2680.0
+                ],
+                [
+                    675.0,
+                    3384.0
+                ],
+                [
+                    720.0,
+                    4088.0
+                ],
+                [
+                    750.0,
+                    4640.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001248",
+            "brand": "Wärtsilä",
+            "model": "9L32",
+            "kw": 5220.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    1080.0
+                ],
+                [
+                    550.0,
+                    1755.0
+                ],
+                [
+                    575.0,
+                    2367.0
+                ],
+                [
+                    625.0,
+                    3177.0
+                ],
+                [
+                    675.0,
+                    3915.0
+                ],
+                [
+                    720.0,
+                    4671.0
+                ],
+                [
+                    750.0,
+                    5220.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    1332.0
+                ],
+                [
+                    550.0,
+                    2052.0
+                ],
+                [
+                    575.0,
+                    2367.0
+                ],
+                [
+                    625.0,
+                    3015.0
+                ],
+                [
+                    675.0,
+                    3807.0
+                ],
+                [
+                    720.0,
+                    4599.0
+                ],
+                [
+                    750.0,
+                    5220.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001250",
+            "brand": "Wärtsilä",
+            "model": "12V32",
+            "kw": 6960.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    1440.0
+                ],
+                [
+                    550.0,
+                    2340.0
+                ],
+                [
+                    575.0,
+                    3156.0
+                ],
+                [
+                    625.0,
+                    4236.0
+                ],
+                [
+                    675.0,
+                    5220.0
+                ],
+                [
+                    720.0,
+                    6228.0
+                ],
+                [
+                    750.0,
+                    6960.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    1776.0
+                ],
+                [
+                    550.0,
+                    2736.0
+                ],
+                [
+                    575.0,
+                    3156.0
+                ],
+                [
+                    625.0,
+                    4020.0
+                ],
+                [
+                    675.0,
+                    5076.0
+                ],
+                [
+                    720.0,
+                    6132.0
+                ],
+                [
+                    750.0,
+                    6960.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001252",
+            "brand": "Wärtsilä",
+            "model": "16V32",
+            "kw": 9280.0,
+            "ratedRpm": 750,
+            "profile": "W32_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 475,
+            "maxRpm": 750,
+            "source": "W32 PG.pdf",
+            "page": 18,
+            "figure": "Fig 2-1 CPP 580 kW/cyl 750 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "CPP only, rated 580 kW/cyl at 750 rpm. Project-specific min speed and CPP combinator required.",
+            "m": [
+                [
+                    475.0,
+                    1920.0
+                ],
+                [
+                    550.0,
+                    3120.0
+                ],
+                [
+                    575.0,
+                    4208.0
+                ],
+                [
+                    625.0,
+                    5648.0
+                ],
+                [
+                    675.0,
+                    6960.0
+                ],
+                [
+                    720.0,
+                    8304.0
+                ],
+                [
+                    750.0,
+                    9280.0
+                ]
+            ],
+            "p": [
+                [
+                    475.0,
+                    2368.0
+                ],
+                [
+                    550.0,
+                    3648.0
+                ],
+                [
+                    575.0,
+                    4208.0
+                ],
+                [
+                    625.0,
+                    5360.0
+                ],
+                [
+                    675.0,
+                    6768.0
+                ],
+                [
+                    720.0,
+                    8176.0
+                ],
+                [
+                    750.0,
+                    9280.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000719",
+            "brand": "Wärtsilä",
+            "model": "6L46F",
+            "kw": 7200.0,
+            "ratedRpm": 600,
+            "profile": "W46F_CPP_600",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 390,
+            "maxRpm": 600,
+            "source": "Wärtsilä 46F Product guide.pdf",
+            "page": 13,
+            "figure": "Fig 2-1 CPP 1200 kW/cyl 600 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Minimum admissible continuous rpm approximately 390; clutch-in/project-specific rules.",
+            "m": [
+                [
+                    390.0,
+                    1380.0
+                ],
+                [
+                    420.0,
+                    1440.0
+                ],
+                [
+                    450.0,
+                    3060.0
+                ],
+                [
+                    500.0,
+                    4098.0
+                ],
+                [
+                    550.0,
+                    5430.0
+                ],
+                [
+                    600.0,
+                    7200.0
+                ]
+            ],
+            "p": [
+                [
+                    390.0,
+                    1980.0
+                ],
+                [
+                    420.0,
+                    2472.0
+                ],
+                [
+                    450.0,
+                    3036.0
+                ],
+                [
+                    500.0,
+                    4164.0
+                ],
+                [
+                    550.0,
+                    5544.0
+                ],
+                [
+                    600.0,
+                    7200.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000720",
+            "brand": "Wärtsilä",
+            "model": "7L46F",
+            "kw": 8400.0,
+            "ratedRpm": 600,
+            "profile": "W46F_CPP_600",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 390,
+            "maxRpm": 600,
+            "source": "Wärtsilä 46F Product guide.pdf",
+            "page": 13,
+            "figure": "Fig 2-1 CPP 1200 kW/cyl 600 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Minimum admissible continuous rpm approximately 390; clutch-in/project-specific rules.",
+            "m": [
+                [
+                    390.0,
+                    1610.0
+                ],
+                [
+                    420.0,
+                    1680.0
+                ],
+                [
+                    450.0,
+                    3570.0
+                ],
+                [
+                    500.0,
+                    4781.0
+                ],
+                [
+                    550.0,
+                    6335.0
+                ],
+                [
+                    600.0,
+                    8400.0
+                ]
+            ],
+            "p": [
+                [
+                    390.0,
+                    2310.0
+                ],
+                [
+                    420.0,
+                    2884.0
+                ],
+                [
+                    450.0,
+                    3542.0
+                ],
+                [
+                    500.0,
+                    4858.0
+                ],
+                [
+                    550.0,
+                    6468.0
+                ],
+                [
+                    600.0,
+                    8400.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000721",
+            "brand": "Wärtsilä",
+            "model": "8L46F",
+            "kw": 9600.0,
+            "ratedRpm": 600,
+            "profile": "W46F_CPP_600",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 390,
+            "maxRpm": 600,
+            "source": "Wärtsilä 46F Product guide.pdf",
+            "page": 13,
+            "figure": "Fig 2-1 CPP 1200 kW/cyl 600 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Minimum admissible continuous rpm approximately 390; clutch-in/project-specific rules.",
+            "m": [
+                [
+                    390.0,
+                    1840.0
+                ],
+                [
+                    420.0,
+                    1920.0
+                ],
+                [
+                    450.0,
+                    4080.0
+                ],
+                [
+                    500.0,
+                    5464.0
+                ],
+                [
+                    550.0,
+                    7240.0
+                ],
+                [
+                    600.0,
+                    9600.0
+                ]
+            ],
+            "p": [
+                [
+                    390.0,
+                    2640.0
+                ],
+                [
+                    420.0,
+                    3296.0
+                ],
+                [
+                    450.0,
+                    4048.0
+                ],
+                [
+                    500.0,
+                    5552.0
+                ],
+                [
+                    550.0,
+                    7392.0
+                ],
+                [
+                    600.0,
+                    9600.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000722",
+            "brand": "Wärtsilä",
+            "model": "9L46F",
+            "kw": 10800.0,
+            "ratedRpm": 600,
+            "profile": "W46F_CPP_600",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 390,
+            "maxRpm": 600,
+            "source": "Wärtsilä 46F Product guide.pdf",
+            "page": 13,
+            "figure": "Fig 2-1 CPP 1200 kW/cyl 600 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Minimum admissible continuous rpm approximately 390; clutch-in/project-specific rules.",
+            "m": [
+                [
+                    390.0,
+                    2070.0
+                ],
+                [
+                    420.0,
+                    2160.0
+                ],
+                [
+                    450.0,
+                    4590.0
+                ],
+                [
+                    500.0,
+                    6147.0
+                ],
+                [
+                    550.0,
+                    8145.0
+                ],
+                [
+                    600.0,
+                    10800.0
+                ]
+            ],
+            "p": [
+                [
+                    390.0,
+                    2970.0
+                ],
+                [
+                    420.0,
+                    3708.0
+                ],
+                [
+                    450.0,
+                    4554.0
+                ],
+                [
+                    500.0,
+                    6246.0
+                ],
+                [
+                    550.0,
+                    8316.0
+                ],
+                [
+                    600.0,
+                    10800.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000723",
+            "brand": "Wärtsilä",
+            "model": "12V46F",
+            "kw": 14400.0,
+            "ratedRpm": 600,
+            "profile": "W46F_CPP_600",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 390,
+            "maxRpm": 600,
+            "source": "Wärtsilä 46F Product guide.pdf",
+            "page": 13,
+            "figure": "Fig 2-1 CPP 1200 kW/cyl 600 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Minimum admissible continuous rpm approximately 390; clutch-in/project-specific rules.",
+            "m": [
+                [
+                    390.0,
+                    2760.0
+                ],
+                [
+                    420.0,
+                    2880.0
+                ],
+                [
+                    450.0,
+                    6120.0
+                ],
+                [
+                    500.0,
+                    8196.0
+                ],
+                [
+                    550.0,
+                    10860.0
+                ],
+                [
+                    600.0,
+                    14400.0
+                ]
+            ],
+            "p": [
+                [
+                    390.0,
+                    3960.0
+                ],
+                [
+                    420.0,
+                    4944.0
+                ],
+                [
+                    450.0,
+                    6072.0
+                ],
+                [
+                    500.0,
+                    8328.0
+                ],
+                [
+                    550.0,
+                    11088.0
+                ],
+                [
+                    600.0,
+                    14400.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000724",
+            "brand": "Wärtsilä",
+            "model": "14V46F",
+            "kw": 16800.0,
+            "ratedRpm": 600,
+            "profile": "W46F_CPP_600",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 390,
+            "maxRpm": 600,
+            "source": "Wärtsilä 46F Product guide.pdf",
+            "page": 13,
+            "figure": "Fig 2-1 CPP 1200 kW/cyl 600 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Minimum admissible continuous rpm approximately 390; clutch-in/project-specific rules.",
+            "m": [
+                [
+                    390.0,
+                    3220.0
+                ],
+                [
+                    420.0,
+                    3360.0
+                ],
+                [
+                    450.0,
+                    7140.0
+                ],
+                [
+                    500.0,
+                    9562.0
+                ],
+                [
+                    550.0,
+                    12670.0
+                ],
+                [
+                    600.0,
+                    16800.0
+                ]
+            ],
+            "p": [
+                [
+                    390.0,
+                    4620.0
+                ],
+                [
+                    420.0,
+                    5768.0
+                ],
+                [
+                    450.0,
+                    7084.0
+                ],
+                [
+                    500.0,
+                    9716.0
+                ],
+                [
+                    550.0,
+                    12936.0
+                ],
+                [
+                    600.0,
+                    16800.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000725",
+            "brand": "Wärtsilä",
+            "model": "16V46F",
+            "kw": 19200.0,
+            "ratedRpm": 600,
+            "profile": "W46F_CPP_600",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 390,
+            "maxRpm": 600,
+            "source": "Wärtsilä 46F Product guide.pdf",
+            "page": 13,
+            "figure": "Fig 2-1 CPP 1200 kW/cyl 600 rpm",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Minimum admissible continuous rpm approximately 390; clutch-in/project-specific rules.",
+            "m": [
+                [
+                    390.0,
+                    3680.0
+                ],
+                [
+                    420.0,
+                    3840.0
+                ],
+                [
+                    450.0,
+                    8160.0
+                ],
+                [
+                    500.0,
+                    10928.0
+                ],
+                [
+                    550.0,
+                    14480.0
+                ],
+                [
+                    600.0,
+                    19200.0
+                ]
+            ],
+            "p": [
+                [
+                    390.0,
+                    5280.0
+                ],
+                [
+                    420.0,
+                    6592.0
+                ],
+                [
+                    450.0,
+                    8096.0
+                ],
+                [
+                    500.0,
+                    11104.0
+                ],
+                [
+                    550.0,
+                    14784.0
+                ],
+                [
+                    600.0,
+                    19200.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001230",
+            "brand": "Yanmar",
+            "model": "6CXBM-GT",
+            "kw": 265.0,
+            "ratedRpm": 2400,
+            "profile": "YANMAR_6CXBM-GT_265_2400",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 1000,
+            "maxRpm": 2400,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 11,
+            "figure": "Performance curves, 6CXBM-GT H-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific H rating, 265 kW at 2400 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    1000.0,
+                    65.0
+                ],
+                [
+                    1300.0,
+                    85.0
+                ],
+                [
+                    1600.0,
+                    170.0
+                ],
+                [
+                    1900.0,
+                    239.0
+                ],
+                [
+                    2200.0,
+                    254.0
+                ],
+                [
+                    2400.0,
+                    265.0
+                ]
+            ],
+            "p": [
+                [
+                    1000.0,
+                    19.17
+                ],
+                [
+                    1300.0,
+                    42.12
+                ],
+                [
+                    1600.0,
+                    78.52
+                ],
+                [
+                    1900.0,
+                    131.48
+                ],
+                [
+                    2200.0,
+                    204.12
+                ],
+                [
+                    2400.0,
+                    265.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001231",
+            "brand": "Yanmar",
+            "model": "6CXBM-GT",
+            "kw": 294.0,
+            "ratedRpm": 2500,
+            "profile": "YANMAR_6CXBM-GT_294_2500",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 1000,
+            "maxRpm": 2500,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 11,
+            "figure": "Performance curves, 6CXBM-GT M-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific M rating, 294 kW at 2500 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    1000.0,
+                    58.0
+                ],
+                [
+                    1300.0,
+                    90.0
+                ],
+                [
+                    1600.0,
+                    185.0
+                ],
+                [
+                    1900.0,
+                    250.0
+                ],
+                [
+                    2200.0,
+                    277.0
+                ],
+                [
+                    2500.0,
+                    294.0
+                ]
+            ],
+            "p": [
+                [
+                    1000.0,
+                    18.82
+                ],
+                [
+                    1300.0,
+                    41.34
+                ],
+                [
+                    1600.0,
+                    77.07
+                ],
+                [
+                    1900.0,
+                    129.06
+                ],
+                [
+                    2200.0,
+                    200.35
+                ],
+                [
+                    2500.0,
+                    294.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001232",
+            "brand": "Yanmar",
+            "model": "6CXBM-GT",
+            "kw": 341.0,
+            "ratedRpm": 2700,
+            "profile": "YANMAR_6CXBM-GT_341_2700",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 1000,
+            "maxRpm": 2700,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 12,
+            "figure": "Performance curves, 6CXBM-GT L-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific L rating, 341 kW at 2700 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    1000.0,
+                    65.0
+                ],
+                [
+                    1300.0,
+                    95.0
+                ],
+                [
+                    1600.0,
+                    196.0
+                ],
+                [
+                    1900.0,
+                    292.0
+                ],
+                [
+                    2300.0,
+                    321.0
+                ],
+                [
+                    2700.0,
+                    341.0
+                ]
+            ],
+            "p": [
+                [
+                    1000.0,
+                    17.32
+                ],
+                [
+                    1300.0,
+                    38.06
+                ],
+                [
+                    1600.0,
+                    70.96
+                ],
+                [
+                    1900.0,
+                    118.83
+                ],
+                [
+                    2300.0,
+                    210.79
+                ],
+                [
+                    2700.0,
+                    341.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001233",
+            "brand": "Yanmar",
+            "model": "6CXBM-GT",
+            "kw": 374.0,
+            "ratedRpm": 2700,
+            "profile": "YANMAR_6CXBM-GT_374_2700",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 1000,
+            "maxRpm": 2700,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 12,
+            "figure": "Performance curves, 6CXBM-GT S-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific S rating, 374 kW at 2700 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    1000.0,
+                    66.0
+                ],
+                [
+                    1300.0,
+                    105.0
+                ],
+                [
+                    1600.0,
+                    220.0
+                ],
+                [
+                    1900.0,
+                    315.0
+                ],
+                [
+                    2300.0,
+                    359.0
+                ],
+                [
+                    2700.0,
+                    374.0
+                ]
+            ],
+            "p": [
+                [
+                    1000.0,
+                    19.0
+                ],
+                [
+                    1300.0,
+                    41.75
+                ],
+                [
+                    1600.0,
+                    77.83
+                ],
+                [
+                    1900.0,
+                    130.33
+                ],
+                [
+                    2300.0,
+                    231.19
+                ],
+                [
+                    2700.0,
+                    374.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001234",
+            "brand": "Yanmar",
+            "model": "6HA2M-WHT",
+            "kw": 204.0,
+            "ratedRpm": 1880,
+            "profile": "YANMAR_6HA2M-WHT_204_1880",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 1880,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 13,
+            "figure": "Performance curves, 6HA2M-WHT H-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific H rating, 204 kW at 1880 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    800.0,
+                    65.0
+                ],
+                [
+                    1000.0,
+                    114.0
+                ],
+                [
+                    1200.0,
+                    156.0
+                ],
+                [
+                    1500.0,
+                    184.0
+                ],
+                [
+                    1700.0,
+                    195.0
+                ],
+                [
+                    1880.0,
+                    204.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    15.72
+                ],
+                [
+                    1000.0,
+                    30.7
+                ],
+                [
+                    1200.0,
+                    53.05
+                ],
+                [
+                    1500.0,
+                    103.62
+                ],
+                [
+                    1700.0,
+                    150.84
+                ],
+                [
+                    1880.0,
+                    204.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001235",
+            "brand": "Yanmar",
+            "model": "6HA2M-WHT",
+            "kw": 257.0,
+            "ratedRpm": 1950,
+            "profile": "YANMAR_6HA2M-WHT_257_1950",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 1950,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 13,
+            "figure": "Performance curves, 6HA2M-WHT M-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific M rating, 257 kW at 1950 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    800.0,
+                    65.0
+                ],
+                [
+                    1000.0,
+                    135.0
+                ],
+                [
+                    1200.0,
+                    200.0
+                ],
+                [
+                    1500.0,
+                    231.0
+                ],
+                [
+                    1800.0,
+                    251.0
+                ],
+                [
+                    1950.0,
+                    257.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    17.75
+                ],
+                [
+                    1000.0,
+                    34.66
+                ],
+                [
+                    1200.0,
+                    59.89
+                ],
+                [
+                    1500.0,
+                    116.98
+                ],
+                [
+                    1800.0,
+                    202.14
+                ],
+                [
+                    1950.0,
+                    257.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001236",
+            "brand": "Yanmar",
+            "model": "6HA2M-WDT",
+            "kw": 298.0,
+            "ratedRpm": 1950,
+            "profile": "YANMAR_6HA2M-WDT_298_1950",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 1950,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 14,
+            "figure": "Performance curves, 6HA2M-WDT M-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific M rating, 298 kW at 1950 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    800.0,
+                    82.0
+                ],
+                [
+                    1000.0,
+                    149.0
+                ],
+                [
+                    1200.0,
+                    235.0
+                ],
+                [
+                    1500.0,
+                    278.0
+                ],
+                [
+                    1800.0,
+                    291.0
+                ],
+                [
+                    1950.0,
+                    298.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    20.58
+                ],
+                [
+                    1000.0,
+                    40.19
+                ],
+                [
+                    1200.0,
+                    69.45
+                ],
+                [
+                    1500.0,
+                    135.64
+                ],
+                [
+                    1800.0,
+                    234.39
+                ],
+                [
+                    1950.0,
+                    298.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001237",
+            "brand": "Yanmar",
+            "model": "6HYM-WET",
+            "kw": 368.0,
+            "ratedRpm": 1950,
+            "profile": "YANMAR_6HYM-WET_368_1950",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 1950,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 15,
+            "figure": "Performance curves, 6HYM-WET H-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific H rating, 368 kW at 1950 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    800.0,
+                    85.0
+                ],
+                [
+                    1000.0,
+                    112.0
+                ],
+                [
+                    1200.0,
+                    165.0
+                ],
+                [
+                    1350.0,
+                    268.0
+                ],
+                [
+                    1550.0,
+                    313.0
+                ],
+                [
+                    1800.0,
+                    355.0
+                ],
+                [
+                    1950.0,
+                    368.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    25.41
+                ],
+                [
+                    1000.0,
+                    49.63
+                ],
+                [
+                    1200.0,
+                    85.76
+                ],
+                [
+                    1350.0,
+                    122.11
+                ],
+                [
+                    1550.0,
+                    184.82
+                ],
+                [
+                    1800.0,
+                    289.44
+                ],
+                [
+                    1950.0,
+                    368.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001238",
+            "brand": "Yanmar",
+            "model": "6HYM-WET",
+            "kw": 441.0,
+            "ratedRpm": 2100,
+            "profile": "YANMAR_6HYM-WET_441_2100",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 2100,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 16,
+            "figure": "Performance curves, 6HYM-WET M-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific M rating, 441 kW at 2100 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    800.0,
+                    90.0
+                ],
+                [
+                    1000.0,
+                    128.0
+                ],
+                [
+                    1200.0,
+                    188.0
+                ],
+                [
+                    1450.0,
+                    333.0
+                ],
+                [
+                    1700.0,
+                    385.0
+                ],
+                [
+                    1900.0,
+                    422.0
+                ],
+                [
+                    2100.0,
+                    441.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    24.38
+                ],
+                [
+                    1000.0,
+                    47.62
+                ],
+                [
+                    1200.0,
+                    82.29
+                ],
+                [
+                    1450.0,
+                    145.17
+                ],
+                [
+                    1700.0,
+                    233.95
+                ],
+                [
+                    1900.0,
+                    326.62
+                ],
+                [
+                    2100.0,
+                    441.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001239",
+            "brand": "Yanmar",
+            "model": "6HYM-WET",
+            "kw": 478.0,
+            "ratedRpm": 2150,
+            "profile": "YANMAR_6HYM-WET_478_2150",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 2150,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 16,
+            "figure": "Performance curves, 6HYM-WET L-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific L rating, 478 kW at 2150 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    800.0,
+                    94.0
+                ],
+                [
+                    1000.0,
+                    135.0
+                ],
+                [
+                    1200.0,
+                    200.0
+                ],
+                [
+                    1450.0,
+                    355.0
+                ],
+                [
+                    1750.0,
+                    425.0
+                ],
+                [
+                    1950.0,
+                    453.0
+                ],
+                [
+                    2150.0,
+                    478.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    24.63
+                ],
+                [
+                    1000.0,
+                    48.1
+                ],
+                [
+                    1200.0,
+                    83.11
+                ],
+                [
+                    1450.0,
+                    146.63
+                ],
+                [
+                    1750.0,
+                    257.77
+                ],
+                [
+                    1950.0,
+                    356.63
+                ],
+                [
+                    2150.0,
+                    478.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001240",
+            "brand": "Yanmar",
+            "model": "6HYM-WET",
+            "kw": 515.0,
+            "ratedRpm": 2200,
+            "profile": "YANMAR_6HYM-WET_515_2200",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 2200,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 17,
+            "figure": "Performance curves, 6HYM-WET S-rating",
+            "basis": "M_DIGITIZED_GRAPH_P_FITTED_CUBIC",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific S rating, 515 kW at 2200 rpm; duty load factor is not instantaneous optimum.",
+            "m": [
+                [
+                    800.0,
+                    95.0
+                ],
+                [
+                    1000.0,
+                    152.0
+                ],
+                [
+                    1200.0,
+                    221.0
+                ],
+                [
+                    1450.0,
+                    368.0
+                ],
+                [
+                    1750.0,
+                    454.0
+                ],
+                [
+                    1950.0,
+                    485.0
+                ],
+                [
+                    2200.0,
+                    515.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    24.76
+                ],
+                [
+                    1000.0,
+                    48.37
+                ],
+                [
+                    1200.0,
+                    83.58
+                ],
+                [
+                    1450.0,
+                    147.45
+                ],
+                [
+                    1750.0,
+                    259.21
+                ],
+                [
+                    1950.0,
+                    358.63
+                ],
+                [
+                    2200.0,
+                    515.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000532",
+            "brand": "MAN Engines",
+            "model": "D2862 LE446",
+            "kw": 1029.0,
+            "ratedRpm": 2300,
+            "profile": "MAN_D2862 LE446",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 2300,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 17,
+            "figure": "D2862 Power/Torque, Full load + Propeller curve",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific duty/application restrictions apply (light-duty), not a universal economic region.",
+            "m": [
+                [
+                    800.0,
+                    200.0
+                ],
+                [
+                    1000.0,
+                    340.0
+                ],
+                [
+                    1200.0,
+                    580.0
+                ],
+                [
+                    1500.0,
+                    740.0
+                ],
+                [
+                    1700.0,
+                    825.0
+                ],
+                [
+                    1900.0,
+                    930.0
+                ],
+                [
+                    2100.0,
+                    1029.0
+                ],
+                [
+                    2300.0,
+                    1029.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    75.0
+                ],
+                [
+                    1000.0,
+                    114.0
+                ],
+                [
+                    1200.0,
+                    179.0
+                ],
+                [
+                    1500.0,
+                    330.0
+                ],
+                [
+                    1700.0,
+                    457.0
+                ],
+                [
+                    1900.0,
+                    633.0
+                ],
+                [
+                    2100.0,
+                    835.0
+                ],
+                [
+                    2300.0,
+                    1029.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000533",
+            "brand": "MAN Engines",
+            "model": "D2862 LE426",
+            "kw": 1140.0,
+            "ratedRpm": 2300,
+            "profile": "MAN_D2862 LE426",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 2300,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 17,
+            "figure": "D2862 Power/Torque, Full load + Propeller curve",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Specific duty/application restrictions apply (light-duty), not a universal economic region.",
+            "m": [
+                [
+                    800.0,
+                    195.0
+                ],
+                [
+                    1000.0,
+                    330.0
+                ],
+                [
+                    1200.0,
+                    640.0
+                ],
+                [
+                    1500.0,
+                    810.0
+                ],
+                [
+                    1700.0,
+                    925.0
+                ],
+                [
+                    1900.0,
+                    1030.0
+                ],
+                [
+                    2100.0,
+                    1140.0
+                ],
+                [
+                    2300.0,
+                    1140.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    76.0
+                ],
+                [
+                    1000.0,
+                    117.0
+                ],
+                [
+                    1200.0,
+                    192.0
+                ],
+                [
+                    1500.0,
+                    380.0
+                ],
+                [
+                    1700.0,
+                    519.0
+                ],
+                [
+                    1900.0,
+                    703.0
+                ],
+                [
+                    2100.0,
+                    895.0
+                ],
+                [
+                    2300.0,
+                    1140.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000466",
+            "brand": "MAN Engines",
+            "model": "D2868 LE426",
+            "kw": 735.0,
+            "ratedRpm": 2300,
+            "profile": "MAN_D2868 LE426",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 2300,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 13,
+            "figure": "Power/Torque: Full load + Propeller curve",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Light-duty application only; OEM duty average load factor must be applied.",
+            "m": [
+                [
+                    800.0,
+                    120.0
+                ],
+                [
+                    1000.0,
+                    170.0
+                ],
+                [
+                    1200.0,
+                    330.0
+                ],
+                [
+                    1300.0,
+                    450.0
+                ],
+                [
+                    1600.0,
+                    560.0
+                ],
+                [
+                    1800.0,
+                    635.0
+                ],
+                [
+                    2100.0,
+                    735.0
+                ],
+                [
+                    2300.0,
+                    735.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    48.0
+                ],
+                [
+                    1000.0,
+                    76.0
+                ],
+                [
+                    1200.0,
+                    126.0
+                ],
+                [
+                    1300.0,
+                    155.0
+                ],
+                [
+                    1600.0,
+                    270.0
+                ],
+                [
+                    1800.0,
+                    398.0
+                ],
+                [
+                    2100.0,
+                    570.0
+                ],
+                [
+                    2300.0,
+                    735.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000468",
+            "brand": "MAN Engines",
+            "model": "D2868 LE453",
+            "kw": 824.0,
+            "ratedRpm": 2300,
+            "profile": "MAN_D2868 LE453",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 800,
+            "maxRpm": 2300,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 13,
+            "figure": "Power/Torque: Full load + Propeller curve",
+            "basis": "APPROXIMATE_OEM_PDF_CHART_DIGITIZATION",
+            "scope": "PRELIMINARY_GRAPH_DIGITIZATION_NOT_OEM_NUMERICAL_TABLE",
+            "restrictions": "Light-duty application only; OEM duty average load factor must be applied.",
+            "m": [
+                [
+                    800.0,
+                    120.0
+                ],
+                [
+                    1000.0,
+                    265.0
+                ],
+                [
+                    1200.0,
+                    480.0
+                ],
+                [
+                    1400.0,
+                    545.0
+                ],
+                [
+                    1600.0,
+                    615.0
+                ],
+                [
+                    1800.0,
+                    695.0
+                ],
+                [
+                    2100.0,
+                    824.0
+                ],
+                [
+                    2300.0,
+                    824.0
+                ]
+            ],
+            "p": [
+                [
+                    800.0,
+                    49.0
+                ],
+                [
+                    1000.0,
+                    77.0
+                ],
+                [
+                    1200.0,
+                    125.0
+                ],
+                [
+                    1400.0,
+                    197.0
+                ],
+                [
+                    1600.0,
+                    295.0
+                ],
+                [
+                    1800.0,
+                    415.0
+                ],
+                [
+                    2100.0,
+                    635.0
+                ],
+                [
+                    2300.0,
+                    735.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001254",
+            "brand": "Wärtsilä",
+            "model": "8V31",
+            "kw": 5200.0,
+            "ratedRpm": 750.0,
+            "profile": "W31A3_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 472,
+            "maxRpm": 750,
+            "source": "Wärtsilä 31 Product Guide a15.pdf",
+            "page": 15,
+            "figure": null,
+            "basis": "APPROXIMATE_OEM_CHART_POINT_READING",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Min 472 rpm engine-driven CPP oil pump; project-specific TVC/vibration restrictions; overload shaded zone excluded. 720 rpm line 624 kW/cyl should NOT be assumed for 630 kW/cyl rating.",
+            "m": [
+                [
+                    472.0,
+                    1456.0
+                ],
+                [
+                    500.0,
+                    1664.0
+                ],
+                [
+                    550.0,
+                    2184.0
+                ],
+                [
+                    600.0,
+                    2808.0
+                ],
+                [
+                    650.0,
+                    3484.0
+                ],
+                [
+                    700.0,
+                    4368.0
+                ],
+                [
+                    720.0,
+                    4836.0
+                ],
+                [
+                    750.0,
+                    5200.0
+                ]
+            ],
+            "p": [
+                [
+                    472.0,
+                    1352.0
+                ],
+                [
+                    500.0,
+                    1508.0
+                ],
+                [
+                    550.0,
+                    2028.0
+                ],
+                [
+                    600.0,
+                    2652.0
+                ],
+                [
+                    650.0,
+                    3380.0
+                ],
+                [
+                    700.0,
+                    4212.0
+                ],
+                [
+                    720.0,
+                    4576.0
+                ],
+                [
+                    750.0,
+                    5200.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001256",
+            "brand": "Wärtsilä",
+            "model": "10V31",
+            "kw": 6500.0,
+            "ratedRpm": 750.0,
+            "profile": "W31A3_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 472,
+            "maxRpm": 750,
+            "source": "Wärtsilä 31 Product Guide a15.pdf",
+            "page": 15,
+            "figure": null,
+            "basis": "APPROXIMATE_OEM_CHART_POINT_READING",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Min 472 rpm engine-driven CPP oil pump; project-specific TVC/vibration restrictions; overload shaded zone excluded. 720 rpm line 624 kW/cyl should NOT be assumed for 630 kW/cyl rating.",
+            "m": [
+                [
+                    472.0,
+                    1820.0
+                ],
+                [
+                    500.0,
+                    2080.0
+                ],
+                [
+                    550.0,
+                    2730.0
+                ],
+                [
+                    600.0,
+                    3510.0
+                ],
+                [
+                    650.0,
+                    4355.0
+                ],
+                [
+                    700.0,
+                    5460.0
+                ],
+                [
+                    720.0,
+                    6045.0
+                ],
+                [
+                    750.0,
+                    6500.0
+                ]
+            ],
+            "p": [
+                [
+                    472.0,
+                    1690.0
+                ],
+                [
+                    500.0,
+                    1885.0
+                ],
+                [
+                    550.0,
+                    2535.0
+                ],
+                [
+                    600.0,
+                    3315.0
+                ],
+                [
+                    650.0,
+                    4225.0
+                ],
+                [
+                    700.0,
+                    5265.0
+                ],
+                [
+                    720.0,
+                    5720.0
+                ],
+                [
+                    750.0,
+                    6500.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001258",
+            "brand": "Wärtsilä",
+            "model": "12V31",
+            "kw": 7800.0,
+            "ratedRpm": 750.0,
+            "profile": "W31A3_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 472,
+            "maxRpm": 750,
+            "source": "Wärtsilä 31 Product Guide a15.pdf",
+            "page": 15,
+            "figure": null,
+            "basis": "APPROXIMATE_OEM_CHART_POINT_READING",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Min 472 rpm engine-driven CPP oil pump; project-specific TVC/vibration restrictions; overload shaded zone excluded. 720 rpm line 624 kW/cyl should NOT be assumed for 630 kW/cyl rating.",
+            "m": [
+                [
+                    472.0,
+                    2184.0
+                ],
+                [
+                    500.0,
+                    2496.0
+                ],
+                [
+                    550.0,
+                    3276.0
+                ],
+                [
+                    600.0,
+                    4212.0
+                ],
+                [
+                    650.0,
+                    5226.0
+                ],
+                [
+                    700.0,
+                    6552.0
+                ],
+                [
+                    720.0,
+                    7254.0
+                ],
+                [
+                    750.0,
+                    7800.0
+                ]
+            ],
+            "p": [
+                [
+                    472.0,
+                    2028.0
+                ],
+                [
+                    500.0,
+                    2262.0
+                ],
+                [
+                    550.0,
+                    3042.0
+                ],
+                [
+                    600.0,
+                    3978.0
+                ],
+                [
+                    650.0,
+                    5070.0
+                ],
+                [
+                    700.0,
+                    6318.0
+                ],
+                [
+                    720.0,
+                    6864.0
+                ],
+                [
+                    750.0,
+                    7800.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001260",
+            "brand": "Wärtsilä",
+            "model": "14V31",
+            "kw": 9100.0,
+            "ratedRpm": 750.0,
+            "profile": "W31A3_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 472,
+            "maxRpm": 750,
+            "source": "Wärtsilä 31 Product Guide a15.pdf",
+            "page": 15,
+            "figure": null,
+            "basis": "APPROXIMATE_OEM_CHART_POINT_READING",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Min 472 rpm engine-driven CPP oil pump; project-specific TVC/vibration restrictions; overload shaded zone excluded. 720 rpm line 624 kW/cyl should NOT be assumed for 630 kW/cyl rating.",
+            "m": [
+                [
+                    472.0,
+                    2548.0
+                ],
+                [
+                    500.0,
+                    2912.0
+                ],
+                [
+                    550.0,
+                    3822.0
+                ],
+                [
+                    600.0,
+                    4914.0
+                ],
+                [
+                    650.0,
+                    6097.0
+                ],
+                [
+                    700.0,
+                    7644.0
+                ],
+                [
+                    720.0,
+                    8463.0
+                ],
+                [
+                    750.0,
+                    9100.0
+                ]
+            ],
+            "p": [
+                [
+                    472.0,
+                    2366.0
+                ],
+                [
+                    500.0,
+                    2639.0
+                ],
+                [
+                    550.0,
+                    3549.0
+                ],
+                [
+                    600.0,
+                    4641.0
+                ],
+                [
+                    650.0,
+                    5915.0
+                ],
+                [
+                    700.0,
+                    7371.0
+                ],
+                [
+                    720.0,
+                    8008.0
+                ],
+                [
+                    750.0,
+                    9100.0
+                ]
+            ]
+        },
+        {
+            "id": "ER001262",
+            "brand": "Wärtsilä",
+            "model": "16V31",
+            "kw": 10400.0,
+            "ratedRpm": 750.0,
+            "profile": "W31A3_CPP_750",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 472,
+            "maxRpm": 750,
+            "source": "Wärtsilä 31 Product Guide a15.pdf",
+            "page": 15,
+            "figure": null,
+            "basis": "APPROXIMATE_OEM_CHART_POINT_READING",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Min 472 rpm engine-driven CPP oil pump; project-specific TVC/vibration restrictions; overload shaded zone excluded. 720 rpm line 624 kW/cyl should NOT be assumed for 630 kW/cyl rating.",
+            "m": [
+                [
+                    472.0,
+                    2912.0
+                ],
+                [
+                    500.0,
+                    3328.0
+                ],
+                [
+                    550.0,
+                    4368.0
+                ],
+                [
+                    600.0,
+                    5616.0
+                ],
+                [
+                    650.0,
+                    6968.0
+                ],
+                [
+                    700.0,
+                    8736.0
+                ],
+                [
+                    720.0,
+                    9672.0
+                ],
+                [
+                    750.0,
+                    10400.0
+                ]
+            ],
+            "p": [
+                [
+                    472.0,
+                    2704.0
+                ],
+                [
+                    500.0,
+                    3016.0
+                ],
+                [
+                    550.0,
+                    4056.0
+                ],
+                [
+                    600.0,
+                    5304.0
+                ],
+                [
+                    650.0,
+                    6760.0
+                ],
+                [
+                    700.0,
+                    8424.0
+                ],
+                [
+                    720.0,
+                    9152.0
+                ],
+                [
+                    750.0,
+                    10400.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000738",
+            "brand": "Wärtsilä",
+            "model": "6L20DF",
+            "kw": 1110.0,
+            "ratedRpm": 1200.0,
+            "profile": "W20DF_CPP_1200",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": false,
+            "fuelModeGate": true,
+            "minRpm": 500,
+            "maxRpm": 1200,
+            "source": "Wärtsilä W20DF PG a25.pdf",
+            "page": 21,
+            "figure": null,
+            "basis": "APPROXIMATE_OEM_CHART_POINT_READING",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Gas/diesel limits require gas quality and fuel specific check. 500 rpm is diagram bound, not approved clutch or operating minimum. NO full automatic matching until mode-specific gate.",
+            "m": [
+                [
+                    500.0,
+                    102.0
+                ],
+                [
+                    600.0,
+                    174.0
+                ],
+                [
+                    700.0,
+                    252.0
+                ],
+                [
+                    800.0,
+                    390.0
+                ],
+                [
+                    900.0,
+                    510.0
+                ],
+                [
+                    1000.0,
+                    666.0
+                ],
+                [
+                    1100.0,
+                    888.0
+                ],
+                [
+                    1200.0,
+                    1110.0
+                ]
+            ],
+            "p": [
+                [
+                    500.0,
+                    72.0
+                ],
+                [
+                    600.0,
+                    120.0
+                ],
+                [
+                    700.0,
+                    192.0
+                ],
+                [
+                    800.0,
+                    312.0
+                ],
+                [
+                    900.0,
+                    456.0
+                ],
+                [
+                    1000.0,
+                    636.0
+                ],
+                [
+                    1100.0,
+                    858.0
+                ],
+                [
+                    1200.0,
+                    1110.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000739",
+            "brand": "Wärtsilä",
+            "model": "8L20DF",
+            "kw": 1480.0,
+            "ratedRpm": 1200.0,
+            "profile": "W20DF_CPP_1200",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": false,
+            "fuelModeGate": true,
+            "minRpm": 500,
+            "maxRpm": 1200,
+            "source": "Wärtsilä W20DF PG a25.pdf",
+            "page": 21,
+            "figure": null,
+            "basis": "APPROXIMATE_OEM_CHART_POINT_READING",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Gas/diesel limits require gas quality and fuel specific check. 500 rpm is diagram bound, not approved clutch or operating minimum. NO full automatic matching until mode-specific gate.",
+            "m": [
+                [
+                    500.0,
+                    136.0
+                ],
+                [
+                    600.0,
+                    232.0
+                ],
+                [
+                    700.0,
+                    336.0
+                ],
+                [
+                    800.0,
+                    520.0
+                ],
+                [
+                    900.0,
+                    680.0
+                ],
+                [
+                    1000.0,
+                    888.0
+                ],
+                [
+                    1100.0,
+                    1184.0
+                ],
+                [
+                    1200.0,
+                    1480.0
+                ]
+            ],
+            "p": [
+                [
+                    500.0,
+                    96.0
+                ],
+                [
+                    600.0,
+                    160.0
+                ],
+                [
+                    700.0,
+                    256.0
+                ],
+                [
+                    800.0,
+                    416.0
+                ],
+                [
+                    900.0,
+                    608.0
+                ],
+                [
+                    1000.0,
+                    848.0
+                ],
+                [
+                    1100.0,
+                    1144.0
+                ],
+                [
+                    1200.0,
+                    1480.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000740",
+            "brand": "Wärtsilä",
+            "model": "9L20DF",
+            "kw": 1665.0,
+            "ratedRpm": 1200.0,
+            "profile": "W20DF_CPP_1200",
+            "config": "CPP",
+            "usableFPP": false,
+            "siteCandidate": false,
+            "fuelModeGate": true,
+            "minRpm": 500,
+            "maxRpm": 1200,
+            "source": "Wärtsilä W20DF PG a25.pdf",
+            "page": 21,
+            "figure": null,
+            "basis": "APPROXIMATE_OEM_CHART_POINT_READING",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Gas/diesel limits require gas quality and fuel specific check. 500 rpm is diagram bound, not approved clutch or operating minimum. NO full automatic matching until mode-specific gate.",
+            "m": [
+                [
+                    500.0,
+                    153.0
+                ],
+                [
+                    600.0,
+                    261.0
+                ],
+                [
+                    700.0,
+                    378.0
+                ],
+                [
+                    800.0,
+                    585.0
+                ],
+                [
+                    900.0,
+                    765.0
+                ],
+                [
+                    1000.0,
+                    999.0
+                ],
+                [
+                    1100.0,
+                    1332.0
+                ],
+                [
+                    1200.0,
+                    1665.0
+                ]
+            ],
+            "p": [
+                [
+                    500.0,
+                    108.0
+                ],
+                [
+                    600.0,
+                    180.0
+                ],
+                [
+                    700.0,
+                    288.0
+                ],
+                [
+                    800.0,
+                    468.0
+                ],
+                [
+                    900.0,
+                    684.0
+                ],
+                [
+                    1000.0,
+                    954.0
+                ],
+                [
+                    1100.0,
+                    1287.0
+                ],
+                [
+                    1200.0,
+                    1665.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000470",
+            "brand": "MAN Engines",
+            "model": "D2868 LE436",
+            "kw": 882.0,
+            "ratedRpm": 2300.0,
+            "profile": "MAN_D2868_LE436_2300",
+            "config": "FPP_REFERENCE",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 700,
+            "maxRpm": 2300,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 14,
+            "figure": null,
+            "basis": "OEM_PDF_VECTOR_CURVE_READ_RATED_ANCHOR",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Limits based on displayed curve only; full-load red and propeller red source paths individually extracted. OEM duty remains applicable.",
+            "m": [
+                [
+                    700.0,
+                    108.14
+                ],
+                [
+                    900.0,
+                    165.94
+                ],
+                [
+                    1100.0,
+                    423.17
+                ],
+                [
+                    1300.0,
+                    549.58
+                ],
+                [
+                    1500.0,
+                    632.38
+                ],
+                [
+                    1700.0,
+                    715.17
+                ],
+                [
+                    1900.0,
+                    797.96
+                ],
+                [
+                    2100.0,
+                    880.62
+                ],
+                [
+                    2300.0,
+                    882.0
+                ]
+            ],
+            "p": [
+                [
+                    700.0,
+                    40.36
+                ],
+                [
+                    900.0,
+                    75.91
+                ],
+                [
+                    1100.0,
+                    131.07
+                ],
+                [
+                    1300.0,
+                    203.55
+                ],
+                [
+                    1500.0,
+                    294.86
+                ],
+                [
+                    1700.0,
+                    406.4
+                ],
+                [
+                    1900.0,
+                    539.48
+                ],
+                [
+                    2100.0,
+                    695.33
+                ],
+                [
+                    2300.0,
+                    882.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000535",
+            "brand": "MAN Engines",
+            "model": "D2862 LE456",
+            "kw": 1213.0,
+            "ratedRpm": 2300.0,
+            "profile": "MAN_D2862_LE456_2300",
+            "config": "FPP_REFERENCE",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 700,
+            "maxRpm": 2300,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 18,
+            "figure": null,
+            "basis": "OEM_PDF_VECTOR_CURVE_READ_RATED_ANCHOR",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Limits based on displayed curve only; full-load red and propeller red source paths individually extracted. OEM duty remains applicable.",
+            "m": [
+                [
+                    700.0,
+                    120.16
+                ],
+                [
+                    900.0,
+                    266.72
+                ],
+                [
+                    1100.0,
+                    617.25
+                ],
+                [
+                    1300.0,
+                    754.29
+                ],
+                [
+                    1500.0,
+                    866.72
+                ],
+                [
+                    1700.0,
+                    983.73
+                ],
+                [
+                    1900.0,
+                    1095.99
+                ],
+                [
+                    2100.0,
+                    1211.13
+                ],
+                [
+                    2300.0,
+                    1213.0
+                ]
+            ],
+            "p": [
+                [
+                    700.0,
+                    68.55
+                ],
+                [
+                    900.0,
+                    118.49
+                ],
+                [
+                    1100.0,
+                    194.02
+                ],
+                [
+                    1300.0,
+                    293.29
+                ],
+                [
+                    1500.0,
+                    418.33
+                ],
+                [
+                    1700.0,
+                    571.09
+                ],
+                [
+                    1900.0,
+                    753.35
+                ],
+                [
+                    2100.0,
+                    966.79
+                ],
+                [
+                    2300.0,
+                    1213.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000481",
+            "brand": "MAN Engines",
+            "model": "D2862 LE436",
+            "kw": 1324.0,
+            "ratedRpm": 2300.0,
+            "profile": "MAN_D2862_LE436_2300",
+            "config": "FPP_REFERENCE",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 700,
+            "maxRpm": 2300,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 20,
+            "figure": null,
+            "basis": "OEM_PDF_VECTOR_CURVE_READ_RATED_ANCHOR",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Limits based on displayed curve only; full-load red and propeller red source paths individually extracted. OEM duty remains applicable.",
+            "m": [
+                [
+                    700.0,
+                    138.9
+                ],
+                [
+                    900.0,
+                    222.99
+                ],
+                [
+                    1100.0,
+                    613.74
+                ],
+                [
+                    1300.0,
+                    819.03
+                ],
+                [
+                    1500.0,
+                    945.65
+                ],
+                [
+                    1700.0,
+                    1072.93
+                ],
+                [
+                    1900.0,
+                    1197.55
+                ],
+                [
+                    2100.0,
+                    1322.01
+                ],
+                [
+                    2300.0,
+                    1324.0
+                ]
+            ],
+            "p": [
+                [
+                    700.0,
+                    51.46
+                ],
+                [
+                    900.0,
+                    107.33
+                ],
+                [
+                    1100.0,
+                    190.92
+                ],
+                [
+                    1300.0,
+                    300.76
+                ],
+                [
+                    1500.0,
+                    439.13
+                ],
+                [
+                    1700.0,
+                    608.17
+                ],
+                [
+                    1900.0,
+                    809.85
+                ],
+                [
+                    2100.0,
+                    1046.05
+                ],
+                [
+                    2300.0,
+                    1324.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000539",
+            "brand": "MAN Engines",
+            "model": "D2862 LE489",
+            "kw": 1066.0,
+            "ratedRpm": 2100.0,
+            "profile": "MAN_D2862_LE489_2100",
+            "config": "FPP_REFERENCE",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 700,
+            "maxRpm": 2100,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 40,
+            "figure": null,
+            "basis": "OEM_PDF_VECTOR_CURVE_READ_RATED_ANCHOR",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Limits based on displayed curve only; full-load red and propeller red source paths individually extracted. OEM duty remains applicable.",
+            "m": [
+                [
+                    700.0,
+                    148.26
+                ],
+                [
+                    900.0,
+                    267.83
+                ],
+                [
+                    1100.0,
+                    585.24
+                ],
+                [
+                    1300.0,
+                    726.95
+                ],
+                [
+                    1500.0,
+                    837.73
+                ],
+                [
+                    1700.0,
+                    946.73
+                ],
+                [
+                    1900.0,
+                    1059.81
+                ],
+                [
+                    2100.0,
+                    1066.0
+                ]
+            ],
+            "p": [
+                [
+                    700.0,
+                    71.59
+                ],
+                [
+                    900.0,
+                    120.76
+                ],
+                [
+                    1100.0,
+                    197.55
+                ],
+                [
+                    1300.0,
+                    302.18
+                ],
+                [
+                    1500.0,
+                    438.11
+                ],
+                [
+                    1700.0,
+                    608.63
+                ],
+                [
+                    1900.0,
+                    816.92
+                ],
+                [
+                    2100.0,
+                    1066.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000478",
+            "brand": "MAN Engines",
+            "model": "D2868 LE431",
+            "kw": 500.0,
+            "ratedRpm": 1800.0,
+            "profile": "MAN_D2868_LE431_1800",
+            "config": "FPP_REFERENCE",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 700,
+            "maxRpm": 1800,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 54,
+            "figure": null,
+            "basis": "OEM_PDF_VECTOR_CURVE_READ_RATED_ANCHOR",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Limits based on displayed curve only; full-load red and propeller red source paths individually extracted. OEM duty remains applicable.",
+            "m": [
+                [
+                    700.0,
+                    109.15
+                ],
+                [
+                    900.0,
+                    179.94
+                ],
+                [
+                    1100.0,
+                    345.14
+                ],
+                [
+                    1300.0,
+                    408.75
+                ],
+                [
+                    1500.0,
+                    469.13
+                ],
+                [
+                    1700.0,
+                    500.0
+                ],
+                [
+                    1800.0,
+                    500.0
+                ]
+            ],
+            "p": [
+                [
+                    700.0,
+                    21.91
+                ],
+                [
+                    900.0,
+                    53.53
+                ],
+                [
+                    1100.0,
+                    106.21
+                ],
+                [
+                    1300.0,
+                    181.98
+                ],
+                [
+                    1500.0,
+                    285.05
+                ],
+                [
+                    1700.0,
+                    419.64
+                ],
+                [
+                    1800.0,
+                    500.0
+                ]
+            ]
+        },
+        {
+            "id": "ER000541",
+            "brand": "MAN Engines",
+            "model": "D2862 LE437",
+            "kw": 551.0,
+            "ratedRpm": 1800.0,
+            "profile": "MAN_D2862_LE437_1800",
+            "config": "FPP_REFERENCE",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 700,
+            "maxRpm": 1800,
+            "source": "MAN_Marine_Commercial.pdf",
+            "page": 58,
+            "figure": null,
+            "basis": "OEM_PDF_VECTOR_CURVE_READ_RATED_ANCHOR",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "Limits based on displayed curve only; full-load red and propeller red source paths individually extracted. OEM duty remains applicable.",
+            "m": [
+                [
+                    700.0,
+                    118.35
+                ],
+                [
+                    900.0,
+                    241.19
+                ],
+                [
+                    1100.0,
+                    380.18
+                ],
+                [
+                    1300.0,
+                    448.51
+                ],
+                [
+                    1500.0,
+                    518.35
+                ],
+                [
+                    1700.0,
+                    551.0
+                ],
+                [
+                    1800.0,
+                    551.0
+                ]
+            ],
+            "p": [
+                [
+                    700.0,
+                    35.87
+                ],
+                [
+                    900.0,
+                    69.94
+                ],
+                [
+                    1100.0,
+                    126.7
+                ],
+                [
+                    1300.0,
+                    208.34
+                ],
+                [
+                    1500.0,
+                    319.4
+                ],
+                [
+                    1700.0,
+                    464.41
+                ],
+                [
+                    1800.0,
+                    551.0
+                ]
+            ]
+        },
+        {
+            "id": "ARY1400001",
+            "brand": "Yanmar",
+            "model": "6AYM-WST",
+            "kw": 485.0,
+            "ratedRpm": 1900.0,
+            "profile": "YANMAR_6AYM_WST_C_1900",
+            "config": "FPP",
+            "usableFPP": true,
+            "siteCandidate": true,
+            "fuelModeGate": false,
+            "minRpm": 1000,
+            "maxRpm": 1900,
+            "source": "marine_diesel_engine_high_speed_products_guide_202207.pdf",
+            "page": 18,
+            "figure": null,
+            "basis": "APPROXIMATE_OEM_CHART_POINT_READING",
+            "scope": "PRELIMINARY_MATCHING_CHECK_GRAPH_ACCURACY_AND_DUTY",
+            "restrictions": "C-duty continuous rating; operating range is plotted 1000–1900 rpm, left graph boundary is not a guaranteed minimum engine RPM.",
+            "m": [
+                [
+                    1000.0,
+                    190.0
+                ],
+                [
+                    1100.0,
+                    265.0
+                ],
+                [
+                    1150.0,
+                    375.0
+                ],
+                [
+                    1300.0,
+                    390.0
+                ],
+                [
+                    1500.0,
+                    426.0
+                ],
+                [
+                    1700.0,
+                    463.0
+                ],
+                [
+                    1800.0,
+                    475.0
+                ],
+                [
+                    1900.0,
+                    485.0
+                ]
+            ],
+            "p": [
+                [
+                    1000.0,
+                    67.0
+                ],
+                [
+                    1100.0,
+                    89.0
+                ],
+                [
+                    1150.0,
+                    105.0
+                ],
+                [
+                    1300.0,
+                    145.0
+                ],
+                [
+                    1500.0,
+                    221.0
+                ],
+                [
+                    1700.0,
+                    324.0
+                ],
+                [
+                    1800.0,
+                    401.0
+                ],
+                [
+                    1900.0,
+                    485.0
+                ]
+            ]
+        }
+    ]
+}

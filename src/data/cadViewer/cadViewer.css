@@ -1,0 +1,173 @@
+/* === Base CAD Studio Styles === */
+/* Propeller Geometry Studio — Windows workspace layout adapted to Android and DeX. */
+:root {--navy:#101b2c;--ink:#253850;--muted:#8293aa;--blue:#2768ed;--line:#cfdbeb;--canvas:#f6f9fd;--white:#fff;--bg:#f3f6fa;color-scheme:light;}
+*{box-sizing:border-box}html,body{height:100%;margin:0}html{font-size:15px}body{font-family:'Segoe UI',Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);-webkit-tap-highlight-color:transparent}button,input,select{font:inherit}button{cursor:pointer;touch-action:manipulation}input,select{outline:none;border:1px solid var(--line);border-radius:4px;color:#273b55;background:#fff;min-width:0}input:focus,select:focus{border-color:#3475fb;box-shadow:0 0 0 2px #3475fb17}button:disabled,select:disabled,input:disabled{opacity:.48;cursor:not-allowed}[hidden]{display:none!important}
+.topbar{height:76px;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 24px;gap:14px}.brandline{display:flex;align-items:center;min-width:0;gap:20px}.brandline strong{font-size:26px;letter-spacing:.12px;white-space:nowrap;font-weight:750}.brandline>span{margin-left:80px;color:#aebcd0;font-size:14px;letter-spacing:.5px;white-space:nowrap}.top-actions{display:flex;align-items:center;gap:8px;flex-shrink:0}.btn{color:#394b63;background:#fff;border:1px solid #d8e3f0;border-radius:5px;padding:9px 15px;font-size:14px;white-space:nowrap}.btn-primary{background:var(--blue);color:white;border-color:#81a9ff}.hamburger{display:none;border:0;color:white;background:transparent;font-size:24px;padding:7px}
+.app-shell{display:grid;grid-template-columns:360px minmax(0,1fr);height:calc(100dvh - 76px);min-height:0}.sidebar{background:#fff;display:flex;flex-direction:column;overflow:hidden;min-height:0}.side-tabs{padding:17px 24px 14px;display:flex;gap:8px}.side-tabs button,.view-tabs button,.side-quick button,.exportbar button,.viewer-controls button,.close-file,.about-dialog button{border:1px solid var(--line);border-radius:4px;color:#3b506c;background:#fff;font-size:14px;white-space:nowrap}.side-tabs button{padding:7px 9px;flex:1}.side-tabs button.active,.view-tabs button.active{color:#2564e8;background:#e7efff}.side-content{overflow:auto;flex:1;padding:0 24px 12px;scrollbar-width:thin}.side-page{padding-top:5px}.input-rows{display:flex;flex-direction:column;gap:7px}.input-row{display:grid;grid-template-columns:minmax(0,1fr) 147px;gap:10px;align-items:center;min-height:31px;font-size:15px;color:#334860;line-height:1.2}.input-row>span{min-width:0}.input-row>input,.input-row>select{height:32px;padding:3px 8px;font-size:13.5px;width:100%}.input-row select{appearance:auto}.mode-rows{gap:10px;margin-bottom:8px}.section-caption{color:#8293aa;font-size:14px;font-weight:750;margin:4px 0 9px;letter-spacing:.06px}.glance{background:#edf3fc;margin:28px -4px 12px;padding:10px 14px 12px;font-size:14.5px;line-height:1.52;white-space:nowrap}.glance strong{display:block;color:#2768ee;margin-bottom:6px;letter-spacing:.15px;font-size:14px}.glance span{font-variant-numeric:tabular-nums}.side-help{font-size:13px;color:#6b7d96;line-height:1.5;margin:0 0 14px}.custom-fields{padding:0;border:0}.custom-fields summary{display:none}.side-footer{padding:12px 24px 14px;background:#fff}.side-quick{display:grid;grid-template-columns:1fr 1fr;gap:8px}.side-quick button{height:36px;font-size:14px}.engine-label{margin-top:14px;font-size:14px;letter-spacing:.1px;color:#617893}
+.workspace{background:var(--bg);overflow:auto;min-width:0;min-height:0}.viewer{display:flex;flex-direction:column;min-width:0;min-height:100%;height:100%;position:relative;padding:0 22px 16px}.view-tabs{display:flex;align-items:center;gap:8px;padding:17px 0 12px;flex-shrink:0;overflow-x:auto;scrollbar-width:thin}.view-tabs button{padding:7px 15px;min-width:108px}.view-tabs .fit-btn{min-width:80px;margin-left:auto;padding:7px 22px}.drawing-title{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:15px;font-weight:700;min-height:43px;flex-shrink:0}.drawing-title span{font-size:12px;font-weight:400;color:#71869c}.canvas-container{height:auto;min-height:240px;flex:1;position:relative;background:var(--canvas);overflow:hidden}.canvas-container canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none}.canvas-label{position:absolute;top:16px;left:18px;font-size:14px;letter-spacing:.15px;color:#53708d;pointer-events:none}.axis-guide{position:absolute;left:18px;bottom:14px;color:#8196aa;letter-spacing:1px;font-size:11px;pointer-events:none}.canvas-error{position:absolute;left:18px;top:55px;padding:12px;background:#fff7f4;border:1px solid #e2b6af;border-radius:4px;color:#a63f35;max-width:80%;font-size:13px;z-index:3}.viewer-bottom{flex-shrink:0}.viewer-controls{display:flex;align-items:center;gap:8px;min-height:45px;flex-wrap:wrap}.viewer-controls button{border:0;background:transparent;padding:7px 11px;font-size:13px}.viewer-controls button::before{content:'□';font-size:20px;vertical-align:middle;margin-right:7px;color:#bdc9d8}.viewer-controls button.selected::before{content:'☑';color:#2768ed}.material-label{font-size:12px;color:#728397;margin-left:auto}.material-label select{font-size:12px;height:30px;padding:4px 6px;margin-left:5px}.viewer-controls #outlineKind{font-size:12px;padding:5px;max-width:120px}.exportbar{display:flex;align-items:center;gap:8px;overflow-x:auto;scrollbar-width:thin;padding:4px 0 6px}.exportbar button{padding:7px 8px;font-size:13px}.exportbar button:disabled{color:#a3aeb9;background:#edf1f6}.footbar{display:flex;gap:14px;justify-content:space-between;align-items:center;color:#617995;font-size:13px;padding-top:8px;min-height:30px;line-height:1.35}.footbar #status{min-width:0}.footbar #status.error{color:#b24040}.footbar #meshInfo{white-space:nowrap;color:#66839d}
+.station-card{position:absolute;z-index:2;inset:0;overflow:auto;background:var(--canvas);padding:20px;scrollbar-width:thin}.station-card .section-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.station-card .section-heading h2{font-size:18px;margin:0}.station-card .section-heading .eyebrow{display:none}.station-card .section-heading b{color:#7290aa;font-size:12px}.station-bar{display:flex;align-items:center;gap:7px;margin:12px 0}.station-bar select{height:35px;min-width:95px;margin-right:8px}.station-bar button,.station-card .primary{border:1px solid #ccd8e8;background:#fff;color:#354965;border-radius:4px;padding:8px 13px;font-size:13px}.station-card .primary{background:#2868e7;color:white}.edit-grid{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap}.edit-grid label{display:flex;flex-direction:column;gap:5px;font-size:13px}.edit-grid input,.edit-grid select{height:34px;padding:4px 8px}.station-card .primary{margin:14px 0}.table-scroller{overflow:auto;max-height:calc(100% - 165px);border:1px solid #d9e3ef}.table-scroller table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:13px}.table-scroller th{background:#e7eff8;text-align:right;padding:10px;position:sticky;top:0;white-space:nowrap}.table-scroller td{padding:9px 10px;border-bottom:1px solid #e6edf5;text-align:right}.table-scroller tr.active{background:#dceafd}.table-scroller tr{cursor:pointer}
+.file-drawer,.about-dialog{position:absolute;top:70px;right:30px;width:min(450px,calc(100% - 30px));max-height:calc(100% - 90px);overflow:auto;background:white;box-shadow:0 14px 50px #10223844;border:1px solid var(--line);z-index:15;border-radius:4px;padding:20px}.file-card .section-heading h2{margin:0 0 15px;font-size:18px}.file-card .section-heading .eyebrow{display:none}.file-card label{font-size:13px;display:block}.file-card label input{display:block;width:100%;padding:8px;margin-top:8px}.action-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:15px 0}.action-grid button,.close-file,.about-dialog button{padding:10px 5px;font-size:12px}.action-grid .primary{background:var(--blue);color:#fff}.file-card .footnote,.about-dialog p{color:#687f97;font-size:12px;line-height:1.6}.about-dialog strong{font-size:18px}.close-file{width:100%;margin-top:8px}.sr-only{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.sidebar-scrim{display:none}
+@media(min-width:1000px) and (max-height:740px){.side-tabs{padding-top:9px;padding-bottom:6px}.side-content{padding-bottom:4px}.input-rows{gap:4px}.input-row{min-height:28px}.input-row>input,.input-row>select{height:29px}.glance{margin-top:12px}.side-footer{padding-top:6px}.view-tabs{padding:10px 0 6px}}
+@media(min-width:1500px){.viewer{padding-left:24px;padding-right:24px}.canvas-container{min-height:360px}}
+@media(max-width:900px){.topbar{height:60px;padding:0 12px}.brandline{gap:7px}.brandline strong{font-size:17px}.brandline>span{display:none}.hamburger{display:block}.top-actions{gap:6px}.top-actions .btn{font-size:11px;padding:7px 9px}.app-shell{height:calc(100dvh - 60px);display:block}.sidebar{position:fixed;z-index:30;top:60px;bottom:0;left:0;width:min(360px,90vw);box-shadow:10px 0 30px #101f3550;transform:translateX(-110%);transition:transform .18s ease}.sidebar.open{transform:translateX(0)}.sidebar-scrim:not([hidden]){display:block;position:fixed;inset:60px 0 0;background:#0d1d3070;z-index:20}.workspace{height:100%}.viewer{padding:0 12px 12px}.view-tabs{gap:6px;padding:10px 0 8px}.view-tabs button{min-width:95px;font-size:12px;padding:7px 9px}.view-tabs .fit-btn{min-width:55px;padding:7px}.drawing-title{min-height:34px}.drawing-title span{display:none}.canvas-container{min-height:220px}.canvas-label{top:12px;left:12px;font-size:12px}.viewer-controls{gap:3px}.viewer-controls button{font-size:12px;padding:6px}.viewer-controls button::before{margin-right:4px}.material-label{font-size:10px}.exportbar{gap:5px}.exportbar button{font-size:12px;padding:7px}.footbar{font-size:11px}.footbar #meshInfo{display:none}}
+@media(max-width:500px){.top-actions .btn{font-size:10px;padding:6px 7px}.brandline strong{font-size:15px}.view-tabs button{min-width:89px}.canvas-container{min-height:260px}.drawing-title{font-size:14px}.station-card{padding:12px}.station-bar{flex-wrap:wrap}.station-bar select{width:100%}.viewer-controls .material-label{width:100%;margin-left:0}.footbar{min-height:30px}.glance{margin:15px 0}.input-row{grid-template-columns:minmax(0,1fr) 135px}.viewer{height:100%}}
+.canvas-container.editor-mode>#glCanvas,.canvas-container.editor-mode>#plotCanvas,.canvas-container.editor-mode>.canvas-label,.canvas-container.editor-mode>.axis-guide{display:none!important}
+
+
+/* Windows 0.7.2 workspace compatibility additions. */
+.brandline strong{font-size:21px}.brandline>span{margin-left:18px}.topbar{height:72px}.top-actions .btn{padding:8px 10px;font-size:12px}.app-shell{height:calc(100dvh - 72px)}
+.view-tabs .tab-mini{min-width:68px;padding:7px 10px}.view-tabs button{min-width:89px;padding:7px 10px}.view-tabs .fit-btn{padding:7px 12px;min-width:84px}
+.layer-overlay{position:absolute;inset:0;pointer-events:none!important;z-index:1;user-select:none}
+.station-bar{flex-wrap:wrap}.rr-label{display:inline-flex;align-items:center;gap:5px;color:#677891;font-size:12px}.rr-label input{width:68px;height:34px;padding:5px}.station-card .table-scroller{overflow:auto;min-height:130px;max-height:45vh}.station-card table{font-variant-numeric:tabular-nums}.station-card td,.station-card th{white-space:nowrap}.station-card td:not(:first-child){cursor:cell}.station-card td:not(:first-child):hover{background:#deedff}
+.station-action-row{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.station-action-row button{background:white;border:1px solid #c6d8eb;color:#354965;border-radius:4px;padding:7px 11px;font-size:12px}.station-action-row .primary{background:#2868e7;color:white}
+.layers-dialog,.paste-dialog{position:absolute;z-index:20;top:70px;right:20px;width:min(440px,calc(100% - 24px));padding:18px;background:white;box-shadow:0 12px 38px #142d4740;border:1px solid #ccdae9;border-radius:7px;font-size:13px}.layers-dialog .dialog-heading{display:flex;align-items:center;justify-content:space-between;font-weight:700;font-size:16px}.layers-dialog p,.paste-dialog p{font-size:12px;color:#687d91;line-height:1.45}.layers-dialog label{display:block;margin:11px 0}.layers-dialog label input{accent-color:#2768ed;margin-right:8px}.layers-dialog button,.paste-dialog button{border:1px solid #ccd9e6;border-radius:4px;background:#f8fbff;padding:6px 10px}.paste-dialog textarea{width:100%;height:150px;resize:vertical;padding:10px;font:12px Consolas,monospace;border:1px solid #ccd9e6}.paste-dialog>div{display:flex;gap:8px;margin-top:12px}.paste-dialog strong{font-size:16px}
+.quad-grid{position:absolute;inset:0;z-index:4;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:3px;background:#cad8e9}.quad-view{min-height:0;position:relative;background:#f6f9fd}.quad-view canvas{width:100%;height:100%;display:block;position:absolute;inset:0;touch-action:none}.quad-view span{position:absolute;top:8px;left:8px;color:#58728b;background:#ffffffd9;padding:3px 8px;border-radius:4px;font-size:11px;pointer-events:none}
+.viewer-controls .material-label{margin-left:0;white-space:nowrap}.viewer-controls .material-label select{max-width:142px}.viewer-controls #customColor{width:32px;height:30px;padding:0;border:0}.viewer-controls{gap:4px}
+.exportbar button{flex-shrink:0}.station-card .edit-grid{margin-top:12px}.glance{white-space:normal}
+@media(max-width:1250px){.brandline>span{display:none}.top-actions{gap:4px}.top-actions .btn{font-size:11px}}
+@media(max-width:900px){.topbar{height:60px}.app-shell{height:calc(100dvh - 60px)}.brandline strong{font-size:15px;max-width:calc(100vw - 230px);overflow:hidden;text-overflow:ellipsis}.top-actions #undoBtn,.top-actions #redoBtn{display:none}.view-tabs{gap:5px}.view-tabs .fit-btn{margin-left:0}.viewer-controls{gap:1px}.layers-dialog{top:52px}.sidebar{top:60px;overflow-x:hidden}.sidebar.open{left:0;transform:translateX(0)}.side-content{padding-left:24px;padding-right:24px}}
+
+/* ARUS v131: Geometry presentation. Does not alter native C/WASM or hydrodynamic calculation. */
+.glance{display:none!important}
+#layersBtn{display:none!important}
+#layersDialog{display:none!important}
+#arus-view-layer-controls{display:inline-flex;flex-wrap:wrap;gap:8px 16px;align-items:center;align-content:center;margin-left:8px}
+#arus-view-layer-controls .arus-layer-caption{font:600 11px/1.3 'Segoe UI',Arial,sans-serif;color:#5e7587;margin-right:2px}
+#arus-view-layer-controls label{display:inline-flex;align-items:center;gap:6px!important;margin:0!important;white-space:nowrap;color:#365365;font:12px/1.4 'Segoe UI',Arial,sans-serif;cursor:pointer}
+#arus-view-layer-controls label input{width:15px;height:15px;min-height:15px;margin:0;accent-color:#15989b}
+#arus-view-layer-controls label[data-arus-layer]{display:none}
+.viewer:has([data-tab="3d"].active) #arus-view-layer-controls label[data-arus-layer="surface"],
+.viewer:has([data-tab="3d"].active) #arus-view-layer-controls label[data-arus-layer="sections"],
+.viewer:has([data-tab="outline"].active) #arus-view-layer-controls label[data-arus-layer="guides"],
+.viewer:has([data-tab="outline"].active) #arus-view-layer-controls label[data-arus-layer="thickness"],
+.viewer:has([data-tab="outline"].active) #arus-view-layer-controls label[data-arus-layer="skew"]{display:inline-flex}
+.viewer:not(:has([data-tab="3d"].active,[data-tab="outline"].active)) #arus-view-layer-controls{display:none}
+.viewer-controls{flex-wrap:wrap!important;align-items:center!important;gap:9px 12px!important}
+@media(max-width:700px){#arus-view-layer-controls{margin-left:0;width:100%;gap:7px 12px}.viewer-controls{gap:7px!important}}
+
+/* === Inventor Navigation Style === */
+/* Shared navigation overlay for CAD Geometry and embedded CAD previews. */
+.arus-inventor-nav{position:absolute;right:12px;top:10px;width:146px;height:246px;z-index:100;pointer-events:none;font-family:Arial,'Segoe UI',sans-serif;color:#52616f;user-select:none}
+.arus-inventor-nav *{box-sizing:border-box}
+.arus-inventor-nav button{pointer-events:auto;cursor:pointer}
+.arus-inventor-nav .inv-home{position:absolute;top:0;right:75px;border:0;background:transparent;color:#7a858e;font-size:22px;padding:0;width:23px;height:24px;line-height:24px}
+.arus-inventor-nav .inv-home:hover{color:#236a9f}
+.inv-cube-hold{position:absolute;top:19px;right:5px;width:110px;height:110px;pointer-events:auto}
+.inv-cube-svg{width:100%;height:100%;overflow:visible;filter:drop-shadow(1px 3px 2px #13212d27)}
+.inv-cube-svg polygon{cursor:pointer;transition:stroke .10s ease,fill .10s ease}
+.inv-cube-svg polygon:hover,.inv-cube-svg polygon:focus-visible{stroke:#2c84c3;stroke-width:2.5;fill:#e3effb}
+.inv-cube-svg line[data-inv-edge],.inv-cube-svg circle[data-inv-corner]{cursor:pointer;pointer-events:stroke}
+.inv-cube-svg line[data-inv-edge]:hover,.inv-cube-svg line[data-inv-edge]:focus-visible{stroke:#2c84c3;stroke-width:9;stroke-opacity:.4}
+.inv-cube-svg circle[data-inv-corner]{pointer-events:all}
+.inv-cube-svg circle[data-inv-corner]:hover,.inv-cube-svg circle[data-inv-corner]:focus-visible{fill:#5da5d9;fill-opacity:.60}
+.arus-inventor-nav .inv-tools{position:absolute;right:0;top:156px;width:30px;display:flex;flex-direction:column;border:1px solid #cbd4dc;border-radius:7px;background:#ffffffd9;overflow:hidden}
+.arus-inventor-nav .inv-tools button{border:0;border-bottom:1px solid #e4eaf0;width:28px;height:30px;font-size:20px;line-height:26px;color:#536a7b;background:transparent;padding:0}
+.arus-inventor-nav .inv-tools button:last-child{border-bottom:0}
+.arus-inventor-nav .inv-tools button:hover{background:#eaf3f9;color:#236a9f}
+.inv-axis{position:absolute;left:9px;bottom:8px;width:72px;height:72px;z-index:10;pointer-events:none}
+.inv-axis svg{width:72px;height:72px;overflow:visible}
+/* Remove earlier decorative 3D cubes, duplicated zoom tools and static shaft marker. */
+.arus-cad-stage>.arus-viewcube,.arus-cad-stage>.arus-viewport-tools,.arus-cad-stage>.arus-axis-marker{display:none!important}
+.arus-cad-stage{position:relative}
+@media(max-width:650px){.arus-inventor-nav{transform:scale(.82);transform-origin:top right;right:6px;top:7px}.inv-axis{transform:scale(.8);transform-origin:bottom left}}
+
+/* Navigation uses clickable cube faces, edges, corners; no external orbit arrows. */
+
+/* Widen corner hit targets while preserving the visible cube outline. */
+.inv-cube-svg circle[data-inv-corner]{cursor:pointer;pointer-events:all;stroke:transparent;stroke-width:0;touch-action:manipulation}
+.inv-cube-svg circle[data-inv-corner]:hover,.inv-cube-svg circle[data-inv-corner]:focus-visible{fill:#8ac6f0;fill-opacity:.35;stroke:#287fc0;stroke-opacity:.65;stroke-width:1.2}
+
+/* Keep sharp cube vertex click targets unobstructed. */
+
+/* v126: Inventor-like selected face, restrained controls and focus affordances. */
+.inv-cube-svg polygon[data-inv-face]{filter:drop-shadow(0 1px 1px rgba(36,54,69,.12));stroke:#88949d;stroke-width:1.15;}
+.inv-cube-svg polygon[data-inv-face]:hover{fill:#e5f0fc;stroke:#468cce;stroke-width:1.5}
+.inv-cube-svg polygon[data-inv-face]:focus-visible,.inv-cube-svg [data-inv-corner]:focus-visible,.inv-cube-svg [data-inv-edge]:focus-visible{outline:none;filter:drop-shadow(0 0 2px #247eca)}
+.arus-inventor-nav .inv-home{top:0;right:106px;font-size:19px;line-height:24px;opacity:.86}
+.arus-inventor-nav .inv-tools{top:145px;background:#fbfdffe8;border-color:#c6d0d8;box-shadow:0 2px 6px #2b456212}
+.arus-inventor-nav .inv-tools button{font-family:Arial,sans-serif;font-size:18px}
+.inv-cube-svg .inv-selected-stripe{pointer-events:none}
+
+/* v147: compact Inventor-style ViewCube, without directional arrow buttons. */
+.inv-cube-svg{filter:drop-shadow(0 2px 1.5px rgba(24,37,48,.20))}
+.inv-cube-svg polygon[data-inv-face]{stroke:#84919b;stroke-width:1.12;stroke-linejoin:round}
+.inv-cube-svg polygon[data-inv-face]:hover{stroke:#3a92d0;stroke-width:1.8}
+.arus-inventor-nav .inv-home{right:112px;top:1px;opacity:.78;color:#778794}
+.inv-cube-hold{top:18px;right:6px}
+
+/* === Standalone View CSS === */
+:root{color-scheme:light}
+html,body{height:100%!important;min-height:0!important;overflow:hidden!important;margin:0!important}
+body{background:#f4f8fa!important}
+body>.topbar,body>.sidebar-scrim,.sidebar,.workspace>.workspace-title,.workspace>.control-panel,.workspace>.controls-panel,.workspace>.control-header,.workspace>.settings,.workspace>.toolbar{display:none!important}
+.app-shell{display:block!important;grid-template-columns:none!important;height:100dvh!important;min-height:0!important;overflow:hidden!important}
+.workspace{display:flex!important;flex-direction:column!important;padding:0!important;margin:0!important;height:100dvh!important;min-height:0!important;gap:0!important;overflow:hidden!important;background:#f4f8fa!important}
+.viewer{height:100dvh!important;min-height:0!important;max-height:100dvh!important;width:100%!important;max-width:none!important;margin:0!important;box-shadow:none!important;display:flex!important;flex-direction:column!important;gap:0!important;background:#fff!important;border:none!important;border-radius:0!important;overflow:hidden!important;padding:0!important}
+.view-tabs{display:flex!important;flex:0 0 auto!important;align-items:center!important;gap:8px!important;padding:11px 18px!important;min-height:58px!important;border-bottom:1px solid #e5ecf0!important;background:#fff!important}
+.view-tabs>:not([data-tab="3d"]):not(#fitBtn):not(#arus-propcad-reference){display:none!important}
+.view-tabs [data-tab="3d"]{display:inline-flex!important;align-items:center!important;padding:7px 15px!important}
+.view-tabs #fitBtn{margin-left:auto!important}
+.drawing-title{display:flex!important;align-items:center!important;justify-content:space-between!important;flex:0 0 auto!important;margin:0!important;padding:9px 18px!important;min-height:52px!important;background:#fff!important}
+.drawing-title:before{content:'ARUS / VIEW STUDY';font:600 10px system-ui,Arial,sans-serif;letter-spacing:1.3px;color:#2196a7;position:absolute;top:20px;left:155px}
+.drawing-title strong{font-size:14px!important;font-weight:700!important;color:#163b50!important}
+.drawing-title #qualityLabel{font-size:11px!important;color:#879baa!important}
+.canvas-container{height:auto!important;min-height:0!important;flex:1 1 auto!important;max-height:none!important;width:calc(100% - 32px)!important;margin:0 16px!important;border:1px solid #e0e9ed!important;border-radius:12px!important;overflow:hidden!important;background:#f2f8fa!important;position:relative!important}
+.canvas-container #glCanvas,.canvas-container #layerCanvas{width:100%!important;height:100%!important}
+.viewer-bottom{flex:0 0 auto!important;padding:12px 18px!important;background:#fff!important;border-top:1px solid #e5ecf0!important;max-height:145px!important;overflow:auto!important}
+.viewer-controls{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:9px 15px!important;justify-content:flex-start!important}
+.viewer-bottom .exportbar,.viewer-bottom .footbar{display:none!important}
+.viewer .file-drawer,.viewer .station-card,#stationCard,.quad-grid,.plot-canvas,#quadGrid,#plotCanvas{display:none!important}
+body .mini-ui-caption{position:absolute;top:18px;left:290px;z-index:5;font:11px Arial,sans-serif;color:#6d8290}
+@media(max-width:800px){.drawing-title:before{display:none}.view-tabs{padding:8px 12px!important;min-height:48px!important}.drawing-title{padding:8px 12px!important}.canvas-container{margin:0 8px!important;width:calc(100% - 16px)!important}.viewer-bottom{padding:9px!important;max-height:172px!important}}
+
+/* === ViewCube v148 CSS === */
+/* A chamfered, Inventor-inspired ViewCube; visual scope is this viewer only. */
+.arus-inventor-nav{width:148px;height:240px}
+.inv-cube-hold{right:4px;top:17px;width:116px;height:116px}
+.inv-cube-svg{overflow:visible;filter:drop-shadow(0px 4px 3px rgba(40,57,69,.23));}
+.inv-cube-svg polygon[data-inv-zone]{cursor:pointer;outline:none;stroke-linejoin:round;transition:fill .10s ease,stroke .10s ease;}
+.inv-cube-svg polygon[data-inv-zone=face]:hover,
+.inv-cube-svg polygon[data-inv-zone=edge]:hover,
+.inv-cube-svg polygon[data-inv-zone=corner]:hover,
+.inv-cube-svg polygon[data-inv-zone]:focus-visible{
+  fill:#c4e7fc!important;stroke:#1b85cf!important;stroke-width:1.7!important;
+  filter:drop-shadow(0 0 1.7px rgba(28,116,183,.28));
+}
+.inv-cube-svg polygon[data-inv-zone=corner][data-active=true],
+.inv-cube-svg polygon[data-inv-zone=edge][data-active=true]{
+  fill:#a6d8f8!important;stroke:#3f9bd4!important;
+}
+.inv-cube-svg .inv-selected-stripe{filter:none;stroke:#2297e9;pointer-events:none;}
+.arus-inventor-nav .inv-home{right:112px;top:7px;width:26px;height:26px;display:flex;align-items:center;justify-content:center;color:#8b9eac;opacity:1;border-radius:5px}
+.arus-inventor-nav .inv-home:hover,.arus-inventor-nav .inv-home:focus-visible{color:#2879ad;background:#eaf4fc}
+.arus-inventor-nav .inv-tools{top:146px}
+/* The old orbit arrows remain absent at every hover/focus state. */
+.arus-inventor-nav [data-inv-orbit]{display:none!important}
+@media(max-width:650px){.inv-cube-hold{width:113px;height:113px}}
+
+/* === Integrated Mini CSS === */
+html,body{height:100%!important;width:100%!important;overflow:hidden!important;margin:0!important}
+body{background:#f5fafc!important}
+.topbar,.sidebar,.view-tabs,.viewer>.file-drawer,.viewer>.about-dialog,.viewer>.station-card,.viewer>.layers-dialog,.viewer>.paste-dialog,.viewer>.quad-grid,.viewer>.exportbar,.viewer>.drawing-title,.viewer>.drawing-note,.viewer>.plot-controls,.viewer>.view-info{display:none!important}
+.app-shell{display:block!important;height:100%!important;min-height:0!important;overflow:hidden!important}
+.workspace{height:100%!important;width:100%!important;overflow:hidden!important}
+.viewer{padding:0!important;height:100%!important;min-height:0!important;display:flex!important;flex-direction:column!important;overflow:hidden!important}
+.canvas-container{flex:1 1 auto!important;min-height:210px!important;height:auto!important;max-height:none!important;overflow:hidden!important;border:0!important;border-radius:0!important}
+#glCanvas{height:100%!important;width:100%!important;max-height:none!important;min-height:0!important;display:block!important}
+.viewer-controls{flex:0 0 auto!important;padding:8px!important;gap:8px!important;display:flex!important;flex-wrap:wrap!important;border-top:1px solid #dce8ed!important;background:white!important}
+.viewer-controls>*:not(#cameraSelect):not(#materialSel):not(#wireBtn):not(#fitBtn):not(label):not(select):not(button){display:none!important}
+#arus-section-control,#arus-view-layer-controls,.glance,.stat,.viewer-controls .warning{display:none!important}
+.viewer-controls #bladesBtn,.viewer-controls #surfaceBtn,.viewer-controls #arus-tip-note,.viewer #arus-tip-note,.viewer-controls label:has(#bladesBtn),.viewer-controls label:has(#surfaceBtn),.viewer-controls label:has(#arus-tip-preview),.viewer-controls label:has(#smoothTipBtn),.viewer-controls label:has(#finish),.viewer-controls #arus-tip-preview,.viewer-controls #smoothTipBtn,.viewer-controls #finish,.viewer-controls #finishSel{display:none!important}
+.viewer-controls{min-height:49px!important;max-height:78px!important;gap:6px 9px!important;padding:6px 8px!important;align-items:center!important}
+.viewer-controls label{font-size:11px!important;white-space:nowrap}
+.viewer-controls select{height:29px!important;max-width:102px!important;font-size:11px!important;padding:3px 5px!important}
+.arus-inventor-nav{transform:scale(.81);transform-origin:top right;right:4px!important;top:5px!important}
+.inv-axis{transform:scale(.83);transform-origin:bottom left;left:4px!important;bottom:6px!important}
+.arus-inventor-nav{z-index:12!important}
+#pitchDistributionChart,#arus-pitch-chart-card,#arus-tip-note{display:none!important}
+.arus-mini-status{position:absolute;left:8px;bottom:57px;color:#6b8190;font:10px/1.4 Arial,sans-serif;pointer-events:none}
+
+/* === Toolbar CSS === */
+#arus-propcad-reference{display:inline-flex!important;align-items:center;min-width:0!important;margin-left:auto;padding:8px 12px;border:1px solid #afcbd6;border-radius:7px;background:#f5fbfd;color:#20586c;font:600 12px Arial,sans-serif;cursor:pointer}
+#arus-propcad-reference:hover{background:#e5f5f8}
+#arus-reference-note{margin:5px 0 0;color:#718998;font-size:11px}
